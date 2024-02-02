@@ -1,5 +1,7 @@
 import re
 from urllib.parse import urlparse
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 
 
 def scraper(url, resp):
@@ -17,7 +19,22 @@ def extract_next_links(url, resp):
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
-    return list()
+    unq_links = {}
+    if resp.status == 200:
+        unq_links = set()
+        try: 
+            soup = BeautifulSoup(resp.raw_response.content, 'html.parser')
+            for a_tag in soup.find_all('a', href=True):
+                link = a_tag['href']
+                full_url = urljoin(url, link)  # Convert relative URLs to absolute URLs
+                unq_links.add(full_url)
+        except Exception as e:
+            print(f"Could not extract links from {url}: {e}")
+        return list(unq_links)
+    else:
+        print(f"Failed to fetch {url}. Status code: {resp.status}")
+        return []
+    
 
 def is_valid(url):
     # Decide whether to crawl this url or not. 

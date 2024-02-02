@@ -1,7 +1,7 @@
 import re
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urldefrag
 
 
 def scraper(url, resp):
@@ -27,7 +27,8 @@ def extract_next_links(url, resp):
             for a_tag in soup.find_all('a', href=True):
                 link = a_tag['href']
                 full_url = urljoin(url, link)  # Convert relative URLs to absolute URLs
-                unq_links.add(full_url)
+                degragmented_link = urldefrag(full_url).url
+                unq_links.add(degragmented_link)
         except Exception as e:
             print(f"Could not extract links from {url}: {e}")
         return list(unq_links)

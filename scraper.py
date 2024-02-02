@@ -2,13 +2,25 @@ import re
 from urllib.parse import urlparse
 from urllib.parse import urljoin, urldefrag
 from lxml import html
-
+import os
 
 def scraper(url, resp):
     links = extract_next_links(url, resp)
     return [link for link in links if is_valid(link)]
 
+def _store_webpage(url, content):
+    splitted = url.split("://")[1].split("/")
+    save_dir = splitted[:-1]
+    os.makedirs(f'visited/{save_dir}', exist_ok=True)
+    
+    file_name = splitted[-1]
+    file_name.replace('htm', 'html')
 
+    if 'html' not in file_name:
+        file_name += '.html'
+
+    with open(f'visited/{save_dir}/{file_name}', 'w') as f:
+        f.write(content)
 
 def extract_next_links(url, resp):
     # Implementation required.
@@ -23,6 +35,7 @@ def extract_next_links(url, resp):
     unq_links = set()
     if resp.status == 200:
         try:
+            _store_webpage(url, resp.raw_response.content)
             tree = html.fromstring(resp.raw_response.content)
             for link in tree.xpath('//a/@href'):
                 full_url = urljoin(resp.url, link)  

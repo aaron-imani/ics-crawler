@@ -2,11 +2,13 @@ import re
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urldefrag
+from lxml import html
 
 
 def scraper(url, resp):
     links = extract_next_links(url, resp)
     return [link for link in links if is_valid(link)]
+
 
 
 def extract_next_links(url, resp):
@@ -19,22 +21,19 @@ def extract_next_links(url, resp):
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
-    unq_links = {}
+    unq_links = set()
     if resp.status == 200:
-        unq_links = set()
-        try: 
-            soup = BeautifulSoup(resp.raw_response.content, 'html.parser')
-            for a_tag in soup.find_all('a', href=True):
-                link = a_tag['href']
-                full_url = urljoin(url, link)  # Convert relative URLs to absolute URLs
-                degragmented_link = urldefrag(full_url).url
-                unq_links.add(degragmented_link)
+        try:
+            tree = html.fromstring(resp.raw_response.content)
+            for link in tree.xpath('//a/@href'):
+                full_url = urljoin(resp.url, link)  
+                defragmented_link = urldefrag(full_url).url
+                unq_links.add(defragmented_link)
         except Exception as e:
-            print(f"Could not extract links from {url}: {e}")
-        return list(unq_links)
+            print(f"Could not extract links from {url}: {e}")   
     else:
         print(f"Failed to fetch {url}. Status code: {resp.status}")
-        return []
+    return list(unq_links)
     
 
 def is_valid(url):

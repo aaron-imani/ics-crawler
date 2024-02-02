@@ -4,6 +4,8 @@ from urllib.parse import urljoin, urldefrag
 from lxml import html
 import os
 
+MIN_TEXT_CONTENT_LENGTH = 500
+
 def scraper(url, resp):
     links = extract_next_links(url, resp)
     return [link for link in links if is_valid(link)]
@@ -37,15 +39,17 @@ def extract_next_links(url, resp):
         try:
             _store_webpage(url, resp.raw_response.content)
             tree = html.fromstring(resp.raw_response.content)
-            for link in tree.xpath('//a/@href'):
-                full_url = urljoin(resp.url, link)  
-                defragmented_link = urldefrag(full_url).url
-                unq_links.add(defragmented_link)
+            if len(resp.raw_response.text) >= MIN_TEXT_CONTENT_LENGTH:
+                for link in tree.xpath('//a/@href'):
+                    full_url = urljoin(resp.url, link)  
+                    defragmented_link = urldefrag(full_url).url
+                    unq_links.add(defragmented_link)
         except Exception as e:
             print(f"Could not extract links from {url}: {e}")   
     else:
         print(f"Failed to fetch {url}. Status code: {resp.status}")
     return list(unq_links)
+
     
 
 def is_valid(url):

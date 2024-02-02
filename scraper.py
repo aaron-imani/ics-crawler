@@ -10,8 +10,8 @@ def scraper(url, resp):
 
 def _store_webpage(url, content):
     splitted = url.split("://")[1].split("/")
-    save_dir = splitted[:-1]
-    os.makedirs(f'visited/{save_dir}', exist_ok=True)
+    save_dir = os.path.sep.join(splitted[:-1])
+    os.makedirs(f'visited{os.path.sep}{save_dir}', exist_ok=True)
     
     file_name = splitted[-1]
     file_name.replace('htm', 'html')

@@ -1,6 +1,5 @@
 import re
 from urllib.parse import urlparse
-from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urldefrag
 from lxml import html
 

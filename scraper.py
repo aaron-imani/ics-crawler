@@ -5,12 +5,15 @@ from lxml import html
 import os
 from utils.tokenization import tokenize
 from configparser import ConfigParser
+import time 
 
 
 config_parser = ConfigParser()
 config_parser.read('config.ini')
 MIN_TOKEN_COUNT = config_parser.getint('SCRAPER', 'MIN_TOKEN_COUNT', fallback=100)
 MIN_TEXT_CONTENT_LENGTH = config_parser.getint('SCRAPER', 'MIN_TEXT_CONTENT_LENGTH', fallback=1000)
+POLITENESS_DELAY = config_parser.getint('CRAWLER', 'POLITENESS', fallback=0.5)
+last_vistied = {}
 
 def scraper(url, resp):
     links = extract_next_links(url, resp)
@@ -40,6 +43,7 @@ def extract_next_links(url, resp):
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
+    global last_vistied #DIYA CHECK 
     unq_links = set()
 
     # Checking dead URL
@@ -47,6 +51,10 @@ def extract_next_links(url, resp):
         print(f"Failed to fetch {url}. Status code: {resp.status}")
         return []
     try:
+        
+        
+        
+        
         _store_webpage(url, resp.raw_response.content)
         tree = html.fromstring(resp.raw_response.content)
         # calculating the textual ration 

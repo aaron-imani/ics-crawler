@@ -4,7 +4,9 @@ from inspect import getsource
 from utils.download import download
 from utils import get_logger
 import scraper
+from urllib.parse import urlparse
 from time import sleep
+import time
 
 
 class Worker(Thread):

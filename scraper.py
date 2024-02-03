@@ -35,19 +35,34 @@ def extract_next_links(url, resp):
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
     unq_links = set()
-    if resp.status == 200:
-        try:
-            _store_webpage(url, resp.raw_response.content)
-            tree = html.fromstring(resp.raw_response.content)
-            if len(resp.raw_response.text) >= MIN_TEXT_CONTENT_LENGTH:
-                for link in tree.xpath('//a/@href'):
-                    full_url = urljoin(resp.url, link)  
-                    defragmented_link = urldefrag(full_url).url
-                    unq_links.add(defragmented_link)
-        except Exception as e:
-            print(f"Could not extract links from {url}: {e}")   
-    else:
+
+    # Checking dead URL
+    if resp.status != 200:
         print(f"Failed to fetch {url}. Status code: {resp.status}")
+        return []
+    try:
+        _store_webpage(url, resp.raw_response.content)
+        tree = html.fromstring(resp.raw_response.content)
+        # calculating the textual ration 
+        text_content = tree.text_content().strip()
+        total_content = resp.raw_response.content.decode('utf-8').strip()
+        # Checking whitescapes
+        if not text_content or not total_content:
+            print(f"Empty content for {url}. Skipping extraction.")
+            return []
+        
+        text_content_ratio = len(text_content) / max(len(total_content), 1)
+        text_content_threshold = 0.5
+        if text_content_ratio < text_content_threshold or len(text_content) < MIN_TEXT_CONTENT_LENGTH:
+            print(f"Low textual content for {url}. Skipping extraction.")
+            return []
+        # Extracting link
+        for link in tree.xpath('//a/@href'):
+            full_url = urljoin(resp.url, link)
+            defragmented_link = urldefrag(full_url).url
+            unq_links.add(defragmented_link)
+    except Exception as e:
+        print(f"Could not extract links from {url}: {e}")
     return list(unq_links)
 
     

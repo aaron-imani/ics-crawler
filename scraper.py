@@ -3,8 +3,14 @@ from urllib.parse import urlparse
 from urllib.parse import urljoin, urldefrag
 from lxml import html
 import os
+from utils.tokenization import tokenize
+from configparser import ConfigParser
 
-MIN_TEXT_CONTENT_LENGTH = 500
+
+config_parser = ConfigParser()
+config_parser.read('config.ini')
+MIN_TOKEN_COUNT = config_parser.getint('SCRAPER', 'MIN_TOKEN_COUNT', fallback=100)
+MIN_TEXT_CONTENT_LENGTH = config_parser.getint('SCRAPER', 'MIN_TEXT_CONTENT_LENGTH', fallback=1000)
 
 def scraper(url, resp):
     links = extract_next_links(url, resp)

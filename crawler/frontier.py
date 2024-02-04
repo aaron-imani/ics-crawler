@@ -7,6 +7,7 @@ from configparser import ConfigParser
 
 from utils import get_logger, get_urlhash, normalize
 from utils.tokenization import tokenize
+from utils.storage_check import does_shelve_exist
 from scraper import is_valid
 
 class Frontier(object):
@@ -16,12 +17,12 @@ class Frontier(object):
         self.to_be_downloaded = list()
         self.last_visited = {}  # Store last visit time for each domain
 
-        if not os.path.exists(self.config.save_file) and not restart:
+        if not does_shelve_exist(self.config.save_file) and not restart:
             # Save file does not exist, but request to load save.
             self.logger.info(
                 f"Did not find save file {self.config.save_file}, "
                 f"starting from seed.")
-        elif os.path.exists(self.config.save_file) and restart:
+        elif does_shelve_exist(self.config.save_file) and restart:
             # Save file does exists, but request to start from seed.
             self.logger.info(
                 f"Found save file {self.config.save_file}, deleting it.")

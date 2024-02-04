@@ -7,17 +7,19 @@ from glob import glob
 from bs4 import BeautifulSoup
 from tqdm.auto import tqdm
 from utils.tokenization import tokenize, computeWordFrequencies, print_sorted
+from utils.storage_check import does_shelve_exist
 
 class Report(object):
     def __init__(self, config):
         self.config = config
         self.logger = get_logger("REPORT")
     
-        if not os.path.exists(self.config.save_file):
+        if not does_shelve_exist(self.config.save_file):
             # Save file does not exist, but request to load save.
             self.logger.info(
                 f"Did not find save file {self.config.save_file}, "
                 "unable to generate a report.")
+            self.save = None
             return
 
         text_files = glob("visited/**/*.txt",recursive=True)

@@ -91,16 +91,16 @@ class Frontier(object):
     def add_url(self, url, text):
         url = normalize(url)
         urlhash = get_urlhash(url)
-        fingerprint = self._simhash(text)
+        # fingerprint = self._simhash(text)
 
-        for existing_url, (_, _, existing_fingerprint) in self.save.items():
-            similarity = self._calculate_similarity(existing_fingerprint, fingerprint)
-            if similarity > self.similar_pages_threshold:
-                self.logger.info(f"Avoiding {url} as it is similar to {existing_url}")
-                return
+        # for existing_url, (_, _, existing_fingerprint) in self.save.items():
+        #     similarity = self._calculate_similarity(existing_fingerprint, fingerprint)
+        #     if similarity > self.similar_pages_threshold:
+        #         self.logger.info(f"Avoiding {url} as it is similar to {existing_url}")
+        #         return
 
         if urlhash not in self.save:
-            self.save[urlhash] = (url, False, fingerprint)
+            self.save[urlhash] = (url, False)
             self.save.sync()
             self.to_be_downloaded.append(url)
 

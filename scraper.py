@@ -1,6 +1,7 @@
 import re
 from urllib.parse import urlparse
 from urllib.parse import urljoin, urldefrag
+from utils.tokenization import tokenize
 from lxml import html
 import os
 from configparser import ConfigParser
@@ -64,6 +65,13 @@ def extract_next_links(url, resp):
         if text_content_ratio < text_content_threshold or len(text_content) < MIN_TEXT_CONTENT_LENGTH:
             print(f"Low textual content for {url}. Skipping extraction.")
             return []
+        
+        # Check for low token count
+        tokens = tokenize(text_content)
+        if len(tokens) < MIN_TOKEN_COUNT:
+            print(f"Low token count for {url}. Skipping extraction.")
+            return []
+
         
 
         _store_webpage(url, resp.raw_response.content)

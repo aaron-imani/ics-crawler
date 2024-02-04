@@ -5,6 +5,7 @@ from lxml import html
 import os
 from configparser import ConfigParser
 from urllib.parse import urlparse, urlunparse
+from utils import normalize
 
 config_parser = ConfigParser()
 config_parser.read('config.ini')
@@ -55,13 +56,9 @@ def extract_next_links(url, resp):
         # Extracting link
         for link in tree.xpath('//a/@href'):
             # To handle traps
-            parsed = urlparse(link)
-            untrapped = urlunparse(("", "", parsed.path, "", "", ""))
-
-            full_url = urljoin(resp.url, untrapped)
-
-            defragmented_link = urldefrag(full_url).url
-            unq_links.add(defragmented_link)
+            full_url = urljoin(resp.url, link)
+            normalized_url = normalize(full_url)
+            unq_links.add(normalized_url)
 
         # calculating the textual ration 
         text_content = tree.text_content().strip()

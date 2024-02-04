@@ -30,13 +30,6 @@ class Worker(Thread):
             # Extract domain from the URL
             domain = urlparse(tbd_url).netloc
             
-            # Politeness delay 
-            last_visited_time = self.frontier.last_visited.get(domain, 0)
-            elapsed_time = time.time() - last_visited_time
-            if elapsed_time < self.config.politeness:
-                self.logger.info(f"Politeness delay for {tbd_url}. Sleeping for {self.config.politeness - elapsed_time} seconds.")
-                sleep(self.config.politeness - elapsed_time)
-            
             
             resp = download(tbd_url, self.config, self.logger)
             self.logger.info(

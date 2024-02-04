@@ -15,10 +15,6 @@ class Frontier(object):
         self.config = config
         self.to_be_downloaded = list()
         self.last_visited = {}  # Store last visit time for each domain
-        config_parser = ConfigParser()
-        config_parser.read('config.ini')
-        self.similar_pages_threshold = config_parser.getfloat('SCRAPER', 'SIMILAR_PAGES_THRESHOLD', fallback=0.9)
-        self.fingerprint_size = config_parser.getint('SCRAPER', 'FINGERPRINT_SIZE', fallback=64)
 
         if not os.path.exists(self.config.save_file) and not restart:
             # Save file does not exist, but request to load save.
@@ -59,7 +55,7 @@ class Frontier(object):
         features = {}
         for word in tokenize(text):
             features[word] = features.get(word, 0) + 1
-        b = self.fingerprint_size  
+        b = self.config.fingerprint_size  
         hash_values = {word: hash(word) % b for word in features}
         vector = [0] * b
         for word, weight in features.items():
@@ -107,7 +103,7 @@ class Frontier(object):
 
     def _calculate_similarity(self, fingerprint1, fingerprint2):
         hamming_distance = bin(fingerprint1 ^ fingerprint2).count('1')
-        similarity = 1 - (hamming_distance / self.fingerprint_size)  
+        similarity = 1 - (hamming_distance / self.config.fingerprint_size)  
         return similarity
 
     

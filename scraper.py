@@ -9,7 +9,6 @@ config_parser = ConfigParser()
 config_parser.read('config.ini')
 MIN_TOKEN_COUNT = config_parser.getint('SCRAPER', 'MIN_TOKEN_COUNT', fallback=100)
 MIN_TEXT_CONTENT_LENGTH = config_parser.getint('SCRAPER', 'MIN_TEXT_CONTENT_LENGTH', fallback=1000)
-POLITENESS_DELAY = config_parser.getfloat('CRAWLER', 'POLITENESS', fallback=0.5)
 last_vistied = {}
 
 def scraper(url, resp):

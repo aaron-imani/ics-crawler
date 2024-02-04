@@ -13,7 +13,7 @@ config_parser.read('config.ini')
 MIN_TOKEN_COUNT = config_parser.getint('SCRAPER', 'MIN_TOKEN_COUNT', fallback=100)
 MIN_TEXT_CONTENT_LENGTH = config_parser.getint('SCRAPER', 'MIN_TEXT_CONTENT_LENGTH', fallback=1000)
 POLITENESS_DELAY = config_parser.getfloat('CRAWLER', 'POLITENESS', fallback=0.5)
-SIMILAR_PAGES_THRESHOLD = config_parser.getfloat('SCRAPER', 'SIMILAR_PAGES_THRESHOLD', fallback=0.9)
+#SIMILAR_PAGES_THRESHOLD = config_parser.getfloat('SCRAPER', 'SIMILAR_PAGES_THRESHOLD', fallback=0.9)
 last_vistied = {}
 
 def scraper(url, resp):
@@ -35,7 +35,7 @@ def _store_webpage(url, content):
         f.write(content)
 
 
-
+"""
 def is_similar_content(content1, content2):
     tokens1 = tokenize(content1)
     tokens2 = tokenize(content2)
@@ -43,7 +43,7 @@ def is_similar_content(content1, content2):
     union = len(set(tokens1).union(tokens2))
     jaccard_similarity = intersection / union if union > 0 else 0.0
     return jaccard_similarity >= 0.7  
-
+"""
 
 
 def extract_next_links(url, resp):
@@ -79,12 +79,6 @@ def extract_next_links(url, resp):
             print(f"Low textual content for {url}. Skipping extraction.")
             return []
         
-        
-        for visited_url, visited_content in last_vistied.items():
-            if is_similar_content(total_content, visited_content) >= SIMILAR_PAGES_THRESHOLD:
-                print(f"Similar content detected for {url}. Skipping extraction.")
-                return []
-
 
         _store_webpage(url, resp.raw_response.content)
         # Extracting link

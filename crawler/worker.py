@@ -14,6 +14,7 @@ class Worker(Thread):
         self.logger = get_logger(f"Worker-{worker_id}", "Worker")
         self.config = config
         self.frontier = frontier
+
         # basic check for requests in scraper
         assert {getsource(scraper).find(req) for req in {"from requests import", "import requests"}} == {-1}, "Do not use requests in scraper.py"
         assert {getsource(scraper).find(req) for req in {"from urllib.request import", "import urllib.request"}} == {-1}, "Do not use urllib.request in scraper.py"
@@ -32,9 +33,9 @@ class Worker(Thread):
             # Politeness delay 
             last_visited_time = self.frontier.last_visited.get(domain, 0)
             elapsed_time = time.time() - last_visited_time
-            if elapsed_time < self.config.politeness_delay:
-                self.logger.info(f"Politeness delay for {tbd_url}. Sleeping for {self.config.politeness_delay - elapsed_time} seconds.")
-                sleep(self.config.politeness_delay - elapsed_time)
+            if elapsed_time < self.config.politeness:
+                self.logger.info(f"Politeness delay for {tbd_url}. Sleeping for {self.config.politeness - elapsed_time} seconds.")
+                sleep(self.config.politeness - elapsed_time)
             
             
             resp = download(tbd_url, self.config, self.logger)

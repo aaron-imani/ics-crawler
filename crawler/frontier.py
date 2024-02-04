@@ -6,6 +6,7 @@ from queue import Queue, Empty
 from configparser import ConfigParser
 
 from utils import get_logger, get_urlhash, normalize
+from utils.tokenization import tokenize
 from scraper import is_valid
 
 class Frontier(object):
@@ -16,7 +17,8 @@ class Frontier(object):
         self.last_visited = {}  # Store last visit time for each domain
         config_parser = ConfigParser()
         config_parser.read('config.ini')
-        self.SIMILAR_PAGES_THRESHOLD = config_parser.getfloat('SCRAPER', 'SIMILAR_PAGES_THRESHOLD', fallback=0.9)
+        self.similar_pages_threshold = config_parser.getfloat('SCRAPER', 'SIMILAR_PAGES_THRESHOLD', fallback=0.9)
+        self.fingerprint_size = config_parser.getint('SCRAPER', 'FINGERPRINT_SIZE', fallback=64)
 
         if not os.path.exists(self.config.save_file) and not restart:
             # Save file does not exist, but request to load save.
@@ -55,9 +57,9 @@ class Frontier(object):
 
     def _simhash(self, text):
         features = {}
-        for word in text.split():
+        for word in tokenize(text):
             features[word] = features.get(word, 0) + 1
-        b = 64  
+        b = self.fingerprint_size  
         hash_values = {word: hash(word) % b for word in features}
         vector = [0] * b
         for word, weight in features.items():
@@ -78,7 +80,7 @@ class Frontier(object):
             tbd_url = self.to_be_downloaded.pop()
             for existing_url, (_, _, existing_fingerprint) in self.save.items():
                 similarity = self._calculate_similarity(existing_fingerprint, self.save[tbd_url][2])
-                if similarity > self.SIMILARITY_THRESHOLD:
+                if similarity > self.similar_pages_threshold:
                     self.logger.info(f"Avoiding {tbd_url} as it is similar to {existing_url}")
                     return self.get_tbd_url() 
             return tbd_url
@@ -93,7 +95,7 @@ class Frontier(object):
 
         for existing_url, (_, _, existing_fingerprint) in self.save.items():
             similarity = self._calculate_similarity(existing_fingerprint, fingerprint)
-            if similarity > self.SIMILARITY_THRESHOLD:
+            if similarity > self.similar_pages_threshold:
                 self.logger.info(f"Avoiding {url} as it is similar to {existing_url}")
                 return
 
@@ -105,7 +107,7 @@ class Frontier(object):
 
     def _calculate_similarity(self, fingerprint1, fingerprint2):
         hamming_distance = bin(fingerprint1 ^ fingerprint2).count('1')
-        similarity = 1 - (hamming_distance / 64)  
+        similarity = 1 - (hamming_distance / self.fingerprint_size)  
         return similarity
 
     

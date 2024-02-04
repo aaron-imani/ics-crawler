@@ -78,11 +78,11 @@ class Frontier(object):
     def get_tbd_url(self):
         try:
             tbd_url = self.to_be_downloaded.pop()
-            for existing_url, (_, _, existing_fingerprint) in self.save.items():
-                similarity = self._calculate_similarity(existing_fingerprint, self.save[tbd_url][2])
-                if similarity > self.similar_pages_threshold:
-                    self.logger.info(f"Avoiding {tbd_url} as it is similar to {existing_url}")
-                    return self.get_tbd_url() 
+            # for existing_url, (_, _, existing_fingerprint) in self.save.items():
+            #     similarity = self._calculate_similarity(existing_fingerprint, self.save[tbd_url][2])
+            #     if similarity > self.similar_pages_threshold:
+            #         self.logger.info(f"Avoiding {tbd_url} as it is similar to {existing_url}")
+            #         return self.get_tbd_url() 
             return tbd_url
         except IndexError:
             return None

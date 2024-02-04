@@ -13,6 +13,7 @@ config_parser.read('config.ini')
 MIN_TOKEN_COUNT = config_parser.getint('SCRAPER', 'MIN_TOKEN_COUNT', fallback=100)
 MIN_TEXT_CONTENT_LENGTH = config_parser.getint('SCRAPER', 'MIN_TEXT_CONTENT_LENGTH', fallback=1000)
 POLITENESS_DELAY = config_parser.getint('CRAWLER', 'POLITENESS', fallback=0.5)
+SIMILAR_PAGES_THRESHOLD = config_parser.getfloat('SCRAPER', 'SIMILAR_PAGES_THRESHOLD', fallback=0.9)
 last_vistied = {}
 
 def scraper(url, resp):
@@ -33,6 +34,18 @@ def _store_webpage(url, content):
     with open(f'visited/{save_dir}/{file_name}', 'w') as f:
         f.write(content)
 
+
+
+def is_similar_content(content1, content2):
+    tokens1 = tokenize(content1)
+    tokens2 = tokenize(content2)
+    intersection = len(set(tokens1).intersection(tokens2))
+    union = len(set(tokens1).union(tokens2))
+    jaccard_similarity = intersection / union if union > 0 else 0.0
+    return jaccard_similarity >= 0.7  
+
+
+
 def extract_next_links(url, resp):
     # Implementation required.
     # url: the URL that was used to get the page
@@ -50,8 +63,12 @@ def extract_next_links(url, resp):
     if resp.status != 200:
         print(f"Failed to fetch {url}. Status code: {resp.status}")
         return []
+<<<<<<< HEAD
     try:       
         
+=======
+    try:
+>>>>>>> 2465e380a0cc3ad0268b6bf0c41f601697c95379
         _store_webpage(url, resp.raw_response.content)
         tree = html.fromstring(resp.raw_response.content)
         # calculating the textual ration 
@@ -67,6 +84,14 @@ def extract_next_links(url, resp):
         if text_content_ratio < text_content_threshold or len(text_content) < MIN_TEXT_CONTENT_LENGTH:
             print(f"Low textual content for {url}. Skipping extraction.")
             return []
+        
+        
+        for visited_url, visited_content in last_vistied.items():
+            if is_similar_content(total_content, visited_content) >= similar_pages_threshold:
+                print(f"Similar content detected for {url}. Skipping extraction.")
+                return []
+
+
         # Extracting link
         for link in tree.xpath('//a/@href'):
             full_url = urljoin(resp.url, link)

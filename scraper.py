@@ -4,6 +4,7 @@ from urllib.parse import urljoin, urldefrag
 from lxml import html
 import os
 from configparser import ConfigParser
+from urllib.parse import urlparse, urlunparse
 
 config_parser = ConfigParser()
 config_parser.read('config.ini')
@@ -53,7 +54,12 @@ def extract_next_links(url, resp):
         tree = html.fromstring(resp.raw_response.content)
         # Extracting link
         for link in tree.xpath('//a/@href'):
-            full_url = urljoin(resp.url, link)
+            # To handle traps
+            parsed = urlparse(link)
+            untrapped = urlunparse(("", "", parsed.path, "", "", ""))
+
+            full_url = urljoin(resp.url, untrapped)
+
             defragmented_link = urldefrag(full_url).url
             unq_links.add(defragmented_link)
 

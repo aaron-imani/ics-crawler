@@ -54,7 +54,10 @@ def extract_next_links(url, resp):
     try:
         tree = html.fromstring(resp.raw_response.content)
         # Extracting link
-        for link in tree.xpath('//a/@href'):
+        for link in tree.xpath('//a'):
+            if 'nofollow' in link.get('rel', ''):
+                continue
+            link = link.get('href')
             # To handle traps
             full_url = urljoin(resp.url, link)
             normalized_url = normalize(full_url)

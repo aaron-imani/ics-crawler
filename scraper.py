@@ -12,7 +12,7 @@ config_parser = ConfigParser()
 config_parser.read('config.ini')
 MIN_TOKEN_COUNT = config_parser.getint('SCRAPER', 'MIN_TOKEN_COUNT', fallback=100)
 MIN_TEXT_CONTENT_LENGTH = config_parser.getint('SCRAPER', 'MIN_TEXT_CONTENT_LENGTH', fallback=1000)
-POLITENESS_DELAY = config_parser.getint('CRAWLER', 'POLITENESS', fallback=0.5)
+POLITENESS_DELAY = config_parser.getfloat('CRAWLER', 'POLITENESS', fallback=0.5)
 SIMILAR_PAGES_THRESHOLD = config_parser.getfloat('SCRAPER', 'SIMILAR_PAGES_THRESHOLD', fallback=0.9)
 last_vistied = {}
 
@@ -63,13 +63,7 @@ def extract_next_links(url, resp):
     if resp.status != 200:
         print(f"Failed to fetch {url}. Status code: {resp.status}")
         return []
-<<<<<<< HEAD
-    try:       
-        
-=======
     try:
->>>>>>> 2465e380a0cc3ad0268b6bf0c41f601697c95379
-        _store_webpage(url, resp.raw_response.content)
         tree = html.fromstring(resp.raw_response.content)
         # calculating the textual ration 
         text_content = tree.text_content().strip()
@@ -87,11 +81,12 @@ def extract_next_links(url, resp):
         
         
         for visited_url, visited_content in last_vistied.items():
-            if is_similar_content(total_content, visited_content) >= similar_pages_threshold:
+            if is_similar_content(total_content, visited_content) >= SIMILAR_PAGES_THRESHOLD:
                 print(f"Similar content detected for {url}. Skipping extraction.")
                 return []
 
 
+        _store_webpage(url, resp.raw_response.content)
         # Extracting link
         for link in tree.xpath('//a/@href'):
             full_url = urljoin(resp.url, link)

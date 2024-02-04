@@ -50,10 +50,7 @@ def extract_next_links(url, resp):
     if resp.status != 200:
         print(f"Failed to fetch {url}. Status code: {resp.status}")
         return []
-    try:
-        
-        
-        
+    try:       
         
         _store_webpage(url, resp.raw_response.content)
         tree = html.fromstring(resp.raw_response.content)

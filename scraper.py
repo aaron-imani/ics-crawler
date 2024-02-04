@@ -3,17 +3,13 @@ from urllib.parse import urlparse
 from urllib.parse import urljoin, urldefrag
 from lxml import html
 import os
-from utils.tokenization import tokenize
 from configparser import ConfigParser
-import time 
-
 
 config_parser = ConfigParser()
 config_parser.read('config.ini')
 MIN_TOKEN_COUNT = config_parser.getint('SCRAPER', 'MIN_TOKEN_COUNT', fallback=100)
 MIN_TEXT_CONTENT_LENGTH = config_parser.getint('SCRAPER', 'MIN_TEXT_CONTENT_LENGTH', fallback=1000)
 POLITENESS_DELAY = config_parser.getfloat('CRAWLER', 'POLITENESS', fallback=0.5)
-#SIMILAR_PAGES_THRESHOLD = config_parser.getfloat('SCRAPER', 'SIMILAR_PAGES_THRESHOLD', fallback=0.9)
 last_vistied = {}
 
 def scraper(url, resp):
@@ -22,8 +18,9 @@ def scraper(url, resp):
 
 def _store_webpage(url, content):
     splitted = url.split("://")[1].split("/")
-    save_dir = os.path.sep.join(splitted[:-1])
-    os.makedirs(f'visited{os.path.sep}{save_dir}', exist_ok=True)
+    save_dir = os.path.join('visited',*splitted[:-1])
+
+    os.makedirs(save_dir, exist_ok=True)
     
     file_name = splitted[-1]
     file_name.replace('htm', 'html')
@@ -31,17 +28,9 @@ def _store_webpage(url, content):
     if 'html' not in file_name:
         file_name += '.html'
 
-    with open(f'visited/{save_dir}/{file_name}', 'w') as f:
+    file_path = os.path.join(save_dir, file_name)
+    with open(file_path, 'w') as f:
         f.write(content)
-
-
-# def is_similar_content(content1, content2):
-#     tokens1 = tokenize(content1)
-#     tokens2 = tokenize(content2)
-#     intersection = len(set(tokens1).intersection(tokens2))
-#     union = len(set(tokens1).union(tokens2))
-#     jaccard_similarity = intersection / union if union > 0 else 0.0
-#     return jaccard_similarity >= 0.7  
 
 
 def extract_next_links(url, resp):

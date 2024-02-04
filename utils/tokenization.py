@@ -1,6 +1,7 @@
 import re
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
- 
 stop_words = set(stopwords.words('english'))
 
 token_pattern = re.compile(r"\b[a-z0-9]+\b")

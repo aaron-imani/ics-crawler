@@ -16,7 +16,7 @@ class Frontier(object):
         self.last_visited = {}  # Store last visit time for each domain
         config_parser = ConfigParser()
         config_parser.read('config.ini')
-        SIMILAR_PAGES_THRESHOLD = config_parser.getfloat('SCRAPER', 'SIMILAR_PAGES_THRESHOLD', fallback=0.9)
+        self.SIMILAR_PAGES_THRESHOLD = config_parser.getfloat('SCRAPER', 'SIMILAR_PAGES_THRESHOLD', fallback=0.9)
 
         if not os.path.exists(self.config.save_file) and not restart:
             # Save file does not exist, but request to load save.

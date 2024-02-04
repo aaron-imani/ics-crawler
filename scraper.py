@@ -35,15 +35,13 @@ def _store_webpage(url, content):
         f.write(content)
 
 
-"""
-def is_similar_content(content1, content2):
-    tokens1 = tokenize(content1)
-    tokens2 = tokenize(content2)
-    intersection = len(set(tokens1).intersection(tokens2))
-    union = len(set(tokens1).union(tokens2))
-    jaccard_similarity = intersection / union if union > 0 else 0.0
-    return jaccard_similarity >= 0.7  
-"""
+# def is_similar_content(content1, content2):
+#     tokens1 = tokenize(content1)
+#     tokens2 = tokenize(content2)
+#     intersection = len(set(tokens1).intersection(tokens2))
+#     union = len(set(tokens1).union(tokens2))
+#     jaccard_similarity = intersection / union if union > 0 else 0.0
+#     return jaccard_similarity >= 0.7  
 
 
 def extract_next_links(url, resp):

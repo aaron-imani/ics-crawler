@@ -30,13 +30,13 @@ class Frontier(object):
         self.save = shelve.open(self.config.save_file)
         if restart:
             for url in self.config.seed_urls:
-                self.add_url(url, "")
+                self.add_url(url)
         else:
             # Set the frontier state with contents of save file.
             self._parse_save_file()
             if not self.save:
                 for url in self.config.seed_urls:
-                    self.add_url(url, "")
+                    self.add_url(url)
 
     def _parse_save_file(self):
         ''' This function can be overridden for alternate saving techniques. '''
@@ -84,7 +84,7 @@ class Frontier(object):
             return None
 
 
-    def add_url(self, url, text):
+    def add_url(self, url):
         url = normalize(url)
         urlhash = get_urlhash(url)
         # fingerprint = self._simhash(text)

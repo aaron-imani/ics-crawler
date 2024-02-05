@@ -7,7 +7,7 @@ def concatenate_first_six_lines(directory_path, output_file):
                 if file.endswith(".txt"):
                     file_path = os.path.join(root, file)
                     with open(file_path, 'r', encoding='utf-8') as input_file:
-                        lines = input_file.readlines()[:6]
+                        lines = input_file.readlines()[:7]
                         output.write(f"File: {file_path}\n")
                         output.write("=" * 30 + "\n")
                         output.writelines(lines)

@@ -15,12 +15,16 @@ def get_file_details(file_path):
         total_content = len(soup.get_text(strip=True))
         information_ratio = num_chars / total_content if total_content > 0 else 0
 
+        # Get file size in bytes
+        file_size = os.path.getsize(file_path)
+
         return {
             'num_tokens': num_tokens,
             'num_chars': num_chars,
             'num_paragraphs': num_paragraphs,
             'information_ratio': information_ratio,
-            'text_content': text_content
+            'text_content': text_content,
+            'file_size': file_size
         }
 
 def print_file_details(file_path, file_details, output_directory):
@@ -37,9 +41,13 @@ def print_file_details(file_path, file_details, output_directory):
         output.write(f"Number of Characters: {file_details['num_chars']}\n")
         output.write(f"Number of Paragraphs: {file_details['num_paragraphs']}\n")
         output.write(f"Information Ratio: {file_details['information_ratio']:.4f}\n")
+        output.write(f"File Size: {file_details['file_size']} bytes\n")
         output.write("\n")
         output.write(file_details['text_content'])
         output.write("\n\n")
+
+# Rest of your code remains unchanged
+
 
 def generate_summary(directory, output_directory):
     summary = defaultdict(int)

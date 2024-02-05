@@ -39,7 +39,7 @@ class Worker(Thread):
                 f"using cache {self.config.cache_server}.")
 
             # Check if the content is already seen
-            content_hash = get_contenthash(resp.text)
+            content_hash = get_contenthash(resp.raw_response.content)
             if content_hash in self.seen_hashes:
                 self.logger.info(f"Content of {tbd_url} is already seen.")
                 self.frontier.mark_url_complete(tbd_url)

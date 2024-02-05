@@ -16,19 +16,17 @@ class Worker(Thread):
         self.config = config
         self.frontier = frontier
         self.save = shelve.open(self.config.seen_hashes)
-        self._parse_save_file()
-        
+        self._load_save_file()
+
         # basic check for requests in scraper
         assert {getsource(scraper).find(req) for req in {"from requests import", "import requests"}} == {-1}, "Do not use requests in scraper.py"
         assert {getsource(scraper).find(req) for req in {"from urllib.request import", "import urllib.request"}} == {-1}, "Do not use urllib.request in scraper.py"
         super().__init__(daemon=True)
     
-    def _parse_save_file(self):
+    def _load_save_file(self):
         ''' This function can be overridden for alternate saving techniques. '''
-        if 'seen_hashes' in self.save:
-            self.seen_hashes = self.save['seen_hashes']
-        else:
-            self.seen_hashes = set()
+        if not 'seen_hashes' in self.save:
+            self.save['seen_hashes'] = set()
     
     def run(self):
         while True:
@@ -53,13 +51,13 @@ class Worker(Thread):
                 continue
 
             content_hash = get_contenthash(resp.raw_response.content)
-            if content_hash in self.seen_hashes:
+            if content_hash in self.save['seen_hashes']:
                 self.logger.info(f"Content of {tbd_url} is already seen.")
                 self.frontier.mark_url_complete(tbd_url)
                 continue
 
-            self.seen_hashes.add(content_hash)
-            # text_content = resp.text if resp and resp.text else ""
+            self.save['seen_hashes'].add(content_hash)
+            self.save.sync()
 
             scraped_urls = scraper.scraper(tbd_url, resp)
             for scraped_url in scraped_urls:

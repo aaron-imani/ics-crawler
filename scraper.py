@@ -11,6 +11,7 @@ config_parser = ConfigParser()
 config_parser.read('config.ini')
 MIN_TOKEN_COUNT = config_parser.getint('SCRAPER', 'MIN_TOKEN_COUNT', fallback=100)
 MIN_TEXT_CONTENT_LENGTH = config_parser.getint('SCRAPER', 'MIN_TEXT_CONTENT_LENGTH', fallback=1000)
+MAX_DEPTH = config_parser.getint('SCRAPER', 'MAX_DEPTH', fallback=10)
 last_vistied = {}
 
 def scraper(url, resp):
@@ -98,7 +99,7 @@ def is_valid(url):
         parsed = urlparse(url)
         if parsed.scheme not in set(["http", "https"]):
             return False
-        return not re.match(
+        if not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
@@ -113,7 +114,11 @@ def is_valid(url):
             or re.match(
                 r".*today\.uci\.edu/department/information_computer_sciences/.*", url
             )
-        )
+        ):
+            path_segments = parsed.path.split('/')
+            depth = len(list(filter(None, path_segments)))
+            # handling the depth and repetition of the path
+            return not re.match(r'(.*?/).*?\1.*?\1', parsed.path) and depth <= MAX_DEPTH
 
     except TypeError:
         print("TypeError for ", parsed)

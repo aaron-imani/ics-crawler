@@ -1,0 +1,535 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/grad/Course_updates.php.html
+==============================
+Number of Tokens: 2014
+Number of Characters: 6159
+Number of Paragraphs: 28
+Information Ratio: 1.1318
+
+
+
+
+course updates @ the bren school of information and computer sciences
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HOME
+
+
+ABOUT
+
+
+About the School
+
+
+Dean's Welcome
+
+
+Facts and Figures
+
+
+Donald Bren Hall
+
+
+Visit the Bren School
+
+
+Equity & Diversity
+                            
+
+
+Contact Us
+
+
+
+
+DEPARTMENTS
+
+
+Computer Science
+
+
+Informatics
+
+
+Statistics
+
+
+
+
+RESEARCH
+
+
+Research Areas
+
+
+Research Centers
+
+
+Research Highlights
+
+
+
+
+STUDENTS
+
+
+Graduate ▸
+
+
+Orientation
+
+
+Prospective Students
+
+
+How to Apply
+
+
+Programs of Study
+
+
+Academic Year Plan
+
+
+Course Updates
+
+
+Forms And Policies
+
+
+Admissions FAQ
+
+
+Funding
+
+
+Housing
+
+
+Computing Support
+
+
+Campus Resources
+
+
+Visit the Bren School
+
+
+Contact
+
+
+
+
+Undergraduate ▸
+
+
+Contact
+
+
+Academic Advising
+
+
+Course Updates
+
+
+Academic Year Plan
+
+
+Petitions
+
+
+ICS Majors
+
+
+ICS Minors
+
+
+Policies: Academic Integrity
+
+
+Policies: Academic Standing
+
+
+Policies: Add, drop, & change options
+
+
+Policies: Coursework outside UCI
+
+
+Policies: Grade policy
+
+
+Policies: Laptop & computer use
+
+
+Policies: Withdrawal/Readmission
+
+
+Policies: CS 199 / IN4MATX 199 Courses
+
+
+Graduation
+
+
+ICS Student Life
+
+
+Upcoming Events
+
+
+Computing Support
+
+
+
+
+Scholarships & Fellowships
+
+
+Student Jobs & Internships
+
+
+
+
+PEOPLE
+
+
+Faculty
+
+
+Staff
+
+
+Graduate Students
+
+
+
+
+NEWS & EVENTS
+
+
+Newsroom
+
+
+Events
+
+
+Social Media
+
+
+Publications
+
+
+
+
+GET INVOLVED
+
+
+Make a Gift
+                                
+
+
+
+Leadership Council
+
+
+Corporate Partners
+
+
+Sponsor Projects
+
+
+Product Development Competition
+
+
+Alumni
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bren school home / Graduate
+
+
+Course Updates
+
+Fall 2022: ICS Course Restrictions
+﻿This timeline for ICS course restrictions updates is being provided to help students with planning during the open enrollment period.
+It is highly recommended that students check this page periodically.  The timeline will be followed for the most part, but course restrictions are subject to change, such as in the case of highly impacted courses where restrictions may be extended or adjusted at a time other than initially planned.
+ICS Student Affairs reserves the right to adjust restrictions and the timeline at any time.
+
+Important Notes:
+
+ICS Graduate Students who wish to enroll in a restricted ICS course (e.g., a Stats M.S. or Ph.D. student wishing to take CS 284A) may contact an ICS graduate counselor for assistance.
+ICS strictly enforces the campus' Week 2 add/drop deadline. The add/drop deadline for Fall 2022 is 5:00pm, Friday, October 7, 2022.
+Graduate students outside of the School of ICS must wait enroll in ICS courses beginning 12:00pm, September 1, 2022. No exceptions to this registration schedule will be made.
+ICS Graduate Students wishing to enroll in an ICS undergraduate level course may send an email requesting authorization to ucounsel@uci.edu beginning 12:00pm, September 1, 2022.
+ICS Undergraduate Students seeking to take an ICS graduate level course and receives permission from the instructor may email gcounsel@ics.uci.edu for assistance beginning 12:00pm, September 1, 2022.
+
+
+
+﻿School/Major restrictions on GRADUATE courses will follow the below timeline:
+
+
+
+GRADUATE  COURSE  UPDATES
+
+
+Starting Date(s)
+Restriction Updates
+
+
+
+5/16/22Spring 2022Week 8
+School/Major restrictions active
+
+
+COMPSCI: Restricted to CS, NS, SE, and STATS graduate students only, except:
+
+CS 242, CS 261: CS, CmptSci, SE, NS graduate students only
+CS 284A: CS, CmptSci, SE, MCSB graduate students only
+All courses with suffix 'P', e.g., CS 201P: restricted to students in the MCS and/or MDS programs only
+
+DATA: Restricted to students in the MDS program only.
+IN4MATX: Restricted to INF, SE, CS, and STATS graduate students only, except:
+
+INF 280, INF 281, INF 282: Restricted to students in the MHCID program only
+
+NET SYS: Restricted to NS graduate students only
+STATS: Restricted to Stats graduate students only, except:
+
+Stats 201, Stats 281A: All graduate students except Statistics
+All coures with suffix 'P', e.g., Stat 200AP: restricted to students in the MDS program only
+
+SWE: Restricted to INF, SE, CS, and STATS Stats graduate students only, except:
+
+All courses with suffix 'P', e.g., SWE 241P: restricted to students in the MSWE program only
+
+
+
+
+
+9/1/2022
+School/Major restrictions lifted
+
+
+12:00pm: School/Major Restrictions removed from ICS graduate courses.
+
+Undergraduate majors may begin requesting permission to enroll in open, ICS graduate level courses. Send inquiries to gcounsel@uci.edu
+Graduate students may begin requesting permission to enroll in open, ICS undergraduate level courses. Send inquiries to ucounsel@uci.edu
+Non-ICS graduate students may begin to enroll in open ICS graduate courses ﻿
+
+
+
+
+9/5/22
+
+Campus closed in observation of Labor Day.
+
+
+
+
+9/15/22
+
+
+5:00pm: Fee payment deadline for the Fall 2022 quarter
+
+Missing the fee payment deadline will result in your being dropped from Fall courses
+
+
+
+
+9/20/22
+
+12:00pm: WebReg re-opens for continuing registration
+
+
+
+9/22/22Fall 2022Week 1
+
+First day of Fall quarter instruction.
+
+
+
+
+10/7/22Fall 2022﻿Week 2
+
+
+5:00 pm: Add, Drop, Change Grade Option deadline
+
+Last day to add, drop, or change grade option in WebReg for any ICS course.
+Check your position in any waitlisted course(s), and be sure to drop if it is no longer needed/desired.
+
+
+
+
+
+
+
+
+updated: 6/3/2022posted: 5/2/2022
+
+
+
+
+More Graduate
+
+Contact
+Prospective students
+How to Apply
+
+Academic year plan
+Course Updates
+Forms and Policies
+Admissions FAQ
+Funding
+Housing
+Computing support
+Campus resources
+Visit the Bren School
+ 
+
+
+
+
+
+
+
+
+Tweets by UCIbrenICS 
+
+View Social Media
+
+
+
+
+
+
+
+
+
+
+
+
+                        Donald Bren School of Information and Computer Sciences
+                		University of California, Irvine
+    					6210 Donald Bren Hall
+    					Irvine, CA 92697-3425
+                    
+
+
+
+  
+  
+  
+  
+  
+ 
+
+
+
+UCI Homepage
+UCI Directory
+Faculty & Staff
+Employment
+ICS Intranet
+Research Development
+Kay Family Foundation Lab
+Facilities
+
+
+
+
+News
+Events
+Map & Directions
+Accessibility Statement
+Safety Procedures
+Privacy Policy
+Coronavirus Resources
+
+
+
+
+Apply
+Contact
+Gift 
+
+
+
+
+©  UCI Donald Bren School of Information & Computer Sciences
+
+
+
+
+
+
+➤
+
+
+
+
+
+
+
+
+
+
+
+
+

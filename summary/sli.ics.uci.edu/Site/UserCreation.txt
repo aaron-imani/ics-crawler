@@ -1,0 +1,73 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/sli.ics.uci.edu/Site/UserCreation.html
+==============================
+Number of Tokens: 391
+Number of Characters: 421
+Number of Paragraphs: 0
+Information Ratio: 1.1926
+
+
+
+
+SLI | Site / UserCreation 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Site /
+UserCreation
+
+
+Add to password file, groups
+Random password generator
+Create -Private group
+X-Private/GroupAttributes => id:X
+X-Private/AddSideBar => X-Private link
+
+
+
+
+
+
+ Last modified October 09, 2008, at 03:31 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+

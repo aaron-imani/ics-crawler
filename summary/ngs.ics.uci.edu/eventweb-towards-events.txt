@@ -1,0 +1,218 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/ngs.ics.uci.edu/eventweb-towards-events.html
+==============================
+Number of Tokens: 1758
+Number of Characters: 4849
+Number of Paragraphs: 17
+Information Ratio: 1.0884
+
+
+
+
+
+
+
+
+EventWeb: Towards events – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				EventWeb: Towards events    			
+
+
+Two things are distinct in emerging applications of information systems:  they contain vast amount of multimedia (both live and archived) data and attention is moving away from examining isolated silos of data toward more holistic pictures of evolving situations.  Multimedia systems, including text, video, images, and audio, provide both information and experience related to a dynamic situation.  As information and communication technology evolved, multimedia has become increasingly ubiquitous; structured data is now a very small fraction of useful data in emerging applications.  
+Current information tools are very good in dealing with entities, objects, and keywords. To address the needs of information management in dynamic multimedia environments, new concepts and techniques are needed.  It is clear that the current concepts and tools are good for the text oriented and structured information systems.  These tools are not good for dealing with images, video, audio, and other sensory information.  A very good example of their limitation is the poor results that one sees on every major search engine for images and video.  Since these search engines try to apply search tools effective for text to the text associated with images and video, but not processing images and video, their results, contrasting them to text search, are surprisingly bad.  
+Current information tools evolved before the wave of mobile phones, digital cameras, and broadband systems changed the landscape of information systems.  With all these advances, experiences are becoming an integral part of information systems.  In fact, we can already see signs of the dawn of experiential computing.  There is a very intimate relationship between events and experiences in experiential computing, events will play a central role.  
+I believe that â€˜eventsâ€™ may be used as fundamental organizational concept in multimedia systems that are becoming ubiquitous. There are strong and deep conceptual, engineering, computational, and human centered design reasons to consider events as a primary structure for organizing and accessing dynamic multimedia systems.  We are developing multiple applications using event models to validate our hypothesis that events are effective in capturing multimedia semantics and building efficient systems to deal with multimedia information.  
+In a sequence of posts, I will talk about events, their role in organizing information and experiences, developing event-based approaches for emerging information and experience management systems, the EventWeb and its ubiquitous and fundamental role, and emerging role of the EventWeb as a parallel, but connected, structure to the current WWW which is predominantly a DocumentWeb.
+
+
+
+By Ramesh |
+    				August 7, 2006 |
+    				             		Experiential Computing |
+             	 
+    				             		3 Comments |
+             	 		          				
+    			
+
+
+← Live Art
+Tagging videos →
+
+
+
+			3 thoughts on “EventWeb: Towards events”		
+
+
+
+
+Makarand Deshpande August 10, 2006 at 8:58 am 
+
+Hi,
+Came to your site via Webyantra (www.webyantra.net), which has dome a profile of your company SEraja, which is about the event web. Heard this term for the first time, so curious about it. The product looks very good but as the review mentions, better communication is needed about its benefits and capabilities.
+rgds
+makar
+
+
+
+
+
+
+
+
+Ramesh  Post authorAugust 10, 2006 at 4:59 pm 
+
+Thanks.  Realizing that we need to explain, and communicate better, about what EventWeb is and will be, I started this series of posts that will all be ‘EventWeb: ‘.  And the second in this series has already been posted.  More will keep coming.
+
+
+
+
+
+
+
+
+Rubikzube August 13, 2006 at 1:07 pm 
+
+I can see a lot of benefit in organizing unstructured multimedia information around events, but it also opens up a whole can of worms as to what counts as an “event”.  I look forward to the next post.
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+
+
+

@@ -1,0 +1,73 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/sli.ics.uci.edu/SiteAdmin/Status.html
+==============================
+Number of Tokens: 405
+Number of Characters: 307
+Number of Paragraphs: 2
+Information Ratio: 1.2954
+
+
+
+
+SLI | SiteAdmin / Status 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+SiteAdmin /
+Status
+
+
+Password required
+
+
+Name: Password: 
+
+
+
+
+
+
+
+ Last modified January 11, 2017, at 05:46 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+

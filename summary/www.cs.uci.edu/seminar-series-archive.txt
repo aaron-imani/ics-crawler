@@ -1,0 +1,289 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.cs.uci.edu/seminar-series-archive.html
+==============================
+Number of Tokens: 1954
+Number of Characters: 3624
+Number of Paragraphs: 1
+Information Ratio: 1.1290
+
+
+
+
+
+Seminar Series – Archive 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ this is a widget called second front page widget area
+
+Explore
+
+Contact Us
+
+
+Faculty
+Research
+
+Research Areas
+Research Centers
+
+
+Graduate Degrees
+
+Computer Science Programs
+Current Graduate Students
+
+
+Undergraduate Degrees
+News  & Events
+
+News
+Seminar Series
+Distinguished Lecture Series
+Research Showcase
+
+
+Apply Now
+
+Undergraduate Admissions
+Graduate Admissions
+Faculty Candidates
+
+
+Seminar Series – Archive
+Select Year: 2021-20222020-20212019-20202018-20192017-20182016-20172015-20162014-20152013-2014 Return to Current Seminar Schedule
+ Fall 2021 
+October 8, 2021
+Uri Shalit
+Technion – Israel Institute of Technology 
+Title: Causality-inspired machine learning
+Host: Roy Fox  
+
+ Abstract/Bio  
+
+
+October 22, 2021
+Yanning Shen
+UCI (EECS) 
+Title: Adaptive Online Scalable Learning with Graph Feedback
+Host: Roy Fox  
+
+ Abstract/Bio  
+
+
+October 29, 2021
+Kaidi Xu
+Drexel 
+Title: Neural Networks with Provable Robustness Guarantees
+Host: Alfred Chen  
+
+ Abstract/Bio  
+
+
+November 5, 2021
+Sven Koenig
+USC 
+Title: Multi-Agent Path Finding and Its Applications
+Host: Rina Dechter  
+
+ Abstract/Bio  
+
+
+November 12, 2021
+Yolanda Gil
+Information Sciences Institute, USC 
+Title: AI Systems as Authors of Scientific Papers: Implications for the Future of Scientific Research and Discovery
+Host: Rina Dechter  
+
+ Abstract/Bio  
+
+
+November 19, 2021
+Francesco Restuccia
+Northeastern 
+Title: Toward Data-Driven Self-Adaptive Spectrum-Aware Wireless Systems
+Host: Marco Levorato  
+
+ Abstract/Bio  
+
+
+December 13, 2021
+Mohan Kankanhalli
+School of Computing, National University of Singapore 
+Title: Privacy-aware Multimedia Analytics: Towards Digital Trust
+
+ Abstract/Bio  
+
+
+ Winter 2022 
+January 14, 2022
+Tanvir Ahmed Khan
+University of Michigan 
+Title: Rescuing Data Center Processors
+Host: Sangeetha Abdu Jyothi  
+
+ Abstract/Bio  
+
+
+February 4, 2022
+Petros Koumoutsakos
+Harvard University 
+Title: Learning Algorithms and Complex systems: Alloys
+Host: Pierre Baldi  
+
+ Abstract/Bio  
+
+
+February 11, 2022
+Martha White
+University of Alberta 
+Title: Developing Reinforcement Learning Agents that Learn Many Subtasks
+
+ Abstract/Bio  
+
+
+February 18, 2022
+George Varghese
+UCLA 
+Title: Formal Methods for a Robust Network Ecosystem
+
+ Abstract/Bio  
+
+
+February 25, 2022
+Judea Pearl
+UCLA 
+Title: The Science of Causal and Effect: From Deep Learning to Deep Understanding
+
+ Abstract/Bio  
+
+
+March 4, 2022
+Shafi Goldwasser
+MIT/Berkeley 
+Title: The Right to Deny On-Line Activities
+
+ Abstract/Bio  
+
+
+March 11, 2022
+David Forsyth
+University of Illinois at Urbana-Champaign 
+Title: Learning Shading and Lighting Without Ground Truth
+
+ Abstract/Bio  
+
+
+ Spring 2022 
+April 1, 2022
+Zhiyun Qian
+University of California, Riverside 
+Title: Fighting Vulnerabilities With Process, Insight, and Automation
+
+ Abstract/Bio  
+
+
+April 8, 2022
+Yinyu Ye
+Stanford University 
+Title: Geometric Aggregation of the Social Welfare in Resource Allocation
+
+ Abstract/Bio  
+
+
+April 22, 2022
+Tim Kraska
+MIT 
+Title: Towards instance-optimized data systems
+
+ Abstract/Bio  
+
+
+April 29, 2022
+Rose Yu
+UCSD 
+Title: Incorporating Inductive Biases in Deep Learning for Improved Generalization
+
+ Abstract/Bio  
+
+
+May 6, 2022
+Cho-Jui Hsieh
+UCLA 
+Title: Robustness Evaluation and Neural Network Verification
+
+ Abstract/Bio  
+
+
+May 13, 2022
+Swabha Swayamdipta
+USC 
+Title: Mapping and Generating Datasets for Robust Generalization
+
+ Abstract/Bio  
+
+
+May 20, 2022
+Yeye He
+Microsoft Research 
+Title: Towards automated data engineering
+
+ Abstract/Bio  
+
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+ 
+
+
+
+
+

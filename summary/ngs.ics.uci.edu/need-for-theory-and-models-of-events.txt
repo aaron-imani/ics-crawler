@@ -1,0 +1,177 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/ngs.ics.uci.edu/need-for-theory-and-models-of-events.html
+==============================
+Number of Tokens: 1425
+Number of Characters: 3732
+Number of Paragraphs: 10
+Information Ratio: 1.0983
+
+
+
+
+
+
+
+
+Theory and models of events – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Theory and models of events    			
+
+
+I have been thinking about event-based management of multimodal information.    It is clear that information is rapidly becoming multimodal — current text-centered information systems will not be adequate for rapidly transforming multimodal information systems.  In these days of digial cameras, amzingly capable and versatile popular phones, and rapidly proliferating iPods and its clones people find dealing with audio-visual information (consider how fast podcasting is becoming popular) as easy as at one time they found text in cyberspace.  I am sure that we are very close to the cusp where capture and storage of non-textual (notice I am not saying non-speech) information will become easier than that of text.  This is an important point in the history of civilization.
+Coming to managing this information, how can we make events effective in helping us manage all information?
+As we discussed,  fundamental concept behind our approach to multimodal information management is the notion of events.  Currently, many areas in computer science and information management use the concept of events.  Events in different areas are defined and applied very differently.  We believe that the notion of events offers a flexible and adaptable concept to be used in different areas and to help in unification of many areas.  This, however, necessitates a formal definition of events as well as a concrete implementation approach.  An event algebra is required to build compound events starting with the atomic events that could be detected in individual data streams.  This algebra will be used for defining events both for detection as well as for run-time analysis and querying in multimodal systems.  Similarly, a generalized event model facilitates building of approaches that will be scalable across domains and data sources.  This model requires dealing with several issues related to time, space, and relationships (causal, spatial, temporal, and others) among events, and informational and experiential components represented by disparate heterogeneous data sources.  A clear distinction between informational and experiential components of event related data is essential to extract appropriate information from  as well as  provide tools to manage multimodal data properly. 
+We can start developing event algebra and event models based on these fundamental requirements.  There are many details to be worked out — and those will evolve when people start applying events to different practical applications.  Important thing is to start — by taking some concrete steps.
+
+
+
+By Ramesh |
+    				February 11, 2006 |
+    				             		Experiential Computing |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Riya —  computer vision in search
+Advertisements →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+
+
+

@@ -1,0 +1,195 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/ngs.ics.uci.edu/history-and-events.html
+==============================
+Number of Tokens: 1464
+Number of Characters: 3457
+Number of Paragraphs: 12
+Information Ratio: 1.1159
+
+
+
+
+
+
+
+
+History and events – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				History and events    			
+
+
+In Ho Chi Minh City I met Prof. Lew Lancaster (from UC Berkeley) and Damian Evans (from U Sydney) and had good discussions about their projects related to cultural history and heritage under www.ECAI.org.Â  I was very pleased to see that they consider that event-based representations are the key to representation of history.Â  In absence of event-based tools, they were developing geo-spatial-temporal approaches for representation.Â  Under ECAI, many countries are creating and sharing cultural data to discover, understand, share, all data and knowledge and make it easily accessible by peole.Â  Based on the enthusiasm that I saw among Buddhist monks for creating data using such tools, it is clear that even very religious people are eager to help technology when it really helps them.
+Prof. Lancaster had invited me to meet them and give a talk on my work because he believes that by creating and popularizing event-based tools these tasks could in fact be revolutionized.Â  This was a music to my ear — coming from a person who cares about technology because of its ultimate use, rather than for its own sake like most of we technologists do.Â  It is truly amazing to see that most of we technologists care for technology and consider its applications as something that some insignificant developer should worry about.
+Coming back to events and history, in a sense every field ranging from economics or business to biology (including computer science) has history and studying that history is what really enriches that field.Â  By developing proper event-based approaches to deal with all these disciplines one could really make studying different fields — not only their history but the real substance in those fields — significantly easier and accessible.
+I am very excited after meeting them — it has further strengthened my belief that this areas needs to be established.
+
+
+
+By Ramesh |
+    				August 22, 2007 |
+    				             		Experiential Computing |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← Ho Chi Minh City
+Hiperwall at UC Irvine CalIT2 →
+
+
+
+			One thought on “History and events”		
+
+
+
+
+Ashish Gupta August 23, 2007 at 1:57 pm 
+
+Can you please expand more on event based representation and approaches you mentioned in this blog or  provide links to sites/ papers that provide details?
+I do not think that you are  talking about EDA and CEP as defined here ?
+http://en.wikipedia.org/wiki/Complex_event_processing_%28CEP%29
+http://en.wikipedia.org/wiki/Event_Driven_Architecture
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+
+
+

@@ -1,0 +1,46 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~express/news.htm.html
+==============================
+Number of Tokens: 356
+Number of Characters: 365
+Number of Paragraphs: 6
+Information Ratio: 1.1736
+
+
+
+
+
+News
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+EXPRESSION will be officially released into the public domain at DAC 2003 
+(June 2-6, 2003)
+
+
+
+Home | Overview | System Requirements | Documentation | Download | News | People | Contact
+
+
+ Copyright University of California, Irvine, 2003.
+For problems or questions regarding this web contact 
+Sudeep Pasricha.
+Last updated: 05/26/03. 
+
+
+
+
+

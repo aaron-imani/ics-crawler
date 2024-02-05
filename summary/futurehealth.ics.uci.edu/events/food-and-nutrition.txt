@@ -1,0 +1,245 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/futurehealth.ics.uci.edu/events/food-and-nutrition.html
+==============================
+Number of Tokens: 2276
+Number of Characters: 6571
+Number of Paragraphs: 12
+Information Ratio: 1.0448
+
+
+
+
+
+
+UCI Institute for Future Health | Food and Nutrition
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+News
+
+IFH
+Healthcare
+
+
+Events
+Projects
+Members
+
+IFH Members
+
+
+Key Disciplines
+Collaborators
+Publications
+Resources
+Videos
+About Us
+Join Us
+Contact
+ 
+
+
+
+
+
+
+
+
+EVENTS
+ 
+
+
+
+
+
+
+
+
+
+Home                    
+
+
+/Events/Food and Nutrition 
+
+
+
+
+
+
+
+
+
+A Workshop on:
+Food and Nutrition
+
+
+
+
+
+Topics for discussion
+
+What people eat and how has it changed over time: what are the social, economic, regional, cultural, seasonal and environmental factors shaping diets?
+What data is available on this? What are the gaps in our understanding of this?
+Malnutrition (stunting), micronutrient deficiency, protein deficiency, anaemia, diabetes, obesity: what are causal factors for these? What are the data gaps in understanding the causes? How has food / agricultural policy responded /shaped these?
+Social equity in food ecosystems
+Analytics techniques including causal models: What kind of data is available that can be analysed using these techniques (for example, in malnutrition and childhood stunting)?
+What kind of data needs to be collected and how can it be obtained where there are knowledge gaps? Will computer science techniques be useful to address these knowledge gaps for the kind of data proposed to be collected?
+
+ 
+
+Speakers
+Veena Shaturghna
+Retired as Deputy Director, National Institute of Nutrition, Hyderabad
+Sudhu Nagavarapu
+Health Activist and Researcher, Bangalore
+Sourabh Bikash Paul
+IIT Delhi
+Ganesh Bagler
+IIIT Delhi
+
+Abstracts
+Health Food Nutrition and Data (Veena Shaturghna)
+There is a fatigue setting in with Nutrition data flying across this country at regular intervals. People have even become immune to it. Instead of reflecting about the plight of kids subsisting on rice with chilli and onion paste, and more rice with more chilli, or going to bed hungry, the excitement is in the possibility of a “better” analysis. The unflattering data is often used to demand accountability from the Government of the day, followed by denial, or a reluctant concession when 5 kg of grain was distributed per person per month during the lockdown…. In the name of food security. Figures representing Weights, heights, wasting, Anemia, and recently micronutrient deficiencies have been flogged to extract maximum mileage. Maybe we should pause and reflect on these figures in children <5years, such as 35%, stunted, and 33%, underweight and 17% wasted and 40- 60% Anaemic. My presentation will try to unpack the meanings of these indices, and raise a discussion to help rethink our priorities.
+ 
+Gaps in Understanding Food and Nutrition (Sudhu Nagavarapu)
+Do we – the English-speaking, mainly dominant caste, researcher community – have a detailed and nuanced understanding of the diverse food habits of communities across India? If yes, have these perspectives been captured in quantitative form? Drawing from research on food systems and my field experiences, I will attempt to link gaps in data to our incomplete understanding of food and nutrition, and discuss possible approaches (with or without computer science techniques) that could bridge these gaps.
+ 
+Transition in Dietary Quality in India (Sourabh Bikash Paul)
+Poor nutritional status is an issue of serious concern in India, especially since the country has experienced significant economic growth over the past decades. The social transformation led by growth in income influences both the composition of food and the quality of diet consumed. Against this backdrop of changing lifestyles and the rise in obesity and Non-Communicable Diseases, my talk will focus on changes in the quality of diet and the critical socio-economic correlates of this quality during 1983-2012. Using three rounds of the National Sample Survey data on household-level food consumption, we construct a diet quality index consisting of twelve macro and micronutrients, including carbohydrates, proteins, fats, fibre, calcium, phosphorus, iron, carotene, thiamine, riboflavin, niacin, and Vitamin C and use an adjusted measure of the nutritional intake of a household to account for nutritional intake emanating from increasing food consumption outside the home. We find that in relation to the Recommended Daily Allowance, fat consumption increased over time while protein and energy consumption decreased. The average diet quality index of macro and micronutrients improved in the rural sector while it deteriorated in the urban sector. Caste and religion are significant correlates of the diet quality index. It is suggested that the Indian Government may play a more proactive role in implementing coherent national policies in trade, food, and agriculture for protecting public health by promoting the demand for a healthy diet among consumers. In the end, I will highlight some data gaps and possible applications of ML in contributing to data analysis.
+ 
+Computational Gastronomy: A data science approach to food (Ganesh Bagler)
+Cooking forms the core of our cultural identity other than being the basis of nutrition and health. The increasing availability of culinary data and the advent of computational methods for their scrutiny are dramatically changing the artistic outlook towards gastronomy. Starting with a seemingly simple question, ‘Why do we eat what we eat?’ data-driven research conducted in our lab has led to interesting explorations of traditional recipes, their flavor composition, and health associations. Our investigations have revealed ‘culinary fingerprints’ of regional cuisines across the world, starting with the case study of Indian cuisine. Application of data-driven strategies for investigating the gastronomic data has opened up exciting avenues giving rise to an all-new field of ‘Computational Gastronomy’. This emerging interdisciplinary science asks questions of culinary origin to seek their answers via the compilation of culinary data and their analysis using methods of statistics, computer science, and artificial intelligence. Along with complementary experimental studies, these endeavors have the potential to transform the food landscape by effectively leveraging data-driven food innovations for better health and nutrition.
+
+
+
+
+
+
+Location: Online
+Date: Dec 7, 2021
+Time: 16:15 - 18:30 IST
+
+
+ 
+
+
+
+
+
+
+News
+Events
+Projects
+IFH Members
+ 
+
+About IFH
+Key disciplines
+Collaborators
+Work with us
+Contact us
+ 
+
+ 
+				info@futurehealth.uci.edu
+
+
+
+
+
+
+
+
+
+				© Copyright 2021 UCI Institute for Future Health - All Rights Reserved
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

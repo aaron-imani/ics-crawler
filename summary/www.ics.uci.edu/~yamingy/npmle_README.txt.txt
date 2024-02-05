@@ -1,0 +1,33 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~yamingy/npmle_README.txt.html
+==============================
+Number of Tokens: 88
+Number of Characters: 766
+Number of Paragraphs: 0
+Information Ratio: 1.0000
+
+User's guide to 
+  npmle 
+R functions for fast ML computation for mixture proportions, including 
+nonparametric MLE of the distribution function for censored data 
+
+Paper:  Improved EM for Mixture Proportions with Applications to 
+        Nonparametric ML Estimation for Censored Data
+          
+Contact: Yaming Yu
+         Department of Statistics, University of California
+         Irvine, CA 92697-1250, USA
+         yamingy@uci.edu
+
+Step 1.  Save the source text files 
+           http://www.ics.uci.edu/~yamingy/npmle.c
+           http://www.ics.uci.edu/~yamingy/npmle.r
+
+Step 2.  Compile the C source code
+           R CMD SHLIB -o npmle.so npmle.c 
+
+Step 3.  Run R and type 
+           source('npmle.r') 
+
+Usage.   See comments in the file 
+           npmle.r
+

@@ -1,0 +1,496 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/futurehealth.ics.uci.edu/videos.html
+==============================
+Number of Tokens: 2407
+Number of Characters: 5604
+Number of Paragraphs: 42
+Information Ratio: 1.1555
+
+
+
+
+
+
+UCI Institute for Future Health | Integrating Quantitative & Qualitative Methods to Enhance Clinical Research
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+News
+
+IFH
+Healthcare
+
+
+Events
+Projects
+Members
+
+IFH Members
+
+
+Key Disciplines
+Collaborators
+Publications
+Resources
+Videos
+About Us
+Join Us
+Contact
+ 
+
+
+
+
+
+
+
+
+VIDEOS
+ 
+
+
+
+
+
+
+
+
+
+Home                    
+
+
+/Videos 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					 - 29 May 2022  
+				
+Integrating Quantitative & Qualitative Methods to Enhance Clinical Research
+
+
+Integrating Quantitative & Qualitative Methods to Enhance Clinical Research
+March 9, 2022
+
+
+
+
+
+
+
+
+					 - 25 Feb 2022  
+				
+How to do collaborative research between nursing and computer science?
+
+
+The European Academy of Nursing Science (EANS) Winter e-Summit 2022
+How to do collaborative research between nursing and computer science?
+Amir M. Rahmani, PhD
+February 21, 2022
+
+
+
+
+
+
+
+
+					 - 24 Feb 2022  
+				
+Precisely Practicing Medicine from 700 Trillion Points of Data
+
+
+UCI Health Data Science Virtual Workshop Series
+Precisely Practicing Medicine from 700 Trillion Points of Data
+Atul Butte, MD, PhD
+February 7, 2022
+
+
+
+
+
+
+
+
+					 - 30 Jan 2022  
+				
+Introduction to UCI Imaging Services and DICOM Data
+
+
+UC Irvine
+Virtual Workshop Series
+Introduction to UCI Imaging Services and DICOM Data
+Peter D. Chang, MD
+January 28, 2022
+
+
+
+
+
+
+
+
+					 - 2 Jan 2022  
+				
+Health, Food, Nutrition, and Data
+
+
+Department of Computer Science, Ashoka University
+To explore the possibilities for applying techniques from data analytics and computer science to key problems in health and nutrition.
+December 7, 2021 – December 8, 2021
+
+
+
+
+
+
+
+
+					 - 16 Dec 2021  
+				
+Privacy-aware Multimedia Analytics: Towards Digital Trust
+
+
+IFH-CS Seminar Series
+Prof. Mohan Kankanhalli
+School of Computing, National University of Singapore
+
+
+
+
+
+
+
+
+					 - 5 Dec 2021  
+				
+How to Request Research Data from UCI Health
+
+
+UCI Health Affairs Office of Research Information
+Virtual Workshop Series
+How to Request Research Data from UCI Health
+
+
+
+
+
+
+
+
+					 - 5 Dec 2021  
+				
+The National COVID Cohort Collaborative (N3C)
+
+
+UC Irvine Center for Biomedical Informatics
+Virtual Workshop Series
+The National COVID Cohort Collaborative (N3C)
+
+
+
+
+
+
+
+
+					 - 5 Dec 2021  
+				
+How to Access and Use the NIH All of Us Research Data
+
+
+UC Irvine All of Us Research Program Center for Biomedical Informatics
+Virtual Workshop Series
+How to Access and Use the NIH All of Us Research Data
+August 7, 2020
+
+
+
+
+
+
+
+
+					 - 5 Dec 2021  
+				
+How to Access and Use the UC COVID Research Data Set (UC CORDS)
+
+
+UC Irvine Center for Biomedical Informatics
+Virtual Workshop Series
+How to Access and Use the UC COVID Research Data Set (UC CORDS)
+Kai Zheng, PhD, FACMI
+June 15, 2020
+
+
+
+
+
+
+
+
+					 - 5 Dec 2021  
+				
+How to Access UCI’s De-Identified Electronic Health Records Data for Research
+
+
+UC Irvine Center for Biomedical Informatics
+Virtual Workshop Series
+How to Access UCI’s De-Identified Electronic Health Records Data for Research
+Kai Zheng, PhD, FACMI
+April 9, 2020
+
+
+
+
+
+
+
+
+					 - 5 Dec 2021  
+				
+A Panel on Recruiting Participants for Clinical Research at UCI, Part 2
+
+
+ICTS, UCI Program Public Health, and IFH
+Knowing what is OK: Recruiting participants for clinical research at UCI
+The best practices for recruiting through the community
+
+
+
+
+
+
+
+
+					 - 4 Oct 2021  
+				
+mHealth for behavioral intervention in older and vulnerable population
+
+
+mHealth for behavioral intervention in older and vulnerable population.
+Speaker
+Oleg Zaslavsky
+Associate Professor,
+School of Nursing,
+University of Washington
+
+
+
+
+
+
+
+
+					 - 28 Sep 2021  
+				
+ZotCare
+
+
+provide the researchers with a platform to design a human study or for
+the health providers to  design study trial for their participants or patients.
+
+
+
+
+
+
+
+
+					 - 23 Sep 2021  
+				
+A Panel on:Ashoka Lecture Series on Interdisciplinary Research
+
+
+Food is the most important source of happiness and health for every individual as well as for the planet earth. Human food requirements are a major factor in planetary health through agriculture, food preparation, preservation, distribution, and even food waste management.
+
+
+
+
+
+
+
+
+					 - 9 Sep 2021  
+				
+Personalized User Modelling for Context-Aware Lifestyle Recommendations to Improve Sleep
+
+
+In Proceedings of the 5th International Workshop on Health Recommender Systems co-located with 14th ACM Conference on Recommender Systems
+
+
+
+
+
+
+
+
+					 - 22 Aug 2021  
+				
+A Panel on: Knowing what is OK: Recruiting participants for clinical research at UCI
+
+
+Large Topics :
+Leveraging campus-based databases to recruit, Partnering with physicians to recruit, Partnering with community organizations to recruit, Staying compliant with regulations while doing all of the above
+
+
+
+
+
+
+
+
+					 - 16 Aug 2021  
+				
+Good Food Recommendation by Ramesh Jain
+
+
+Food is the most important source of joy and health for every individual. However, every person enjoys different food, and her body does not necessarily like the food she enjoys. Despite all advances in technology and social consciousness, there are two i
+
+
+
+
+
+
+
+
+					 - 5 Feb 2021  
+				
+Keynote Session I ICIS’21 JK Lakshmipat University, Jaipur
+
+
+Ramesh Jain is an entrepreneur, researcher, and educator. He is a Donald Bren Professor in Information & Computer Sciences at University of California.
+
+
+ 
+
+
+
+
+
+
+
+News
+Events
+Projects
+IFH Members
+ 
+
+About IFH
+Key disciplines
+Collaborators
+Work with us
+Contact us
+ 
+
+ 
+				info@futurehealth.uci.edu
+
+
+
+
+
+
+
+
+
+				© Copyright 2021 UCI Institute for Future Health - All Rights Reserved
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

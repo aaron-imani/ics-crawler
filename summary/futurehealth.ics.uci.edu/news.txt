@@ -1,0 +1,441 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/futurehealth.ics.uci.edu/news.html
+==============================
+Number of Tokens: 2722
+Number of Characters: 7278
+Number of Paragraphs: 51
+Information Ratio: 1.0789
+
+
+
+
+
+
+UCI Institute for Future Health | IFH’s Research on COVID-19 enabled by UC CORDS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+News
+
+IFH
+Healthcare
+
+
+Events
+Projects
+Members
+
+IFH Members
+
+
+Key Disciplines
+Collaborators
+Publications
+Resources
+Videos
+About Us
+Join Us
+Contact
+ 
+
+
+
+
+
+
+
+
+NEWS
+ 
+
+
+
+
+
+
+
+
+
+Home                    
+
+
+/IFH News 
+
+
+
+
+
+
+IFH News
+
+
+
+
+
+
+ - 8 Oct 2022  
+IFH’s Research on COVID-19 enabled by UC CORDS
+IFH has had a significant contribution to COVID research using US CORDS. Our researchers studied the impact of COVID-19 on diverse populations resulting in multiple peer-reviewed publications.
+
+
+
+
+
+
+
+ - 22 Aug 2022  
+A large scale center-wide trial in Southern California is using ZotCare
+IFH tools have enabled the execution of large scale center-wide trials in Southern California. ZotCare is used to remotely monitor more than one-thousand hypertensive patients in Southern California.
+
+
+
+
+
+
+
+IFH - 19 Aug 2022  
+IFH and Stanford Health Care have partnered with HealthUnity
+IFH team is proud to be closely working with HealthUnity in food-logging, world food atlas, and Personicle-related technology.
+
+
+
+
+
+
+
+ - 7 Nov 2021  
+IFH has joined ISO to standardize “Personalized Health Navigation”
+IFH -along with other partners such as CDC, FDA, Pfizer Inc, Johnson & Johnson, Kaiser Permanente, and HL7 International- has joined a new working group (WG 11) focused on “Personalized health navigation” under health informatics.
+
+
+
+
+
+
+
+ - 8 Oct 2021  
+IFH research was featured in Rolling Stone: people with long COVID and risks of going back to the office
+Three IFH members (Melissa Pinto, Jessica Borelli, and Amir M. Rahmani) are collaborating in this project with colleagues from the Survivor Corps organization, University of Indiana, Mayo Clinic, and the University of Miami. 
+
+
+
+
+
+
+
+IFH - 29 Jul 2021  
+In the Media: Dr. Melissa Pinto discusses Long COVID
+Associate Professor Melissa Pinto talks to Los Al TV about research around people who continue to suffer symptoms long after their initial COVID-19 infection has passed, known as COVID long-haulers.
+
+
+
+
+
+
+
+IFH - 19 May 2021  
+Keynote Speaker in “International Conference on Innovation & Sustainability”
+Ramesh Jain presented his research on the Personal Food Model and World Food Atlas  as the Keynote Speaker in the “International Conference on Innovation & Sustainability” organized during February 5-6, 2021
+
+
+
+
+
+
+
+IFH - 14 May 2021  
+Mental Health Navigation for College Students
+A group of IFH members received the SSIHI Pilot Studies Award to address loneliness in college students using a navigational approach.
+
+
+
+
+
+
+
+ - 20 Apr 2021  
+The research of a multi-disciplinary group of IFH members on “Long Covid” was features in NY Times.
+This research reveals that “Many Long Covid Patients Had No Symptoms From Their Initial Infection”.
+
+
+
+
+
+
+
+ - 3 Apr 2021  
+IFH in the media
+The establishment of IFH was covered in Becker’s Health IT News.
+
+
+
+
+
+
+
+ - 30 Mar 2021  
+NSF funds an IFH-sponsored project to build a digital community-centered care platform
+The National Science Foundation has awarded Drs. Rahmani, Nyamathi, and Dutt, a planning grant to establish a model of digital community-centered care (D-CCC).
+
+
+
+
+
+
+
+ - 3 Jan 2021  
+NIH funds minority underserved family caregiver home visit intervention study
+NIH has awarded the IFH Members (Lee, Rahmani, Gibbs, Shin, and Nyamathi) a $3.6 million R01 research project grant to implement a home-based, culturally and language-specific caregiving intervention for underserved dementia family caregivers.
+
+
+
+ 
+
+
+Healthcare News
+
+
+
+
+
+Healthcare - 6 Jan 2022  
+Artificial intelligence predicts who will develop dementia in two years
+AI can predict if people develop dementia within two years. The prediction accuracy is 92 percent, obtained in a largescale study conducted on more than 15,400 patients in the U.S.
+
+
+
+
+
+
+
+Healthcare - 3 Jan 2022  
+Oracle acquires Cerner for $28.3B
+Oracle announces that the company will expand its global footprint since it invests big in healthcare. Oracle Corporation will acquire Cerner Corporation for $95 per share in an all-cash deal.
+
+
+
+
+
+
+
+Healthcare - 14 Dec 2021  
+Alexa Together, a subscription-based service, by Amazon
+Amazon has officially launched Alexa Together, a subscription-based service, to offer remote health and wellbeing support to the elderly.
+
+
+
+
+
+
+
+Healthcare - 6 Oct 2021  
+UCI and Syntropy Announce Five-Year Strategic Partnership to Improve Patient Care Through Unprecedented Data Integration
+Academic partnership aims to empower researchers to drive scientific innovation through revolutionary utilization of health data
+
+
+
+
+
+
+
+ - 22 Sep 2021  
+The Present and Future of Wearable Devices in Physical Activity Research
+Wearable devices that track physical activity are becoming increasingly pervasive in society today.
+Join The Webinar
+Thu, Oct 28, 2021 10:00 AM – 11:00 AM PDT
+Join Webinar
+
+
+
+
+
+
+
+Healthcare - 13 Sep 2021  
+Grace The Humanoid Robot Healthcare Assistant & SingularityNET
+The Awakening Health fusion of biomedical knowledge, AI, and robotics is poised to drive the massive advent of healthcare robots to transform the medical arena and generate millions of API calls for SingularityNET.
+
+
+
+
+
+
+
+Healthcare - 4 Aug 2021  
+Wearable tech can spot coronavirus symptoms before you even realize you’re sick
+Researchers say the constant stream of data from Oura rings, Fitbits and Apple Watches could eventually be used as a coronavirus early-warning system
+
+
+
+
+
+
+
+Healthcare - 16 Jul 2021  
+HCA Healthcare, a hospital system based in Nashville, recently announced a data-sharing deal with Google
+Health care systems and providers must do all they can to properly inform patients of the benefits and risks of enrolling in data sharing.
+
+
+
+
+
+
+
+Healthcare - 4 Jul 2021  
+What universal healthcare should look like
+The struggle to cover every American may continue for decades — and we need to think differently about cheap health tech and prevention first.
+by Chris Taylor
+
+
+
+
+
+
+
+Healthcare - 2 Jul 2021  
+Collection of papers on Real-World Evidence from the National Academies workshop series
+Our 4 paper series on real-world evidence now linked on one page at the National Academies of Sciences. Onward to better evidence for decisions. says Dr. Jonathan H. Watanabe
+
+
+
+
+
+
+
+Healthcare - 21 Jun 2021  
+The hospital room of the future: 5 innovation execs outline what to expect in next 5 years
+Digital health and tech adoption have skyrocketed since the start of the COVID-19 pandemic, leaving many hospitals and health systems adopting technologies that support remote patient monitoring, two-way video communications and more. 
+
+
+
+
+
+
+
+ - 14 Jun 2021  
+Datavant and Ciox Health Announce Merger, Creating the Largest Neutral and Secure Health Data Ecosystem
+Combined company positioned to solve the challenge of health data fragmentation
+Joint technology solution enhances patient privacy and health care efficiency
+Company to be named Datavant, with revenue of more than $700 million
+
+
+
+ 
+
+
+
+
+
+News
+Events
+Projects
+IFH Members
+ 
+
+About IFH
+Key disciplines
+Collaborators
+Work with us
+Contact us
+ 
+
+ 
+				info@futurehealth.uci.edu
+
+
+
+
+
+
+
+
+
+				© Copyright 2021 UCI Institute for Future Health - All Rights Reserved
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

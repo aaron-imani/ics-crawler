@@ -1,0 +1,184 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/vision.ics.uci.edu/people.html
+==============================
+Number of Tokens: 576
+Number of Characters: 2090
+Number of Paragraphs: 0
+Information Ratio: 1.3304
+
+
+
+
+
+Computational Vision | ICS | UC Irvine
+
+
+
+
+
+Computational Vision at UC Irvine  
+
+
+
+home
+projects
+people
+publications
+datasets
+events
+courses
+contact
+links
+
+
+
+
+Current Members:
+
+
+Bailey KongPhD Student
+        
+
+Shu KongPhD Student
+        
+
+Minhaeng LeePhD Student
+        
+
+Phuc NguyenPhD Student
+        
+
+Daeyun ShinPhD Student
+        
+
+Zhe WangPhD Student
+        
+
+Charless FowlkesAssociate Professor
+        
+
+
+
+Affiliates:
+
+
+Ramesh JainProfessor
+        
+
+Aditi MajumderProfessor
+        
+
+Erik SudderthAssociate Professor
+        
+
+
+
+Past Members:
+
+
+Hyeoungho BaePhD Student(2008-2013)
+        
+
+Evgeniy BartPostdoc(2005-2007)
+        
+
+Jasmine BhanushaliMS Student(2016-2018)
+        
+
+Yihang BoVisiting PhD Student(2010-2010)
+        
+
+Levi BoylesPhD Student(2009-2014)
+        
+
+Chaitanya DesaiPhD Student(2008-2012)
+        
+
+Raúl DíazPhD Student(2011-2016)
+        
+
+Golnaz GhiasiPhD Student(2011-2016)
+        
+
+Sam HallmanPhD Student(2010-2015)
+        
+
+Mohsen HejratiPhD Student(2010-2015)
+        
+
+Peiyun HuPhD Student(2014-2016)
+        
+
+Sangeeta JhaMS Student(2009-2010)
+        
+
+Maryam KhademiPhD Student(2011-2015)
+        
+
+Ragib MorshedPhD Student(2010-2011)
+        
+
+Dennis ParkPhD Student(2009-2014)
+        
+
+Maharshi PatelUndergraduate(2016-2017)
+        
+
+Goutham PatnaikMS Student(2008-2009)
+        
+
+Hamed PirsiavashPhD Student(2007-2012)
+        
+
+Ian PorteousPhD Student(2005-2010)
+        
+
+Deva RamananAssociate Professor(2007-2015)
+        
+
+Grégory RogezPostdoc(2013-2015)
+        
+
+James SupančičPhD Student(2012-2017)
+        
+
+Tony TranMS Student(2008-2009)
+        
+
+Carl VondrickUndergraduate(2008-2011)
+        
+
+Shaofei WangMS Student(2011-2013)
+        
+
+Max WellingProfessor(2007-2015)
+        
+
+Songfan YangPostdoc(2014-2014)
+        
+
+Yi YangPhD Student(2008-2013)
+        
+
+Julian YarkonyPhD Student(2007-2012)
+        
+
+Zhaohao ZhouMS Student(2016-2016)
+        
+
+Xiangxin ZhuPhD Student(2010-2014)
+        
+
+
+
+
+
+Computational Vision |
+      School of Information and Computer Sciences |
+      UC Irvine
+
+© 2007-2017 UC Irvine
+
+
+
+
+

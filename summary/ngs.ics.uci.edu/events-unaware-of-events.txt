@@ -1,0 +1,193 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/ngs.ics.uci.edu/events-unaware-of-events.html
+==============================
+Number of Tokens: 1266
+Number of Characters: 2115
+Number of Paragraphs: 10
+Information Ratio: 1.2051
+
+
+
+
+
+
+
+
+Events: Unaware of events – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Events: Unaware of events    			
+
+
+Google released Hot Trends.Â  In an interview, the developer of the software, Mr Amit Patel, said something interesting related to eventweb that I found interesting:
+“There are events going on all the time that most of us are not aware of happening,” said Patel.
+This insight that events are happening all the time and people are interested in finding such common — or popular or hot — events is important not only in search engines but in many other fields.Â  But how does one find such events is an interesting issue.Â  Hot Trends capitalizes on the availability of each search as an atomic event.Â  If one can store such atomic events in other applications, then it would be possible to search for hot trends in those applications also.
+
+
+
+By Ramesh |
+    				May 24, 2007 |
+    				             		Experiential Computing, Technical Thoughts |
+             	 
+    				             		1 Comment |
+             	 		          				
+    			
+
+
+← Interesting trip — Child Birth on a flight
+Protecting Ancient Indian Knowledge →
+
+
+
+			One thought on “Events: Unaware of events”		
+
+
+
+
+Andrew May 29, 2007 at 10:41 am 
+
+hot trends is an interesting concept…I used it a few times
+Not impressed though
+Cheers,
+
+
+
+
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+
+
+

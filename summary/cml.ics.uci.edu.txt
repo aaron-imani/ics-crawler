@@ -1,0 +1,198 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/cml.ics.uci.edu.html
+==============================
+Number of Tokens: 1440
+Number of Characters: 2317
+Number of Paragraphs: 6
+Information Ratio: 1.0960
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems | University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+
+Center for Machine Learning and Intelligent Systems
+University of California, Irvine
+
+
+Menu
+Skip to content
+Home
+About CML
+
+About us
+News
+Contact Us
+
+
+People
+
+Faculty
+Alumni
+
+
+Events & Seminars
+
+AI/ML Seminar Series
+AI/ML Seminar Live Stream
+CML Distinguished Speakers
+ML Reading Group
+
+
+Education & Resources
+
+Courses
+Books
+
+
+UCI Machine Learning Archive
+Sponsors & Funding
+Subscribe to CML List
+ 
+
+
+
+
+
+Home 
+
+
+Welcome to the Center for Machine Learning and Intelligent Systems at the University of California, Irvine!
+Recent News:
+
+
+
+
+Jyothi Named a Rising Star by N2Women
+
+
+
+
+
+Congratulations to Sangeetha Abdu Jyothi for being named a 2022 Rising Star in Computer Networking and Communications by N2Women. Prof. Jyothi explores innovative applications of machine learning to systems and networking problems, including award-winning recent work characterizing the resilience of the internet to solar superstorms.
+
+September 1, 2022 
+
+
+
+
+Posted in News 
+|
+Leave a comment
+
+
+
+
+
+
+
+CML Researchers win NAACL Paper Award
+
+
+
+
+
+Congratulations to CML PhD student Robert Logan, and his advisor Prof. Sameer Singh, who received a Best New Task Paper Award at the 2022 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL). Their method, FRUIT: Faithfully Reflecting Updated Information in Text, uses language models to automatically update articles (like […]
+
+July 25, 2022 
+
+
+
+
+Posted in News 
+|
+Leave a comment
+
+
+
+
+
+
+
+CML faculty elected as AAAS Fellows
+
+
+
+
+
+Two faculty affiliated with the UCI Center for Machine Learning and Intelligent Systems have been elected as 2021 AAAS Fellows, joining 190 other AAAS Fellows at UC Irvine. Rina Dechter, Distinguished Professor of Computer Science and Associate Dean for Research in the Donald Bren School of Information & Computer Sciences, was elected for contributions to […]
+
+February 1, 2022 
+
+
+
+
+Posted in News 
+|
+Leave a comment
+
+
+
+
+
+Read more news…
+
+
+
+
+
+
+ 
+Search
+
+
+
+ 
+
+
+(c) 2015 Center for Machine Learning and Intelligent Systems
+
+WordPress/BonPress
+
+
+
+
+
+
+

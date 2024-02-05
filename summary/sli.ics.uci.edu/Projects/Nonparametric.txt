@@ -1,0 +1,69 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/sli.ics.uci.edu/Projects/Nonparametric.html
+==============================
+Number of Tokens: 379
+Number of Characters: 356
+Number of Paragraphs: 1
+Information Ratio: 1.2192
+
+
+
+
+SLI | Projects / Nonparametric 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Projects /
+Nonparametric
+
+
+Placeholder for kernel density estimation and nonparametric Bayesian work...
+
+
+
+
+
+
+ Last modified April 15, 2008, at 05:22 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+

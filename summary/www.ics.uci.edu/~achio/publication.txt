@@ -1,0 +1,357 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~achio/publication.html
+==============================
+Number of Tokens: 1064
+Number of Characters: 2050
+Number of Paragraphs: 6
+Information Ratio: 1.4898
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Publications | Andrew Chio
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Andrew Chio
+
+
+
+
+
+Andrew Chio
+
+
+
+
+Home
+
+
+Projects
+
+
+Publications
+
+
+Contact
+
+
+CV
+
+
+
+
+
+
+
+
+
+
+
+
+
+Light
+
+
+Dark
+
+
+Automatic
+
+
+
+
+
+
+
+
+
+
+Publications
+
+
+
+
+
+
+
+
+
+
+Type
+
+              Conference paper
+            
+
+              Artifact
+            
+
+
+
+
+Date
+
+              2022
+            
+
+              2020
+            
+
+              2019
+            
+
+
+
+
+
+
+
+
+
+Andrew Chio, 
+Daokun Jiang, 
+Peeyush Gupta, 
+Georgios Bouloukakis, 
+Roberto Yus, 
+Sharad Mehrotra, 
+Nalini Venkatasubramanian.
+  
+  In 20th International Conference on Pervasive Computing and Communication
+    (PerCom 2022).
+  SmartSPEC: Customizable Smart Space Datasets via Event-driven Simulations.
+  2022.
+  Mark Weiser Best Paper Award.
+  
+  
+
+  PDF
+
+
+  Cite
+
+
+  Code
+
+
+  Slides
+
+
+  Video
+
+
+
+
+
+
+
+
+
+Andrew Chio, 
+Daokun Jiang, 
+Peeyush Gupta, 
+Georgios Bouloukakis, 
+Roberto Yus, 
+Sharad Mehrotra, 
+Nalini Venkatasubramanian.
+  
+  In 20th International Conference on Pervasive Computing and Communication
+    (PerCom 2022).
+  Artifact: SmartSPEC: Customizable Smart Space Datasets via Event-driven Simulations.
+  2022.
+  
+  
+
+  PDF
+
+
+  Cite
+
+
+  Code
+
+
+
+
+
+
+
+
+
+Yiming Lin, 
+Daokun Jiang, 
+Roberto Yus, 
+Georgios Bouloukakis, 
+Andrew Chio, 
+Sharad Mehrotra, 
+Nalini Venkatasubramanian.
+  
+  In VLDB Endowment, Volume 14.
+  LOCATOR: Cleaning WiFi Connectivity Datasets for Semantic Localization.
+  2020.
+  
+  
+
+  PDF
+
+
+  Cite
+
+
+  Code
+
+
+  DOI
+
+
+
+
+
+
+
+
+
+Andrew Chio, 
+Georgios Bouloukakis, 
+Cheng-Hsin Hsu, 
+Sharad Mehrotra, 
+Nalini Venkatasubramanian.
+  
+  In 18th Workshop on Adaptive and Reflexive Middleware
+    (ARM 2019).
+  Adaptive Mediation for Data Exchange in IoT Systems.
+  2019.
+  
+  
+
+  PDF
+
+
+  Cite
+
+
+  Slides
+
+
+  DOI
+
+
+
+
+
+
+
+
+
+
+
+
+
+    © 2022 Andrew Chio
+  
+
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with Wowchemy — the free, open source website builder that empowers creators.
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cite
+
+×
+
+
+
+
+
+
+
+ Copy
+        
+
+ Download
+        
+
+
+
+
+
+
+
+
+

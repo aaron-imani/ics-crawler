@@ -1,0 +1,62 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/vision.ics.uci.edu/people/4.html
+==============================
+Number of Tokens: 160
+Number of Characters: 510
+Number of Paragraphs: 0
+Information Ratio: 1.1617
+
+
+
+
+
+Computational Vision | ICS | UC Irvine
+
+
+
+
+
+Computational Vision at UC Irvine  
+
+
+
+home
+projects
+people
+publications
+datasets
+events
+courses
+contact
+links
+
+
+
+
+
+
+Songfan YangPostdocPersonal Homepage
+Associated Project(s): Object Recognition
+
+
+
+Publications
+
+
+
+Multi-scale recognition with DAG-CNNsSongfan Yang, Deva RamananIEEE International Conference on Computer Vision, 2015.[pdf]
+
+
+
+
+
+
+Computational Vision |
+      School of Information and Computer Sciences |
+      UC Irvine
+
+© 2007-2017 UC Irvine
+
+
+
+
+

@@ -1,0 +1,73 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/sli.ics.uci.edu/Site/AuthForm.html
+==============================
+Number of Tokens: 394
+Number of Characters: 309
+Number of Paragraphs: 2
+Information Ratio: 1.2929
+
+
+
+
+SLI | Site / AuthForm 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Site /
+AuthForm
+
+
+Password required
+
+$PostVars
+Name: Password: 
+
+
+
+
+
+
+
+ Last modified August 02, 2015, at 03:36 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+

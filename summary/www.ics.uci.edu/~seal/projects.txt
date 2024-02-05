@@ -1,0 +1,219 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~seal/projects.html
+==============================
+Number of Tokens: 717
+Number of Characters: 2599
+Number of Paragraphs: 27
+Information Ratio: 1.3159
+
+
+
+
+SEAL - Projects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home     
+        Members     
+        Publications     
+        Projects
+    
+
+
+Recent Projects
+
+
+
+
+
+            Data-driven Accessibility Repair Revisited: On the Effectiveness of Generating Labels for Icons in Android Apps 
+
+
+
+
+
+
+            Latte: Use-Case Assistive-Service Driven Automated Accessibility Testing Framework for Android 
+
+
+
+
+
+
+            ER Catcher: A Static Analysis Framework for Accurate and Scalable Event-Race Detection in Android 
+
+
+
+
+
+
+            Test Automation in Open-Source Android Apps: A Large-Scale Empirical Study 
+
+
+
+
+
+
+            Test Transfer Across Mobile Apps Through Semantic Mapping 
+
+
+
+
+
+
+            Detection and Repair of Architectural Inconsistencies in Java 
+
+
+
+
+
+
+            Search-Based Energy Testing of Android 
+
+
+
+
+
+
+                SALMA: Self-Protection of Android Systems from Inter-Component Communication Attacks.
+            
+
+
+
+
+
+
+                A Large-Scale Empirical Study on the Effects of Code Obfuscations on Android Apps and Anti-Malware Products.
+            
+
+
+
+
+
+
+                Nemo: Multi-Criteria Test-Suite Minimization with Integer Nonlinear Programming.
+            
+
+
+
+
+
+            A Temporal Permission Analysis and Enforcement Framework for Android 
+
+
+
+
+
+            Automatic Generation of Inter-Component Communication Exploits for Android Applications 
+
+
+
+
+
+            μDroid: An Energy-Aware Mutation Testing Framework for Android 
+
+
+
+
+
+            PATDroid: Permission-Aware Testing for Android 
+
+
+
+
+
+            Savasana: Adaptation Consistency via Code Analysis
+
+
+
+
+
+            A Taxonomy of Program Analysis Techniques for Security Assessment of Android Apps
+
+
+
+
+
+            DELDroid: Determination & Enforcement of Least Privilege Architecture in AnDroid
+
+
+
+
+
+            Titanium: Efficient Analysis of Evolving Alloy Specifications
+
+
+
+
+
+            Energy-Aware Test-Suite Minimization for Android Apps
+
+
+
+
+
+            Covert: Compositional Analysis of Android Inter-application Vulnerabilities
+
+
+
+
+
+            TrimDroid: Reducing Combinatorics in GUI Testing of Android Applications
+
+
+
+
+
+            RevealDroid:Lightweight, Obfuscation-Resilient Detection and Family Identification of Android Malware
+
+
+
+
+Previous Projects
+
+
+
+
+            ARMOUR: An Application-Level Threat Detection Framework
+
+
+
+
+
+            Studying the Impact of Software Architecture on the Quality of Evolving Software Systems
+
+
+
+
+
+            FUSION: A Learning-Based Approach for Feature-Oriented Self-Adaptation
+
+
+
+
+
+            RESIST: Resilient Situated Software Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+

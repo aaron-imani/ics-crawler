@@ -1,0 +1,106 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~mcostafi/publications.html
+==============================
+Number of Tokens: 2178
+Number of Characters: 6041
+Number of Paragraphs: 24
+Information Ratio: 1.0351
+
+
+
+
+
+Mayara Costa Figueiredo
+
+
+
+
+
+
+
+
+Home  | 
+					    Publications | 
+					    Projects | 
+						Teaching | 
+						News | 
+						Press
+
+
+Mayara Costa Figueiredo, PhD
+					mcostafi@uci.edu
+
+
+
+
+
+
+
+Publications
+
+
+
+Full CV • Google Scholar
+
+
+2021
+ Elizabeth Victoria Eikey, Clara Marques Caldeira, Mayara Costa Figueiredo, Yunan Chen, Jessica L. Borelli, Melissa Mazmanian, Kai Zheng (2021). Beyond Self-Reflection: Introducing the Concept of Rumination in Personal Informatics. Personal and Ubiquitous Computing. (Link)
+ 🏅 Figueiredo, M.C., Chen, Y. (2021). Health Data in Fertility Care: An Ecological Perspective. In the 2021 CHI Conference on Human Factors in Computing Systems [forthcoming]. (Pre-print) Honorable Mention Award 
+ Figueiredo, M.C., Huynh, T., Takei, A., Epstein, D.A., Chen, Y. 2021. Goals, Life Events, and Transitions: Examining Fertility Apps for Holistic Health Tracking. The Open Journal of the American Medical Informatics Association (JAMIA Open) (PDF)
+ Caldeira, C., Figueiredo, M.C., Dodakian, L., de Souza, C.R.B., Cramer, S.C., Chen, Y (2021). Towards Supporting Data-Driven Practices in Stroke Telerehabilitation Technology. Proc. ACM Hum.-Comput. Interact., CSCW. 
+2020
+ 🏅 Figueiredo, M.C., Su, H.I., Chen, Y. (2020). Using Data to Approach the Unknown: Patients’ and Healthcare Providers’ Data Practices in Fertility Challenges. Proc. ACM Hum.-Comput. Interact., CSCW. (Pre-print) Honorable Mention Award (top 5%)
+Hussain, M.I., Figueiredo M.C., Tran, B.D., Su Z., Molldrem S., Eikey E.V., Chen Y. A scoping review of qualitative research in JAMIA: past contributions and opportunities for future work. Journal of the American Medical Informatics Association (JAMIA). 2020. (PDF)
+ Figueiredo, M.C., Chen, Y. Patient-Generated Health Data: Dimensions, Challenges, and Open Questions. Foundations and Trends® in Human–Computer Interaction. (PDF)
+Daniel A. Epstein, Clara Caldeira, Mayara Costa Figueiredo, Lucas M. Silva, Xi Lu, Lucretia Williams, Jong Ho Lee, Qingyang Li, Simran Ahuja, Qiuer Chen, Craig Hilby, Sazeda Sultana, Payam Dowlatyari, Elizabeth V. Eikey, Yunan Chen. Mapping and Taking Stock of the Personal Informatics Literature. PACM on Interactive Mobile, Wearable and Ubiquitous Technologies (IMWUT) (PDF) (Paper browser)
+Su Z., Figueiredo M.C., Jo J., Zheng K., Chen Y. Analyzing description, user understanding and expectations of AI in mobile health applications. AMIA Annu Symp Proc. 2020. 
+ Figueiredo, M.C. Su, H.I. Chen, Y. (2020) An Evaluation of Commercial Fertility Apps: Algorithmic Predictions and Users’ Perceptions. In: American Society for Reproductive Medicine Scientific Congress. Late Breaking Abstract Poster (Poster)
+2019
+ Figueiredo, M.C., Hussain, M.I., Ankrah, E.A., Chen, Y. (2019). Powered by AI: Analyzing the Influence of Artificial Intelligence Claims in Fertility Self-Tracking. Workshop: Identifying Challenges and Opportunities in Human–AI Collaboration in Healthcare. In CSCW 2019. (PDF)
+Mayara Costa Figueiredo. 2020. Self-Tracking for Fertility Care: A Holistic Approach. In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI EA ’20). Association for Computing Machinery, New York, NY, USA, 1–9. DOI:https://doi.org/10.1145/3334480.3375029
+2018
+Mayara C. Figueiredo, Clara Caldeira, Elizabeth Eikey, Melissa Mazmanian, Yunan Chen. 2018. Engaging with Health Data: The Interplay Between Self-Tracking Activities and Emotions in Fertility Struggles. Proceedings of the ACM on Human-Computer Interaction. Vol 2, CSCW, Article 40 (November 2018), 19 pages. (PDF)
+2017
+Mayara C. Figueiredo, Clara Caldeira, Tera L. Reynolds, Sean Victory, Kai Zheng, Yunan Chen. 2018. Self-Tracking for Fertility Care: Collaborative Support for a Highly-Personalized Problem. Proceedings of the ACM on Human-Computer Interaction. Vol 1, CSCW, Article 36, (November 2017), 21 pages. (PDF)
+🏅 Figueiredo M., Caldeira C., Chen Y., Zheng K. Routine self-tracking of health: Reasons, facilitating factors, and the potential impact on health management practices. AMIA Annual Symposium. 2017. Third place in the student paper competition in the AMIA 2017 Annual Symposium. (PDF)
+2014
+Figueiredo M.C., De Souza C.R., Pereira M.Z., Prikladnicki R., Audy J.L. Knowledge transfer, translation and transformation in the work of information technology architects. Information and Software Technology. 2014; 56(10):1233-52. (PDF)
+2012
+Figueiredo M., de Souza C., Pereira M., Nicolas Audy J., Prikladnicki R. On the Role of Information Technology Systems Architects. Proceedings of the 18th Americas Conference on Information Systems(AMCIS); 2012 Aug 9-11; Seattle, WA.
+Figueiredo, M.C., Souza, C.R.B. Wolf: Supporting Impact Analysis Activities in Distributed Software Development. In: 5th International Workshop on Cooperative and Human Aspects of Software Engineering, ICSE 2012 workshop, Zurich, Switzerland.
+2011
+Pereira, M.Z., Audy, J.L.N., Prikladnicki, R., Figueiredo, M.C. Souza, C.R.B. SOA Practices and Patterns Applied in Global Software Development. In: International Conference on Enterprise Information Systems, 2011, Beijing, China.
+2010
+Figueiredo, M.C., Souza, C.R.B. An Empirical Study About Software Architects. In: Workshop of Theses and Dissertations of the VII Brazilian Symposium on Collaborative Systems, 2010, Belo Horizonte, Brazil.
+2009
+Figueiredo, M.C., Souza, C.R.B. Supporting Impact Analysis Activities in Distributed Software Development. In: XXXV Latin-American Conference on Informatics, 2009, Pelotas, Brazil.
+2008
+Oeiras, J.Y.Y., Bentolila, D.L.M., Figueiredo, M.C. Heva: a support tool for heuristic evaluation for Web systems. In: VIII Brazilian Symposium on Human Factors in Computing Systems, 2008, Porto Alegre, Brazil.
+Leal, M., Figueiredo, M.C., Souza, C.R.B. A semi-automatic approach to maintaining traceability links. In: Workshop on Requirements Engineering, 2008, Barcelona, Spain.
+
+
+
+
+
+
+
+
+Twitter
+Email
+
+
+© Mayara Costa FigueiredoDesign: HTML5 UP
+
+						Background by Solen Feyissa on Unsplash
+					
+
+
+
+
+
+
+
+
+
+
+
+

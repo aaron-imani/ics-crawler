@@ -1,0 +1,52 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/%7Eemilyo/research.html
+==============================
+Number of Tokens: 290
+Number of Characters: 524
+Number of Paragraphs: 9
+Information Ratio: 1.1516
+
+
+
+
+
+
+Emily Navarro - Research
+
+
+
+
+
+Emily Navarro
+
+
+
+
+
+
+
+
+
+
+
+
+Home  |   Contact  |   Research  |   Publications  |   Teaching  |  
+
+The main focus of my past research was SimSE, an educational software engineering simulation environment whose goal is to allow software engineering students to learn and practice the software engineering process in a graphical, realistic, fully interactive, and entertaining setting. See the SimSE Website for more information.
+
+University of California, Irvine
+Copyright © 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

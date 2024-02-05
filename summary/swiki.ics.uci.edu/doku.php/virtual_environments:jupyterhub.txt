@@ -1,0 +1,696 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/swiki.ics.uci.edu/doku.php/virtual_environments:jupyterhub.html
+==============================
+Number of Tokens: 3131
+Number of Characters: 11564
+Number of Paragraphs: 66
+Information Ratio: 1.0837
+
+
+
+
+
+
+
+    Jupyterhub @ ICS    [Support Wiki]
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skip to content
+
+
+
+
+
+
+          [[Jupyterhub @ ICS]]
+        
+
+Support Wiki 
+
+
+Trace: • Jupyterhub @ ICS 
+
+
+
+Show pagesource 
+
+Recent ChangesSitemapLog In 
+
+
+Search 
+
+
+
+Table of Contents
+
+
+Jupyterhub @ ICS
+
+Quickstart
+Overview
+
+Fall Quarter Improvements
+Key features and benefits:
+Complete Specs
+
+
+Documentation
+ICS Hub
+
+Getting Started
+Restarting your Server
+Creating multiple servers
+Instructional Ecosystem
+ChangeLog
+Installing and Running PostgreSQL
+Copying Files
+FAQ and Troubleshooting
+
+
+Troubleshooting
+
+Submitting a Trouble Report
+Can't Open CSV File
+X11 Desktop Blank
+Can't Start a Server
+Can't Delete Pod
+
+
+Other Virtual Resources @ ICS
+
+
+
+
+
+Jupyterhub @ ICS
+
+
+Management Information(sgroup only)
+
+
+Quickstart
+
+
+ If you are off campus you will need to first connect to the Campus VPN
+
+ Visit https://hub.ics.uci.edu. 
+
+  Course specific sites are available, for a specific URL please talk to your instructor.
+
+
+
+ Log in with your ICS credentials.  
+
+
+
+Overview
+
+
+ICS Instructors, researchers and students are invited to connect to Jupyterlab@ICS  https://hub.ics.uci.edu.  
+
+
+Jupyterlab@ICS turns any web browser into a personal Linux server offering a Linux terminal,  Jupyter Notebook, an X11 desktop and other web-based apps such as Rstudio, VSCode.  ICS home directories are mounted to provide persistent storage. 
+
+
+Fall Quarter Improvements
+
+
+ A larger, faster flash storage backend.
+
+ Self managed package installation (`sudo apt`)
+
+ Longer run times (idle nodes are removed after 7 days)
+
+ More hardware behind the cluster 
+
+ Specialized research group and course offerings.
+
+ Larger pods with up to 8 cores and 16GB RAM.
+
+ Latest version of VSCode and Rstudio web apps.
+
+ Jupyterhub has been updated to 1.4.2 and kubernetes 1.19
+
+
+
+Jupyterlab@ICS is built on donated equipment in the openlab cluster for research and instructional computing.
+
+
+
+
+
+Key features and benefits:
+
+
+ Nothing to configure, no VM to run, no modules to load.
+
+ Prior sessions can be reopened from the Running Terminals and Kernels pane.
+
+ Persistent storage in your ICS home directory.
+
+ Students and instructors work in the same cloud IDE.
+
+ Works for any OS and any browser.
+
+ Customizable per course of per research group.
+
+ Users are isolated from one another.
+
+ Mid-quarter update.
+
+
+
+Complete Specs
+
+
+When you login to ICS Jupyterhub using any web browser, you get a personal docker container
+
+
+ Ubuntu 20.04
+
+ 18 nodes
+
+ 360 CPU Cores
+
+ 1.33 TiB Memory Total
+
+ Up to up to 8 vcpu cores and 16 GB RAM  More
+
+ Backed by super quick all flash storage  Faster
+
+ Your own ICS Account home directory  
+
+ `sudo apt` allows self-service software installation.
+
+ IDE's
+
+ VSCode
+
+ Rstudio
+
+ Octave
+
+
+
+ Servers
+
+ Shiny Server
+
+
+
+ Notebooks
+
+ Python
+
+ JavaScript
+
+ Julia 
+
+ R
+
+ Octave
+
+
+
+ CLI Tools
+
+ gcc/g++ and debugger
+
+ python3
+
+ R
+
+ Java
+
+
+
+ GIT Integration tools
+
+ X11 DEsktop
+
+
+
+Documentation
+
+
+ Jupyterhub.org
+
+ Zero2Jupyterhub
+
+ Git Repo
+
+ Customization Guide
+
+ Jupyterhub Git Integration Guide Good place for help
+
+
+
+ICS Hub
+
+
+ICS is running a Jupyter lab.
+
+
+Getting Started
+
+
+ If you are off campus you will need to first connect to the Campus VPN
+
+ Visit https://hub.ics.uci.edu. 
+
+  Course specific sites are available, for a specific URL please talk to your instructor.
+
+
+
+ Login with your ICS credentials.  
+
+
+
+
+Notebooks: R,Python3, NodeJS, Julia
+
+
+VSCode
+
+
+X11 Desktop
+
+
+
+Restarting your Server
+
+
+In order to restart your Jupyterhub pod, navigate to the Hub Control Panel from the menu:  “File > Hub Control Panel”
+
+
+
+
+
+This will open a new tab similar to this:
+
+
+
+
+
+If a Jupyterhub pod is currently running, there will large red button that says “Stop My Server”.  Clicking on that button will stop the running Jupyterhub pod.
+
+
+After a moment, the “Stop My Server” and “My Server” buttons will be replaced by a “Launch Server” Button, click on it and follow on screen prompts.
+
+
+
+
+
+Creating multiple servers
+
+
+Users can start multiple Jupyter servers on a single JupyterHub instance. 
+
+
+In order to start a second server, navigate to the Hub Control Panel in “File > Hub Control Panel”
+
+
+
+
+
+This will open a new tab.
+
+
+
+
+
+Enter a name for your new server, then click on the link to the right: “Add New Server”.
+
+
+Instructional Ecosystem
+
+
+General Availability
+
+
+The https://hub.ics.uci.edu site includes a wide number of extensions.   These extensions will come and go during the quarter based on availability, usefullness, load, and security.  Please send any requests for new extensions to helpdesk@ics.uci.edu.
+
+
+Specific Course Hubs
+
+
+Instructors may request a course specific hub.  Available plugins will not change during the quarter except in response to extreme security  vulnerabilities.  Course hubs can be restricted to enrolled students and students on a list curated by the instructor.  Upon request, instructors may be given rights to view student projects. 
+
+
+ChangeLog
+
+
+9/30/2020 containers.ics.uci.edu/jupyter/notebook:2020093004
+
+
+ Ubuntu 20.04
+
+ Base notebook changed to https://hub.docker.com/r/jupyter/scipy-notebook
+
+ R version 4.0.2
+
+
+
+Installing and Running PostgreSQL
+
+
+Please send email to helpdesk@ics.uci.edu if you have any problems running the following commands.
+
+
+Start up a terminal from the launcher (you can start the launcher with ctrl + shift +l):
+
+
+
+
+
+Install
+
+
+To install, run the following from the terminal command line.
+
+sudo apt update 
+sudo apt install -y postgresql
+
+Allowed Commands
+
+
+The following are commands you can run:
+
+apt remove
+apt install
+apt upgrade
+tcpdump
+netstat
+
+If you need to use other commands, email helpdesk@ics.uci.edu for consideration with an explanation as to why you need the command.
+
+
+Running as non-root
+
+
+The following command create the database in your ICS home directory (which is persistent storage) and runs locally on the machine.
+
+export PATH=$PATH:/usr/lib/postgresql/12/bin/
+initdb -D ~/pgsql  -U your_user_name
+pg_ctl -D ~/pgsql -l logfile -o "-k /tmp" start
+
+If you restart your hub, you will need to install and run pgsql again, but you will not need to re-initialize the database.
+
+
+Copying Files
+
+
+Upload
+
+
+NOTE:  This works for small file sizes. Please use Samba to map your network drive to copy large file.
+
+
+ Open the jhub filebrowser by clicking on the indicated file browser icon:
+
+ 
+
+
+
+ Drag files from your local computer into the file tree on the left hand window pane in your browser.  This uploads the file into your ICS account:
+
+ 
+
+
+
+
+
+Download
+
+
+ Simply right click on the file you would like to download and select “Download” from the popup menu:
+
+ 
+
+
+
+
+
+FAQ and Troubleshooting
+
+
+How do I debug C++ code in VSCode
+
+
+A  Install the C/C++ IntelliSense extension for VSCode:
+
+
+https://github.com/Microsoft/vscode-cpptools
+
+
+
+
+
+Note that VSCode in hub is not true VSCode, and as such it won't have access to the same list of extensions.  The product used inside of hub is:
+
+
+https://github.com/cdr/code-server
+
+
+Q My pod is stopped after 1 hour of idleness (3600 seconds)
+
+A By defualt, jupyterhub culls idle pods after 3600 seconds.   That has been extended to 1 week on stage.     Culling User Pods
+
+
+Q I receive the error “Please use a different workspace.” 
+
+Please use a different workspace.
+This workspace is already in use in another JupyterLab window. 
+Please enter another workspace name.
+
+Q “503 : Service Unavailable Your server appears to be down. Try restarting it from the hub.” 
+
+You ran out of space or have too many files on your home directory (H:).  Delete files as needed.
+
+A You already have a Jupyterlab browser open.  Simply type in a name for the new desktop, anything you like, and click on “Switch Workspace”.
+
+
+Q Are we using our own docker hub
+
+
+A  We run Harbor locally.
+
+
+We were very happy with it until version 1.9 implemented an AD specific directory search.  We are currently running an ICS fork but, if the folks at 
+goharbor do not fix it, we will need to find another solution.
+
+
+Q RStudio does not have the same installed packages as R 
+
+
+A Use the following command to add the local conda library to your RStudio session
+
+     .libPaths( c( "/opt/conda/lib/R/library/" , .libPaths() ) )
+     
+     
+
+Q Desktop blank or only shows a black background.
+
+
+A  In the past this has happened when moving from an older version of the hub to a newer one.   See fi the following steps resolve the issue:
+
+
+ Click on the stop server button in https://hub.ics.uci.edu/hub/admin#/
+
+ ssh into openlab.ics.uci.edu and `rm -rf ~/.jupyterhub ~/.config/xfce4`
+
+ Start a new server in https://hub.ics.uci.edu/hub/admin#/ (or log out and back into https://hub.ics.uci.edu
+
+
+
+Troubleshooting
+
+
+Submitting a Trouble Report
+
+
+Places to get help
+
+
+First and foremost, bring the problem to your instructor's or TA's attention.   Chances are you are not the only one experiencing this problem and they will be able to help or provide you with the next steps to resolving your problem.
+
+
+Your instructor may ask to you submit a trouble report to the ICS Computing Support Helpdesk if they don't have the solution or if you need more help than they can provide.
+
+
+How to submit
+
+
+In order to submit a helpdesk, please include the following information in an email to helpdesk@ics.uci.edu:
+
+
+ ICS Account Name
+
+ Hub Insance (e.g. ics51, ics53)
+
+ Location(e.g. Home, Openlab, Middle Earth)
+
+ Campus VPN
+
+ Operating System
+
+ Browser
+
+ Hub Applications (e.g. desktop, termlina, R)
+
+ Time and date that the problem occured
+
+ Symptom/Issue.
+
+
+
+Can't Open CSV File
+
+
+Symptoms
+
+
+The hub container hangs when trying to open up a CSV file.
+
+
+Solution
+
+
+Use the Firefox browser.  The CSV reader exhausts a memory limit that both Edge and Chrome have set.   
+
+
+Permament solution is pending.
+
+
+X11 Desktop Blank
+
+
+Symptoms
+
+
+The X11 desktop is blank or black.  
+
+
+Solution
+
+
+You will need to restart the hub container using the directions above above.
+
+
+This happens when the “Send CtlAltDel” button is clicked in the upper right corner of the screen.  We are looking for a solution, but for the time being, do not click that button.
+
+
+Can't Start a Server
+
+
+Symptoms
+
+
+See helpdesk ticket 73286
+
+
+It appears as if the server failed to start:
+
+
+
+
+
+Running `kubectl -n jhub log jupyter-junjies1`, immediately after opening starting the jhub server, revealed log messages regarding permissions.
+
+
+Solution
+
+
+In this case, the user home directory was set to 0700.  Setting the user home directory to 0711 resolved the problem.
+
+
+Can't Delete Pod
+
+
+Symptoms
+
+
+See https://helpdesk.ics.uci.edu/Ticket/Display.html?id=73077
+
+kubectl  -n jhub-ics53 delete pod jupyter-dingruiz
+...
+Events:
+  Type     Reason         Age                    From                  Message
+  ----     ------         ----                   ----                  -------
+  Warning  FailedKillPod  2m19s (x55 over 111m)  kubelet, centaurus-5  error killing pod: failed to "KillContainer" for "notebook" with KillContainerError: "rpc error: code = Unknown desc = operation timeout: context deadline exceeded"
+
+Fix
+
+
+Try this:
+
+kubectl  -n jhub-ics53 delete pod jupyter-dingruiz
+
+If that doesn't work:
+
+kubectl  -n jhub-ics53 delete pod jupyter-dingruiz --now
+
+When all else fails:
+
+kubectl  -n jhub-ics53 delete pod jupyter-dingruiz --grace-period=0 --force  
+
+Other Virtual Resources @ ICS
+
+
+ Kubernetes@ICS
+
+ Docker@ICS
+
+ Instructional Virtual Machines
+
+
+
+
+
+
+
+
+
+virtual_environments/jupyterhub.txt · Last modified: 2022/10/14 11:25 by luciad 
+
+
+
+
+
+Show pagesourceOld revisions 
+
+Media ManagerBack to top 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,597 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~fmehrali.html
+==============================
+Number of Tokens: 1989
+Number of Characters: 4453
+Number of Paragraphs: 18
+Information Ratio: 1.1602
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Forough Mehralian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Forough Mehralian
+Software Engineer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About Me
+
+
+
+
+
+Full Name:Forough Mehralian
+Phone:+1(949)774-9929
+Email:fmehrali@uci.edu
+Website:www.ics.uci.edu/~fmehrali
+Address:Room 5231,Donald Bren School of Information and Computer Sciences, University of California, Irvine
+
+
+
+Hello World!
+My name is Forough /fo'ruːg/ . I am a third year PhD student in software engineering program at Informatics Department of Donald Bren School of Information & Computer Sciences, University of California, Irvine.
+
+Download Resume
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My Resume
+
+
+
+
+
+
+Education
+
+
+
+
+
+PhD
+University of California, Irvine - 2018 - 2024
+
+
+
+
+
+
+
+Master Degree
+Sharif University of Technology - 2015 - 2018
+
+
+Recognized as an Exceptional Talented BSc Student, I was granted for MSc of Software Engineering. My thesis title is "Recommending Feature Changes for Mobile Applications via Mining User Reviews" for which I was lucky to be supervised by Prof. Abbas Heydarnoori.  
+
+
+
+
+
+
+
+Bachelor Degree
+Sharif University of Technology - 2011 - 2015
+
+
+As a top rank student in the enterance exam of universities, I had the chance to choose any major in any university in our country. Software Engineering in SUT, known as the most remarkable technical university in Iran, was definitely the best choice to fulfill my dreams and ambitions.
+
+
+
+
+
+
+
+High School Diploma 
+Farzanegan - 2007 - 2011
+
+
+I was proud to be admitted as a member of National Organization for Development of Exceptional Talents (NODET) by passing its exam and to be able to get my diploma in  Mathematics and Physics  from Farzanegan Highschool. 
+
+
+
+
+
+Work Experience
+
+
+
+
+
+Software Engineering Intern
+Cafe Bazaar - Summer 2018
+
+
+Implementation of Jarchi mircro-service for handling advertisements in the search page of Bazaar application
+
+
+
+
+
+
+
+Researcher
+Avan Software Technology Advisors(ASTA) - 2015 - Current
+
+
+ Consultation, ideation and excecution in the domain of Javacup activities, a non-profitable community of Iranian java developers.
+
+
+
+
+
+
+
+Software Engineering Intern
+PayamPardaz - summer 2015
+
+
+Design and Implementation of a secure forum based on Meteor and an android application for BYOD companies.
+
+
+
+
+
+
+
+Android Developer
+Behsa - summer 2014
+
+
+Design and Implementation of an android application for taxi inspection.
+
+
+
+
+
+Research Experience
+
+
+
+
+
+Research Assistant
+Automated Software Engineering Laboratory - fall 2016
+
+
+ Collaboration in a research project entitled "Exception Fault localization in Android Applications" 
+Improving the automatic testcase generation module of the approach
+
+
+
+
+
+
+
+Undergraduate Research Assistant
+Energy Aware System Laboratory - spring, summer 2013
+
+
+Collaboration in a Ph.D thesis entitled "Power Managing in Data Center with Renewable Energy"
+C++ Implementation of an energy-aware approach of task scheduling in datacenters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notable Projects
+
+
+
+
+
+
+Handwritten Digit Recognition
+Matlab implementation of several classification algorithms working on MNIST dataset
+
+
+
+
+
+
+Taxi Management System
+Two android applications for driver and passenger and a django server
+
+
+
+
+
+
+Knowledge Management System
+A java implementation of KMS system with focus on object oriented design patterns and RUP methodology
+
+
+
+
+
+
+Pomodoro Android Application
+Android application of the Pomodoro time management technique
+
+
+
+
+
+
+Book Search Engine
+Java implementation of a crawler and a search engine using information retrieval libraries and tools such as Lucene and Weka
+
+
+
+
+
+
+Online Store Website
+Design and implementation of an online book store using django, Javascript, html/css
+
+
+
+
+
+
+Numerical Methods
+Matlab implementation of more than 20 numerical methods
+
+
+
+
+
+
+Jungle Secret
+Java implementation of a board game with this name
+
+
+
+
+
+
+
+
+
+
+Skills
+
+
+
+
+
+Java80%
+
+
+C/C++70%
+
+
+Python70%
+
+
+bash50%
+
+
+MySQL80%
+
+
+PostgreSQL70%
+
+
+Android75%
+
+
+Django70%
+
+
+
+
+
+Machine Learning80%
+
+
+
+
+
+
+OO Design Patterns70%
+
+
+
+
+
+
+Software Development Methodologies(RUP)80%
+
+
+
+
+
+
+Matlab70%
+
+
+
+
+
+
+
+
+Eclipse90%
+
+
+
+
+
+
+PyCharm70%
+
+
+
+
+
+
+Intellij Idea70%
+
+
+
+
+
+
+Linux70%
+
+
+
+
+
+
+
+And familiar with many other languages, frameworks, technologies, ...
+
+
+
+
+
+
+
+Contact Me!
+feel free to contact me via:
+gmailTelegramSkype
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+© 2017 Forough Mehralian | Designed by FreeHTML5.co 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,167 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~dsm/publications_new.html
+==============================
+Number of Tokens: 489
+Number of Characters: 674
+Number of Paragraphs: 5
+Information Ratio: 1.8774
+
+
+
+
+
+
+
+
+DSM @ UC Irvine -- Publications
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Example: infocom 2018 (finds the intersection of the two
+                                        terms)
+
+
+
+
+
+(Top of the page)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+                                            
+
+
+
+
+
+,
+,
+In ,
+,
+,
+.
+
+
+                                                [bib]
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Distributed Systems Middleware Group - School of Information and
+                        Computer Sciences - University
+                        of California, Irvine
+                    Bren Hall, Irvine, CA 92697, USA
+
+
+
+
+
+
+
+
+
+
+

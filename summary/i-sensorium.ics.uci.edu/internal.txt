@@ -1,0 +1,52 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/i-sensorium.ics.uci.edu/internal.html
+==============================
+Number of Tokens: 235
+Number of Characters: 393
+Number of Paragraphs: 3
+Information Ratio: 1.1293
+
+
+
+
+
+bbPress installer › Welcome
+
+
+
+
+
+
+
+
+
+
+Welcome to the bbPress installer
+
+We're now going to go through a few steps to get you up and running.
+Ready? Then let's get started!
+
+There doesn't seem to be a bb-config.php file. This usually means that you want to install bbPress.
+
+
+
+
+
+
+
+
+
+Step 1 - Database configuration
+
+
+
+Step 2 - WordPress integration (optional)
+
+
+
+Step 3 - Site settings
+
+
+
+
+
+

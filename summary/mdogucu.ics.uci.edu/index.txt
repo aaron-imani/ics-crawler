@@ -1,0 +1,73 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/mdogucu.ics.uci.edu/index.html
+==============================
+Number of Tokens: 545
+Number of Characters: 1923
+Number of Paragraphs: 4
+Information Ratio: 1.0749
+
+
+
+
+
+
+
+Dr. Mine Dogucu
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+Mine Dogucu
+ Home 
+ Teaching 
+ Publications 
+ Talks 
+ Workshops 
+ CV 
+
+
+   
+   
+   
+   
+   
+
+
+
+
+  
+
+
+
+ 
+		
+		I am a Lecturer (Teaching) in the Department of Statistical Science at University College London and I am currently on leave from my Assistant Professor of Teaching (tenure-track) position in the Department of Statistics at University of California Irvine. I am an educator with an interest in statistics and data science education and I am an applied statistician with experience in educational research. In short, my educational work is in statistics and data science and my statistics and data science work is in education (Pre K - graduate school). 
+
+      My goal is to create educational resources for statistics and data science that are accessible physically and cognitively. My work focuses on modern pedagogical
+      approaches in the statistics curriculum, making data science education accessible, and undergraduate
+      Bayesian education. I am the coauthor of the book Bayes Rules! An Introduction to Applied Bayesian Modeling. 
+I am the lead PI on the NSF-funded project  Advancing Bayesian Thinking in STEM, a co-PI on the NSF-funded SoCal Data Science project, and one of the PIs on the NIH funded project Irvine Summer Institute in Biostatistics and Undergraduate Data Science. I teach a variety of statistics, computing, and data science classes at the undergraduate and graduate levels. I write blog posts about data, pedagogy, and data pedagogy at  DataPedagogy.com. I co-chair the (American) national Undergraduate Statistics Project Competition
+      and Electronic Undergraduate Statistics Research Conference
+      (USPROC/eUSR). 
+     This is how my name is pronounced: Mi - neh Doe - uu- joo. In the audio file below, I pronounce my name.  
+
+
+      Your browser does not support the audio element. 
+
+© 2022 Mine Dogucu. All Rights Reserved.	
+
+
+
+
+
+
+

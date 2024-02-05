@@ -5,7 +5,7 @@ def extract_info(original_file_path, output_file_path):
         content = file.read()
 
     # Use regular expression to find matches for all links with the specified format
-    pattern = re.compile(r'File: /Users/abhinandganesh/Desktop/ics-crawler/visited/(.+)\.html\n=*[\S\s]*?Number of Tokens: (\d+)\nNumber of Characters: (\d+)\nNumber of Paragraphs: (\d+)\nInformation Ratio: ([\d.]+\Size of File: (\d+)+)')
+    pattern = re.compile(r'File: (.+)\.html\n=*[\S\s]*?Number of Tokens: (\d+)[\S\s]*?Number of Characters: (\d+)[\S\s]*?Number of Paragraphs: (\d+)[\S\s]*?Information Ratio: ([\d.]+)\nFile Size: (\d+)')
     matches = pattern.findall(content)
 
     if not matches:
@@ -24,6 +24,6 @@ def extract_info(original_file_path, output_file_path):
         output_file.writelines(extracted_info)
 
 # Example usage
-original_file_path = 'C:/Users/diyac/ics-crawler/Report_stuff/D_full_log.txt'
-output_file_path = 'C:/Users/diyac/ics-crawler/Report_stuff/extracted_info.txt'
+original_file_path = 'C:/Users/diyac/ics-crawler/Report_stuff/full_log_Diya.txt'
+output_file_path = 'C:/Users/diyac/ics-crawler/Report_stuff/Extracted_html_links.txt'
 extract_info(original_file_path, output_file_path)

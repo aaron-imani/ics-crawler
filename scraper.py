@@ -12,7 +12,7 @@ config_parser.read('config.ini')
 MIN_TOKEN_COUNT = config_parser.getint('SCRAPER', 'MIN_TOKEN_COUNT', fallback=100)
 MIN_TEXT_CONTENT_LENGTH = config_parser.getint('SCRAPER', 'MIN_TEXT_CONTENT_LENGTH', fallback=1000)
 MAX_DEPTH = config_parser.getint('SCRAPER', 'MAX_DEPTH', fallback=10)
-MAX_FILE_SIZE_BYTES = 10 * 1024 * 1024  # CHECK DIYA
+MAX_FILE_SIZE_BYTES = 36220  # DESCRIBE IN THE README HOW WE GOT THIS DIYA
 last_vistied = {}
 
 def scraper(url, resp):

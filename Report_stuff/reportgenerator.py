@@ -41,7 +41,7 @@ def print_file_details(file_path, file_details, output_directory):
         output.write(f"Number of Characters: {file_details['num_chars']}\n")
         output.write(f"Number of Paragraphs: {file_details['num_paragraphs']}\n")
         output.write(f"Information Ratio: {file_details['information_ratio']:.4f}\n")
-        output.write(f"File Size: {file_details['file_size']} bytes\n")
+        output.write(f"File Size: {file_details['file_size']}\n")
         output.write("\n")
         output.write(file_details['text_content'])
         output.write("\n\n")

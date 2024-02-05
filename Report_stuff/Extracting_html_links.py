@@ -5,7 +5,7 @@ def extract_info(original_file_path, output_file_path):
         content = file.read()
 
     # Use regular expression to find matches for all links with the specified format
-    pattern = re.compile(r'File: /Users/abhinandganesh/Desktop/ics-crawler/visited/(.+)\.html\n=*[\S\s]*?Number of Tokens: (\d+)\nNumber of Characters: (\d+)\nNumber of Paragraphs: (\d+)\nInformation Ratio: ([\d.]+)')
+    pattern = re.compile(r'File: /Users/abhinandganesh/Desktop/ics-crawler/visited/(.+)\.html\n=*[\S\s]*?Number of Tokens: (\d+)\nNumber of Characters: (\d+)\nNumber of Paragraphs: (\d+)\nInformation Ratio: ([\d.]+\Size of File: (\d+)+)')
     matches = pattern.findall(content)
 
     if not matches:
@@ -13,8 +13,8 @@ def extract_info(original_file_path, output_file_path):
 
     extracted_info = []
     for match in matches:
-        link, tokens, characters, paragraphs, info_ratio = match
-        extracted_info.append(f"\nFile: {link}.html\n==============================\nNumber of Tokens: {tokens}\nNumber of Characters: {characters}\nNumber of Paragraphs: {paragraphs}\nInformation Ratio: {info_ratio}\n")
+        link, tokens, characters, paragraphs, info_ratio, file_size = match
+        extracted_info.append(f"\nFile: {link}.html\n==============================\nNumber of Tokens: {tokens}\nNumber of Characters: {characters}\nNumber of Paragraphs: {paragraphs}\nInformation Ratio: {info_ratio}\nFile Size: {file_size}")
 
     if not extracted_info:
         print("No information extracted. Please check the content and regular expression.")
@@ -25,5 +25,5 @@ def extract_info(original_file_path, output_file_path):
 
 # Example usage
 original_file_path = 'C:/Users/diyac/ics-crawler/Report_stuff/D_full_log.txt'
-output_file_path = 'C:/Users/diyac/ics-crawler/Report_stuff/Extracted_html_links.txt'
+output_file_path = 'C:/Users/diyac/ics-crawler/Report_stuff/extracted_info.txt'
 extract_info(original_file_path, output_file_path)

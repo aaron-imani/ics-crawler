@@ -12,6 +12,7 @@ config_parser.read('config.ini')
 MIN_TOKEN_COUNT = config_parser.getint('SCRAPER', 'MIN_TOKEN_COUNT', fallback=100)
 MIN_TEXT_CONTENT_LENGTH = config_parser.getint('SCRAPER', 'MIN_TEXT_CONTENT_LENGTH', fallback=1000)
 MAX_DEPTH = config_parser.getint('SCRAPER', 'MAX_DEPTH', fallback=10)
+MAX_FILE_SIZE_BYTES = 10 * 1024 * 1024  # CHECK DIYA
 last_vistied = {}
 
 def scraper(url, resp):
@@ -47,6 +48,11 @@ def extract_next_links(url, resp):
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
     global last_vistied #DIYA CHECK 
     unq_links = set()
+    
+    content_size = len(resp.raw_response.content)
+    if content_size > MAX_FILE_SIZE_BYTES:
+        print(f"File size exceeds the maximum threshold for {url}. Skipping extraction.")
+        return []
 
     # Checking dead URL
     if resp.status != 200:

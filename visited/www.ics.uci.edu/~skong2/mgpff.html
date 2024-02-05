@@ -1,0 +1,262 @@
+<html>
+<head>
+<title> Image Reconstruction using Predictive Filter Flow - Shu Kong (Aimery) - UC Irvine - Computer Vision</title>
+<link rel="icon" href="image/pff_icon_smallSize.png" type="img/jpg">
+<style>
+h1 { padding : 0; margin : 0; }
+body { padding : 0; font-family : Arial; font-size : 16px; background-color : #EFEFEF; } /* background-image : url('bg.png');}*/
+#container { width : 1024px; margin : 20px auto;  background-color : #fff; padding : 50px; border : 1px solid #ccc; }
+#me { border : 0 solid black; margin-bottom : 0;}
+#sidebar { margin-left : 25px; border : 0 solid black; float : right; margin-bottom : 0;}
+#content { display : block; margin-right : 260px;}
+a { text-decoration : none; }
+a:hover { text-decoration : underline; }
+a:visited { color : blue; }
+a.invisible { color : inherit; text-decoration : inherit; }
+.publogo { margin-right : 10px; height: 50px; width: 50px; float : left; border : 0;}
+.publication { clear : left; padding-bottom : 0px;}
+.publication p { height : 60px; }
+.codelogo { margin-right : 10px; float : left; border : 0;}
+.code { clear : left; padding-bottom : 10px; vertical-align :middle;}
+.code .download a { display : block; margin : 0 15px; float : left;}
+<!-- #simpsons { margin : 5px auto; text-align : center; color : #B7B7B7; } -->
+<!-- 	#erdos { color : #999; text-align : center; font-size : 12px; } -->
+</style>
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26193351-1']);
+	_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+</head>
+
+<body>
+<div id="container">
+<div id="sidebar">
+<figure>
+<img src="https://www.ics.uci.edu/~skong2/image2/icon_mgpff_small_dog.gif" id="me" width="200">
+</figure>
+
+<figure>
+<img src="https://www.ics.uci.edu/~skong2/image2/icon_mgpff_small_soccer.gif" id="me" width="200">
+<figcaption>Unsupervised Learning<p>for instance tracking</figcaption>
+</figure>
+<br>
+</div>
+
+<div id="content">
+<h1 align="center">Multigrid Predictive Filter Flow for Unsupervised Learning on Videos</h1>
+
+
+<p align="center">
+          <a href="http://www.ics.uci.edu/~skong2/" target="_blank">Shu Kong</a>, 
+          <a href="http://www.ics.uci.edu/~fowlkes/" target="_blank">Charless Fowlkes</a>
+</p>
+
+
+<p>
+<font color="red">Last update: March 24, 2019.</font>
+</p>
+We introduce multigrid Predictive Filter Flow (mgPFF), a framework for
+   unsupervised learning on videos.
+   The mgPFF takes as input a pair of frames and outputs per-pixel filters
+   to warp one frame to the other.
+   Compared to optical flow used for warping frames,
+   mgPFF is more powerful in modeling sub-pixel movement and dealing with corruption
+   (e.g., motion blur).
+   We develop a multigrid coarse-to-fine modeling strategy that avoids the
+   requirement of learning large filters to capture large displacement.
+   This allows us to train an extremely compact model (<b>4.6MB</b>)
+   which operates in a progressive way over multiple resolutions with shared
+   weights.
+   We train mgPFF on unsupervised, free-form videos and
+   show that mgPFF is able to not only estimate long-range flow for frame reconstruction
+   and detect video shot transitions,
+   but also readily amendable for video object segmentation and pose tracking,
+   where it substantially outperforms the published state-of-the-art
+   without bells and whistles.
+   Moreover,
+   owing to mgPFF's nature of per-pixel filter prediction,
+   we have the unique opportunity to visualize how each pixel is evolving
+   during solving these tasks, thus gaining better interpretability.
+
+
+
+
+<p>
+<b>keywords</b>: 
+Unsupervised Learning, Multigrid Computing, Long-Range Flow, Video Segmentation, Instance Tracking, Pose Tracking,
+Video Shot/Transition Detection, Optical Flow, Filter Flow, Low-level Vision,
+
+
+
+<ul>
+<div class="publication">
+<p> <b>S. Kong</b>, C. Fowlkes, "<font color=#AF7817>Multigrid Predictive Filter Flow for Unsupervised Learning on Videos</font>", 
+<a href="http://arxiv.org/abs/1904.01693">arXiv 1904.01693</a>, 2019.
+<br>
+[<a href="https://www.ics.uci.edu/~skong2/mgpff.html">project page</a>]
+[<a href="http://arxiv.org/abs/1904.01693">paper</a>]
+[<a href="https://github.com/aimerykong/predictive-filter-flow/blob/master/mgPFF_video/demo01_videoSegTrack.ipynb">demo</a>]
+[<a href="https://github.com/aimerykong/predictive-filter-flow/tree/master/mgPFF_video">github</a>]
+[<a href="https://docs.google.com/presentation/d/1VcA794mt0ukg2ojUnOzbFL8HzpRjEbRp4HXULAIp13Y/edit?usp=sharing">slides</a>]
+[poster]
+</p>
+</div>
+</ul>
+
+
+
+<p>
+<b>Acknowledgements</b>: 
+This project is supported by NSF grants IIS-1813785, IIS-1618806, IIS-1253538
+and a hardware donation from NVIDIA.
+Shu Kong personally thanks Teng Liu and Etthew Kong who initiated this research,
+and the academic uncle Alexei A. Efros for the encouragement and discussion.
+
+
+
+<br><br>
+<br><br>
+
+<h1>Teaser for Ablation</h1>
+<p>
+These videos are recorded to demonstrate how mgPFF performs with different setup. Go to 
+<a href='https://www.youtube.com/playlist?list=PLeUWdu37dSLp68AsgE8RM2x-HJjU_2aEE'>Youtube Playlist</a> and refer
+to the description under each video for the setup.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLeUWdu37dSLp68AsgE8RM2x-HJjU_2aEE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br>
+<br><br>
+
+
+
+
+<section>
+<h1>Video Object Segmentation/Tracking</h1>
+<p>Propagating the mask using the predicted filter flow. Through visualization, 
+we have a unique opportunity to track each pixel and understand how every single pixel evolves over time.
+<div id="content">
+            <center>
+              <img src="http://www.ics.uci.edu/~skong2/image2/show_DAVIS.png" alt="[lng_lat_ecef]" width="800" />
+            </center>
+</div>
+</ul>
+<br><br>
+<br><br>
+</section>
+
+
+<section>
+<h1>Human Pose Tracking</h1>
+<p>Propagating the keypoints with the predicted filter flow. Through visualization, we have the unique opportunity to track each pixel along the skeleton and understand how every single pixel evolves over time.
+<div id="content">
+	    <center>
+	      <img src="http://www.ics.uci.edu/~skong2/image2/show_JHMDB.png" alt="[lng_lat_ecef]" width="800" />
+	    </center>
+</div>
+</ul>
+<br><br>
+<br><br>
+</section>
+
+
+
+
+
+
+<section>
+<h1>Long-Range Flow for Frame Reconstruction</h1>
+<p>mgPFF captures well the long-range flow, even though we did not train with large frame intervals.
+This is owing to the excellent reconstruction power by multigrid computing and filter flow model (powerful in capturing
+subpixel movement and dealing with corruption, e.g., motion blur).
+This is reminiscent of a variety of flow-based applications, e.g., video compression, unsupervised optical flow learning, frame interpolation, etc.
+<div id="content">
+            <center>
+              <img src="http://www.ics.uci.edu/~skong2/image2/show_frameReconst.png" alt="[lng_lat_ecef]" width="500" />
+            </center>
+</div>
+</ul>
+<br><br>
+<br><br>
+</section>
+
+
+
+<section>
+<h1>Video Transition Shot Detection</h1>
+<p>Purely based on the reconstruction by mgPFF, we are able to detection video transition shot. This makes training our mgPFF possible on free-form videos, e.g., long movies.
+<div id="content">
+            <center>
+              <img src="http://www.ics.uci.edu/~skong2/image2/demo_mgpff_shotDetection.png" alt="[lng_lat_ecef]" width="500" />
+            </center>
+</div>
+</ul>
+<br><br>
+<br><br>
+</section>
+
+
+
+
+<section>
+<h1>Style Transfer by mgPFF</h1>
+<p>
+The power of mgPFF in long-range flow learning enables a native style transfer.
+Just grab the sunset in Newport Beach and Monet's painting, and translate between each other (A->B).
+They are not great, but it seems to work :-)
+
+<div id="content">
+            <center>
+              <img src="http://www.ics.uci.edu/~skong2/image2/demo_mgpff_style_transfer.png" alt="[lng_lat_ecef]" width="800" />
+            </center>
+
+            <center>
+              <img src="http://www.ics.uci.edu/~skong2/image2/demo_mgpff_style_transfer_2.png" alt="[lng_lat_ecef]" width="800" />
+            </center>
+
+</div>
+</ul>
+<br><br>
+<br><br>
+</section>
+
+
+
+
+
+<section>
+<h1>Sketch to Photo</h1>
+<p>
+This simple sketch-photo translation demonstrates the power of mgPFF in correspondence learning.
+Note how the details are synthesized from the given image/sketch.
+
+<div id="content">            <center>              <img src="http://www.ics.uci.edu/~skong2/image2/shu_to_sketch.png" alt="[lng_lat_ecef]" width="800" />
+            </center>
+            <center>              <img src="http://www.ics.uci.edu/~skong2/image2/sketch_to_shu.png" alt="[lng_lat_ecef]" width="800" />
+            </center>
+            <center>              <img src="http://www.ics.uci.edu/~skong2/image2/sketch_to_fowlkes.png" alt="[lng_lat_ecef]" width="800" />
+            </center>
+
+</div>
+</ul>
+<br><br>
+<br><br>
+</section>
+
+
+
+
+<br clear="both">
+</div>
+</div>
+
+
+
+</body>
+</HTMl>

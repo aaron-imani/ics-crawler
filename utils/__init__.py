@@ -29,8 +29,8 @@ def get_urlhash(url):
         f"{parsed.netloc}/{parsed.path}/{parsed.params}/"
         f"{parsed.query}/{parsed.fragment}".encode("utf-8")).hexdigest()
 
-def get_contenthash(content):
-    return sha256(content.encode('utf-8')).hexdigest()
+def get_contenthash(content: bytes):
+    return sha256(content).hexdigest()
 
 def normalize(url):
     parsed = urlparse(url)

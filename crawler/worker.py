@@ -39,6 +39,11 @@ class Worker(Thread):
                 f"using cache {self.config.cache_server}.")
 
             # Check if the content is already seen
+            if not resp or not resp.raw_response or not resp.raw_response.content:
+                self.logger.info(f"Failed to fetch {tbd_url}. Status code: {resp.status}")
+                self.frontier.mark_url_complete(tbd_url)
+                continue
+            
             content_hash = get_contenthash(resp.raw_response.content)
             if content_hash in self.seen_hashes:
                 self.logger.info(f"Content of {tbd_url} is already seen.")

@@ -8,20 +8,28 @@ from urllib.parse import urlparse
 from utils import get_contenthash
 from time import sleep
 import time
-
+import shelve
 
 class Worker(Thread):
     def __init__(self, worker_id, config, frontier):
         self.logger = get_logger(f"Worker-{worker_id}", "Worker")
         self.config = config
         self.frontier = frontier
-        self.seen_hashes = set()
-
+        self.save = shelve.open(self.config.seen_hashes)
+        self._parse_save_file()
+        
         # basic check for requests in scraper
         assert {getsource(scraper).find(req) for req in {"from requests import", "import requests"}} == {-1}, "Do not use requests in scraper.py"
         assert {getsource(scraper).find(req) for req in {"from urllib.request import", "import urllib.request"}} == {-1}, "Do not use urllib.request in scraper.py"
         super().__init__(daemon=True)
-        
+    
+    def _parse_save_file(self):
+        ''' This function can be overridden for alternate saving techniques. '''
+        if 'seen_hashes' in self.save:
+            self.seen_hashes = self.save['seen_hashes']
+        else:
+            self.seen_hashes = set()
+    
     def run(self):
         while True:
             tbd_url = self.frontier.get_tbd_url()
@@ -43,7 +51,7 @@ class Worker(Thread):
                 self.logger.info(f"Failed to fetch {tbd_url}. Status code: {resp.status}")
                 self.frontier.mark_url_complete(tbd_url)
                 continue
-            
+
             content_hash = get_contenthash(resp.raw_response.content)
             if content_hash in self.seen_hashes:
                 self.logger.info(f"Content of {tbd_url} is already seen.")

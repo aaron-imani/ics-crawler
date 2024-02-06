@@ -44,7 +44,6 @@ class Report(object):
         all_tokens = [] 
         longest_tokens = []
         longest_page = ''
-        visited_path = os.path.abspath("visited")
 
         for file, text in self.text_files.items():
             tokens = tokenize(text)
@@ -52,7 +51,7 @@ class Report(object):
 
             if len(tokens) > len(longest_tokens):
                 longest_tokens = tokens
-                longest_page = 'https://' + file.replace(visited_path, '').replace('\\', '/')
+                longest_page = 'https://' + file.replace('visited/', '').replace('\\', '/').replace('.txt', '.html')
 
         
         word_frequencies = computeWordFrequencies(all_tokens)
@@ -61,16 +60,15 @@ class Report(object):
         with open("report/top_50_words.txt", "w") as f:
             f.write(top_50_words)
         
-        self.logger.log(f"Top 50 common words written to report/top_50_words.txt")
-        self.logger.log(f"Longest page: {longest_page}")
-
-
-    def _get_ics_subdomain(self, netloc):
-        return re.match(r"^(.+)\.ics\.uci\.edu$", netloc).group(1)
+        self.logger.info("Top 50 common words written to report/top_50_words.txt")
+        self.logger.info(f"Longest page: {longest_page}")
     
     def _to_text(self, html):
-        soup = BeautifulSoup(html, "html.parser")
-        return soup.get_text()
+        soup = BeautifulSoup(html, "lxml")
+        text = soup.get_text().strip()
+        text = re.sub(r'\s+', ' ', text)
+        text = re.sub(r'\\n+', '\\n', text)
+        return text
     
     def _convert_visited_pages_to_text(self):
         html_files = glob("visited/**/*.html",recursive=True)
@@ -87,29 +85,30 @@ class Report(object):
         for file in text_files:
             with open(file, "r", encoding='utf-8') as f:
                 lines = []
-                for line in file:
+                for line in f:
                     lines.append(line)
                 self.text_files[file] = '\n'.join(lines)
 
     def get_ics_subdomains(self):
-        ics_pages = []
-        for url, completed in self.save.values():
-            if completed and "ics.uci.edu" in url:
-                ics_pages.append(url)
-        
         subdomains = {}
-        for url in ics_pages:
+        ics_patttern = re.compile(r"^(.+)\.ics\.uci\.edu$")
+
+        for url, completed in self.save.values():
+            url = url.replace('www.', '')
             parsed_url = urlparse(url)
-            subdomain = self._get_ics_subdomain(parsed_url.netloc)
-            subdomain = parsed_url.scheme + "://" + subdomain
-            if subdomain not in subdomains:
-                subdomains[subdomain] = 1
-            else:
-                subdomains[subdomain] += 1
+            match = re.match(ics_patttern, parsed_url.netloc)
+            if match and completed:
+                subdomain = parsed_url.scheme + "://" + match.group(1) + '.ics.uci.edu'
+                if subdomain not in subdomains:
+                    subdomains[subdomain] = 1
+                else:
+                    subdomains[subdomain] += 1
 
         # sort subdomains by key
-        for k, v in sorted(subdomains.items(), key=lambda item: item[0]):
-            self.logger.info(f"{k}: {v}")
+        with open("report/subdomains.txt", "w") as f:
+            for k, v in sorted(subdomains.items(), key=lambda item: item[0]):
+                f.write(f"{k}, {v}\n")
+        self.logger.info(f"Found {len(subdomains)} subdomains under ics. Subdomains written to report/subdomains.txt")
 
     def generate_report(self):
         if not self.save:

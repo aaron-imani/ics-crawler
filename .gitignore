@@ -111,3 +111,6 @@ venv.bak/
 
 visited/
 report/
+frontier.*
+
+.DS_Store

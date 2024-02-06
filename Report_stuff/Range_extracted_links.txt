@@ -1,48 +1,8 @@
 
-File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~zhengkai.html
+File: sli.ics.uci.edu/AIStats/Postings.html
 ==============================
-Number of Tokens: 88
-Number of Characters: 545
-Number of Paragraphs: 3
-Information Ratio: 1.0342
-File Size: 915
-
-File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~mustafai.html
-==============================
-Number of Tokens: 101
-Number of Characters: 406
-Number of Paragraphs: 1
-Information Ratio: 1.0357
-File Size: 876
-
-File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~yamingy/bayesD_demo2.r.html
-==============================
-Number of Tokens: 84
-Number of Characters: 763
-Number of Paragraphs: 0
-Information Ratio: 1.0000
-File Size: 763
-
-File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~yamingy/npmle_README.txt.html
-==============================
-Number of Tokens: 88
-Number of Characters: 766
-Number of Paragraphs: 0
-Information Ratio: 1.0000
-File Size: 766
-
-File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~yamingy/bayesD_demo3.r.html
-==============================
-Number of Tokens: 86
-Number of Characters: 775
-Number of Paragraphs: 0
-Information Ratio: 1.0000
-File Size: 775
-
-File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~yamingy/bayesD_demo1.r.html
-==============================
-Number of Tokens: 93
-Number of Characters: 839
-Number of Paragraphs: 0
-Information Ratio: 1.0000
-File Size: 839
+Number of Tokens: 37998
+Number of Characters: 140559
+Number of Paragraphs: 2489
+Information Ratio: 1.087
+File Size: 377579

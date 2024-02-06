@@ -7,7 +7,7 @@ from configparser import ConfigParser
 
 from utils import get_logger, get_urlhash, normalize
 from utils.tokenization import tokenize
-from utils.storage_check import does_shelve_exist
+from utils.storage_check import does_shelve_exist, remove_shelve
 from scraper import is_valid
 
 class Frontier(object):
@@ -25,7 +25,7 @@ class Frontier(object):
             # Save file does exists, but request to start from seed.
             self.logger.info(
                 f"Found save file {self.config.save_file}, deleting it.")
-            os.remove(self.config.save_file)
+            remove_shelve(self.config.save_file)
         # Load existing save file, or create one if it does not exist.
         self.save = shelve.open(self.config.save_file)
         if restart:

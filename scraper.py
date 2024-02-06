@@ -84,8 +84,13 @@ def extract_next_links(url, resp):
         
         text_content_ratio = len(text_content) / max(len(total_content), 1)
         text_content_threshold = 0.25
-        if ( text_content_ratio < text_content_threshold or len(text_content) < MIN_TEXT_CONTENT_LENGTH ) and large_file==True:
+        low_textual_content = text_content_ratio < text_content_threshold or len(text_content) < MIN_TEXT_CONTENT_LENGTH
+        
+        if low_textual_content and large_file==True:
             print(f"Low textual content for {url} and File exceeds maximum threshold. Skipping extraction.")
+            should_store = False
+        elif low_textual_content:
+            print(f"Low textual content for {url}. Skipping extraction.")
             should_store = False
         
         if should_store:

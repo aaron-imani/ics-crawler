@@ -1,0 +1,502 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Publications | 
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+
+
+Research Group
+
+
+
+
+Research
+
+
+
+
+Publications
+
+
+
+
+Awards
+
+
+
+
+Projects
+
+
+
+
+Experience
+
+
+
+
+CV and Resume
+
+
+
+
+Service
+
+
+
+
+Contact
+
+
+
+
+Advice
+
+
+
+
+
+
+
+
+
+Publications
+
+        Filter by type:
+
+        
+All
+
+            Conference proceedings
+          
+
+            Journal
+          
+
+            Technical report
+          
+
+
+All
+
+            2020
+          
+
+            2019
+          
+
+            2018
+          
+
+            2017
+          
+
+            2016
+          
+
+            2015
+          
+
+            2014
+          
+
+
+
+
+
+
+A Multiple Case Study of Artificial Intelligent System Development in Industry
+
+
+  Details
+
+
+
+
+
+
+
+Planning for Untangling: Predicting the Difficulty of Merge Conflicts.
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+Accessibility Issues in Android Apps: State of Affairs, Sentiments, and Ways Forward.
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+An empirical investigation into merge conflicts and their effect on software quality
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+Understanding Development Process of Machine Learning Systems: Challenges and Solutions
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+Land of Lost Knowledge: An Initial Investigation into Projects Lost Knowledge
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+How verified (or tested) is my code? Falsification-driven verification and testing
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+Towards understanding code readability and its impact on design quality.
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+An Empirical Examination of the Relationship Between Code Smells and Merge Conflicts
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+A Case Study of Motivations for Corporate Contribution to FOSS
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+Mutation Reduction Strategies Considered Harmful
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+Applying Mutation Analysis On Kernel Test Suites An Experience Report.
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+Understanding Code Smells in Android Applications
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+Can Testedness be Effectively Measured?
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+On the limits of mutation reduction strategies.
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+Measuring Effectiveness of Mutant Sets.
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+Does the Choice of Mutation Tool Matter?
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+Does the Choice of Mutation Tool Matter?
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+How Verified is My Code Falsification-Driven Verification
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+How Hard Does Mutation Analysis Have to Be, Anyway?
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+An Empirical Study of Design Degradation How Software Projects Get Worse Over Time
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+The Impact of Automatic Crash Reports on Bug Triaging and Development in Mozilla
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+An Exploration of Code Quality in FOSS Projects
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+An Empirical Comparison of Mutant Selection Approaches 
+
+
+  Details
+
+
+  PDF
+
+
+
+
+
+
+
+
+
+
+
+
+      © 2020 Iftekhar Ahmed · 
+
+      Powered by the Academic
+      theme for Hugo.
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

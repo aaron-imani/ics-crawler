@@ -1,0 +1,798 @@
+
+
+
+
+
+
+    2021 Maintenance Schedule    [Support Wiki]
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skip to content
+
+
+
+
+
+
+          [[2021 Maintenance Schedule]]
+        
+
+Support Wiki 
+
+
+Trace: • 2021 Maintenance Schedule 
+
+
+
+Show pagesource 
+
+Recent ChangesSitemapLog In 
+
+
+Search 
+
+
+
+Table of Contents
+
+
+2021 Maintenance Schedule
+
+OPENLAB Security Patches and Reboot
+Servers down for repair
+December
+
+Jupyterhub@ICS Software Upgrade
+
+
+October
+
+/extra/stair0 and Extra Directory Relocation
+vol9 Home and Extra Directory Relocation
+SGE Downtime and /auto/sge Spool Relocation
+
+
+September
+
+vol4 Home and Extra Directory Relocation
+vol3 Home and Extra Directory Relocation
+Gitlab Upgrade
+Gitlab Instructional Repository Relocation
+vol2 Home Directory Relocation
+Instructional Graduate Account Home Directory Relocation
+CSC Extra Home Directory Relocation
+
+
+August
+
+Computable Plant Home Directory Relocation
+Computer Science Staff Home Directory Relocation
+Informatix Shared Home Directory Relocation
+Undergraduate Account Re-homing
+ICS Seal Home and Extra dir Re-homing
+Mail Spool Relocation
+
+
+July
+
+Nexus Switch Firmware Upgrade
+
+
+
+
+
+
+2021 Maintenance Schedule
+
+
+For maintenance that occurred between January - June 2021, please look at the Winter and Spring quarter maintenance pages.
+
+
+OPENLAB Security Patches and Reboot
+
+
+ Downtime Notice: Openlab Security Patches and Reboot
+
+ Date: December 13th 0900
+
+ Duration: 3 hours
+
+
+
+Servers down for repair
+
+
+ POISON (opengpu.ics.uci.edu) DOWN
+
+ The server poison.ics.uci.edu is down for repairs.  We are attempting to determine the cause of random reboots of the server.
+
+ The initial memory test has not revealed the cause and further tests are continuing.
+
+ There is no ETA on when the server will be back up.
+
+
+
+
+
+December
+
+
+Jupyterhub@ICS Software Upgrade
+
+
+ Downtime Notice:  Conducting https://hub.ics.uci.edu update
+
+ Date:  Tuesday, December 14
+
+ Duration: 0600-0800
+
+
+
+The software running Jupyterhub @ ICS will be updated during this time.   
+
+
+ ALL RUNNING Hub Containers will be stopped.  
+
+ All users will need to start new hub containers and any changes made to the running pods will need to be reapplied.
+
+
+
+If this scheduling creates a hardship for you or your research, please send mail to helpdesk@ics.uci.edu to reschedule.
+
+
+This scheduling is an estimate. The process may take more or less time depending on how much information needs to be moved.
+
+
+October
+
+
+/extra/stair0 and Extra Directory Relocation
+
+
+Downtime Notice: /extra/stair0
+Date:  Monday, October 11
+Duration: 0600 - 1000
+
+
+The /extra/stair0 directory will be relocated to another partition on the ICS file server on October 11th, between 0600 and 1000. During this period we ask that you refrain from accessing the /extra/stair0 directory.
+
+
+During this period:
+
+
+ The /extra directory may not be available when logging in to ICS Linux hosts.
+
+ The /extra directory may not be available as a network drive on Windows hosts (via samba).
+
+ Running processes will hang and may crash altogether.
+
+
+
+For most users, no action is required on your part and services will resume automatically once the home directory has been moved.
+
+
+If you cannot access your /extra directory following the move, please send email to helpdesk@ics.uci.edu.
+
+
+If this scheduling creates a hardship for you or your research, please send mail to helpdesk@ics.uci.edu to reschedule.
+
+
+This scheduling is an estimate. The process may take more or less time depending on how much information needs to be moved.
+
+
+vol9 Home and Extra Directory Relocation
+
+
+ Downtime Notice: vol9 /extra  Directory Relocation
+
+ Date: Wednesday, Monday October 4th
+
+ Duration: 0600 - 0800
+
+
+
+The following /extra directories will be relocated to another partition on the ICS file server on October 4th, between 0600 and 0800. You may receive an email message indicating that either your /extra directory or the /extra directory of an account that you manage will be moved at this time.   During this period we ask that you refrain from accessing the /extra directory for this account.
+
+
+The following /extra dirs will be moved:
+
+
+ /extra/stair0
+
+ /extra/graffc1
+
+ /extra/smyth0
+
+ /extra/pputzel0
+
+ /extra/yiboyang0
+
+ /extra/aodongl10
+
+ /extra/bdl0
+
+ /extra/ruihay10
+
+ /extra/communications_scratch0
+
+
+
+During this period:
+
+
+ The /extra directory may not be available when logging in to ICS Linux hosts.
+
+ The /extra directory may not be available as a network drive on Windows hosts (via samba).
+
+ Running processes will hang and may crash altogether.
+
+
+
+For most users, no action is required on your part and services will resume automatically once the home directory has been moved. 
+
+
+If you cannot access your /extra directory following the move, please send email to helpdesk@ics.uci.edu.
+
+
+If this scheduling creates a hardship for you or your research, please send mail to helpdesk@ics.uci.edu to reschedule.
+
+
+This scheduling is an estimate.  The process may take more or less time depending on how much information needs to be moved.
+
+
+SGE Downtime and /auto/sge Spool Relocation
+
+
+ Downtime Notice: SGE Downtime and /auto/sge Spool Relocation
+
+ Date: Monday, October 4th
+
+ Duration: 0600 - 1000
+
+
+
+Spool directories for the SGE Cluster will be moved to another file server on Monday, October 4th beginning at 0600.  During this time, the SGE queues will not be accepting new jobs and running jobs may be terminated.
+
+
+Users are encouraged to switch to SLURM@ICS for job scheduling and distributed computing.  The SGE cluster has been deprecated and will not be available on future releases of Linux.  Contact heldpesk@ics.uci.edu if you would like help converting your SGE scripts for SLURM.
+
+
+If the SGE queues are unavailable following this downtime, please send email to helpdesk@ics.uci.edu.
+
+
+September
+
+
+vol4 Home and Extra Directory Relocation
+
+
+ Downtime Notice: vol4 Home and Extra Directory Relocation
+
+ Date: Wednesday, September 22th
+
+ Duration: 0600 - 0800
+
+
+
+Home directories for the following groups  will be relocated to another partition on the ICS file server on September 20th, between 0600 and 0800. You may receive an email message indicating that either your home directory or the home directory of an account that you manage will be moved at this time.   During this period we ask that you refrain from accessing the home directory for this account.
+
+
+The following groups of accounts will be moved during this period.
+
+
+ ICS sponsored shared home and extra directories
+
+ AI-Math-Sci resarch home and extra directories
+
+ Biodatascience resarch home and extra directories
+
+ CBCL resarch home and extra directories
+
+ Chenli sponsored  home and extra directories
+
+ Communications sponsored home and extra directories
+
+ EMA sponsore  home and extra directories
+
+ ICS sponsored guests home and extra directories
+
+ Hanalab research home and extra directories
+
+ Lopes sponsored research home and extra directories
+
+ REACT research group home and extra directories
+
+ Statistics guest and staff home and extra directories
+
+ Statistics Staff research home and extra directories
+
+
+
+During this period:
+
+
+ The home directory may not be available when logging in to ICS Linux hosts.
+
+ The home directory may not be available as a network drive on Windows hosts (via samba).
+
+ Web pages served from the account may not be available.
+
+ Running processes will hang and may crash altogether.
+
+
+
+For most users, no action is required on your part and services will resume automatically once the home directory has been moved. 
+
+
+Windows users that are currently mapping through cybertron.ics.uci.edu (e.g. \\cybertron.ics.uci.edu\teamware) must update their mapped networked drives to use samba.ics.uci.edu:
+
+
+\\samba.ics.uci.edu\teamware
+
+
+Most users do not need to make this change.  For those that do, please see the following URL for additional information on mapping network drives @ ICS:
+
+
+https://swiki.ics.uci.edu/doku.php/accounts:mapping_network_drive
+
+
+If you cannot access your home directory following the move, please send email to helpdesk@ics.uci.edu.
+
+
+If this scheduling creates a hardship for you or your research, please send mail to helpdesk@ics.uci.edu to reschedule.
+
+
+This scheduling is an estimate.  The process may take more or less time depending on how much information needs to be moved.
+
+
+vol3 Home and Extra Directory Relocation
+
+
+ Downtime Notice: vol3 Home and Extra Directory Relocation
+
+ Date: Monday, September 20th
+
+ Duration: 0600 - 0800
+
+
+
+Home directories for the following groups  will be relocated to another partition on the ICS file server on September 20th, between 0600 and 0800. You may receive an email message indicating that either your home directory or the home directory of an account that you manage will be moved at this time.   During this period we ask that you refrain from accessing the home directory for this account.
+
+
+The following groups of accounts will be moved during this period.
+
+
+ ICS Computing Support Staff Home Directories
+
+ Database Group Home Directories
+
+ DSM Group Home Directories
+
+ ISR Group Home Home Directories
+
+ Schark Group Home Directories
+
+ Instruction Group Account 
+
+ Stats Faculty Home Directories
+
+
+
+During this period:
+
+
+ The home directory may not be available when logging in to ICS Linux hosts.
+
+ The home directory may not be available as a network drive on Windows hosts (via samba).
+
+ Web pages served from the account may not be available.
+
+ Running processes will hang and may crash altogether.
+
+
+
+For most users, no action is required on your part and services will resume automatically once the home directory has been moved. 
+
+
+Windows users that are currently mapping through cybertron.ics.uci.edu (e.g. \\cybertron.ics.uci.edu\teamware) must update their mapped networked drives to use samba.ics.uci.edu:
+
+
+\\samba.ics.uci.edu\teamware
+
+
+Most users do not need to make this change.  For those that do, please see the following URL for additional information on mapping network drives @ ICS:
+
+
+https://swiki.ics.uci.edu/doku.php/accounts:mapping_network_drive
+
+
+If you cannot access your home directory following the move, please send email to helpdesk@ics.uci.edu.
+
+
+If this scheduling creates a hardship for you or your research, please send mail to helpdesk@ics.uci.edu to reschedule.
+
+
+This scheduling is an estimate.  The process may take more or less time depending on how much information needs to be moved.
+
+
+Gitlab Upgrade
+
+
+ Downtime Notice: Upgrade Gitlab Server
+
+ Date: Thursday, September 16, 2021
+
+ Duration: 8:00 to 12:00
+
+ IMPACT: The site gitlab.ics.uci.edu will not be available during upgrade window. Repositories will not be available to push/pull from. This will not impact gitlab setup for individual classes.
+
+
+
+ RT#80322
+
+
+
+Gitlab Instructional Repository Relocation
+
+
+ Date: Thursday, September 16, 2021
+
+ Duration: 8:00 to 10:00
+
+ IMPACT: The instructional gitlab websites will not be available during the window. Repositories will not be available to push/pull from.
+
+
+
+The location of the gitlab repository for the following sites will be moved to the new file server, tardigrade.
+
+
+ gitlab-cs142a-s21
+
+ gitlab-cs142a-w21
+
+ gitlab-cs142a-s20
+
+
+
+vol2 Home Directory Relocation
+
+
+ Downtime Notice: vol2 Home Directory Relocation
+
+ Date: Friday, September 17th
+
+ Duration: 0600 - 0800
+
+ 
+
+
+
+Home directories for the following groups  will be relocated to another partition on the ICS file server on September 17th, between 0600 and 0800. You may receive an email message indicating that either your home directory or the home directory of an account that you manage will be moved at this time.   During this period we ask that you refrain from accessing the home directory for this account.
+
+
+The following groups of accounts will be moved during this period.
+
+
+ Computer Science Guest Accounts
+
+ Dean's Office Staff
+
+ Datalab Accounts
+
+ ICS Maintenance Accounts
+
+ Informaatix Guest Accounts
+
+
+
+During this period:
+
+
+ The home directory may not be available when logging in to ICS Linux hosts.
+
+ The home directory may not be available as a network drive on Windows hosts (via samba).
+
+ Web pages served from the account may not be available.
+
+ Running processes will hang and may crash altogether.
+
+
+
+For most users, no action is required on your part and services will resume automatically once the home directory has been moved. 
+
+
+Windows users that are currently mapping through cybertron.ics.uci.edu (e.g. \\cybertron.ics.uci.edu\teamware) must update their mapped networked drives to use samba.ics.uci.edu:
+
+
+\\samba.ics.uci.edu\teamware
+
+
+Most users do not need to make this change.  For those that do, please see the following URL for additional information on mapping network drives @ ICS:
+
+
+https://swiki.ics.uci.edu/doku.php/accounts:mapping_network_drive
+
+
+If you cannot access your home directory following the move, please send email to helpdesk@ics.uci.edu.
+
+
+If this scheduling creates a hardship for you or your research, please send mail to helpdesk@ics.uci.edu to reschedule.
+
+
+This scheduling is an estimate.  The process may take more or less time depending on how much information needs to be moved.
+
+
+Instructional Graduate Account Home Directory Relocation
+
+
+Instructional graduate student home directories will be relocated to another partition on the ICS file server on September 15th, between 0600 and 0800. You may receive an email message indicating that either your home directory or the home directory of an account that you manage will be moved at this time.   During this period we ask that you refrain from accessing the home directory for this account.
+
+
+During this period:
+
+
+ The home directory may not be available when logging in to ICS Linux hosts.
+
+ The home directory may not be available as a network drive on Windows hosts (via samba).
+
+ Web pages served from the account may not be available.
+
+ Running processes will hang and may crash altogether.
+
+
+
+For most users, no action is required on your part and services will resume automatically once the home directory has been moved. 
+
+
+Windows users that are currently mapping through cybertron.ics.uci.edu (e.g. \\cybertron.ics.uci.edu\teamware) must update their mapped networked drives to use samba.ics.uci.edu:
+
+
+\\samba.ics.uci.edu\teamware
+
+
+Most users do not need to make this change.  For those that do, please see the following URL for additional information on mapping network drives @ ICS:
+
+
+https://swiki.ics.uci.edu/doku.php/accounts:mapping_network_drive
+
+
+If you cannot access your home directory following the move, please send email to helpdesk@ics.uci.edu.
+
+
+If this scheduling creates a hardship for you or your research, please send mail to helpdesk@ics.uci.edu to reschedule.
+
+
+This scheduling is an estimate.  The process may take more or less time depending on how much information needs to be moved.
+
+
+CSC Extra Home Directory Relocation
+
+
+ Downtime Notice: CSC Extra Home Directory 
+
+ Date: Monday, September 1, 2021
+
+ Duration: 0600 - 0800
+
+
+
+The following shared extra directories are to be moved to a new ICS storage server. Please refrain from accessing these account home directories during this period.  Some services related to the home directory, such as webpages and network drives, may be unavailable during this relocation process.
+
+
+Affected Directories:
+
+
+ /extra/csc0
+
+
+
+August
+
+
+Computable Plant Home Directory Relocation
+
+
+ Downtime Notice: Computable Plant Home Directory Relocation
+
+ Date: Monday, Aug 30, 2021
+
+ Duration: 0600 - 0800
+
+
+
+The Computable Plant users' home directory, cmpplnt, will be moved to a new ICS storage servers.  Please refrain from accessing this account's home directory during this period.  Some services related to the home directory, such as webpages and  network drives, may be unavailable during this relocation.
+
+
+Computer Science Staff Home Directory Relocation
+
+
+ Downtime Notice: Computer Science Staff Home Directories
+
+ Date: Monday, Aug 30, 2021
+
+ Duration: 0600 - 0800
+
+
+
+The following users' home directories are to be moved to a new ICS storage server.  The home directories and related services such as network drives and web pages may be unavailable during this period.   During this time some users may experience delays when logging in or may not have access to their home directories or network disks when they do.  These users should log out, wait ten minutes, and log back in.
+
+
+Affected Users:
+
+
+ ckennedy
+
+ cmsimpso
+
+ mlcarril
+
+ sandersm
+
+ floreslc
+
+ castokes
+
+ malsalib
+
+ gnagales
+
+ kbhimsen
+
+ eonyemao
+
+ jonathpp
+
+ ssatari
+
+ vanesg9
+
+ dgens
+
+ dabrowsa
+
+ arroyonm
+
+ drb
+
+ julianc9
+
+ parvatis
+
+ ldonalds
+
+
+
+Informatix Shared Home Directory Relocation
+
+
+ Downtime Notice: Informatix Shared Home Directories
+
+ Date: Monday, Aug 30, 2021
+
+ Duration: 0600 - 0800
+
+
+
+The following shared home directories are to be moved to a new ICS storage server.   Please refrain from accessing these account home directories during this period.  Some services related to the home directory, such as webpages and  network drives, may be unavailable during this relocation process.
+
+
+Affected Users:
+
+
+ evoke
+
+ mondego
+
+ sandbox
+
+ stairs
+
+
+
+Undergraduate Account Re-homing
+
+
+ Downtime Notice: Undergraduate Home Directories
+
+ Date: Wednesday, Aug 25, 2021
+
+ Duration: 0600 - 0800
+
+
+
+Undergraduate home directories are to be related to a new ICS storage server.  The home directories and related services such as web pages will be unavailable during this period.   Some users may experience delays when logging in or may not have access to their home directories when they do.  These users should log out, wait ten minutes, and try again.
+
+
+ICS Seal Home and Extra dir Re-homing
+
+
+ Downtime Notice: Undergraduate Home Directories
+
+ Date: Tuesday, Aug 24, 2021
+
+ Duration: 0800 - 1000
+
+
+
+Home and extra directories in cybertron:/vol1/ics_seal will be relocated to the new ICS storage server on Tuesday Aug 24th, 2021 between 0800 and 1000.   For best results please plan on logging out of your account during this period, home and extra directories will be intermittently unavailable.  Please shutdown any virtual machines or containers that are running from this space.   Any websites that are served from your public_html folder may be unavailable as well.
+
+
+Mail Spool Relocation
+
+
+ Downtime Notice: Mail Delivery and IMAP/POP Service
+
+ Date: Monday, Aug 23, 2021
+
+ Duration: 0600 - 0800
+
+
+
+Mail spools will are being relocated to a new storage server.   Mail delivery and IMAP/POP service will be unavailable during this period.  Users that recieve email via external service such as ICS Gmail, UCI Gmail, or UCI Exchange mail will not be impacted.
+
+
+July
+
+
+Nexus Switch Firmware Upgrade
+
+
+ Downtime Notice: Upgrade firmware for border switches 
+
+ Date: Monday, July 19, 2021
+
+ Duration: 0600 - 0800
+
+
+
+The Nexus switches are being upgraded to the latest firmware version.  They provide the network link from ICS Datacenter to everywhere in the world.  There will be some disruption as spanning tree runs during each reboot of the switch.  Spanning tree should take about 1 minute but maybe longer.  There will be 4 reboots required to get to the latest version, two per switch.
+
+
+
+
+
+
+
+
+projects/maint-2021.txt · Last modified: 2021/12/07 10:02 by dutran 
+
+
+
+
+
+Show pagesourceOld revisions 
+
+Media ManagerBack to top 
+
+
+
+
+
+
+
+
+
+
+
+
+

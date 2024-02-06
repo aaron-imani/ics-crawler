@@ -1,0 +1,392 @@
+
+
+
+
+
+
+
+
+
+Program Requirements and Curriculum | Informatics @ the University of California, Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+Search for:
+
+
+
+ 
+
+
+
+
+
+Menu
+Skip to content
+Explore
+
+
+Chair’s Welcome
+Faculty Profiles
+Books We Read
+History of the Department
+Seminar Series
+Blogs We Author
+Department Vision
+Books We Have Written
+Visiting the Department
+Facts & Figures
+
+
+
+Graduate Degrees
+
+
+Overview
+Ph.D. Software Engineering
+Policies
+Ph.D. Informatics
+M.S. Software Engineering
+Diversity Ambassador
+M.S. Informatics
+Master of Software Engineering
+Student Profiles
+Master of Human-Computer Interaction & Design
+Courses
+Student Groups
+ 
+ 
+Upcoming Course Schedule
+
+
+
+Undergraduate Degrees
+
+
+B.S. Informatics
+B.S. Information & Computer Science
+Policies
+B.S. Business Information Management
+Special Opportunities
+Student Profiles
+B.S. Game Design and Interactive Media
+Minors
+Student Groups
+B.S. Software Engineering
+Courses
+Upcoming Course Schedule
+
+
+
+Admissions
+
+
+Graduate Application Process
+Coming from Abroad
+Housing
+Undergraduate Application Process
+Student Life
+
+
+
+Research
+
+
+Labs & Centers
+Ph.D. Research
+Undergraduate Research
+Areas of Expertise
+Past Dissertations
+Gifts & Grants
+Example Projects
+Masters Research
+
+
+
+Impact
+
+
+Research that Matters
+Undergraduate Alumni Spotlights
+Outreach
+Graduate Alumni Spotlights
+Community Engagement
+
+
+
+Support
+
+
+Champion Research
+Become a Corporate Partner
+Share Your Talent
+Support Students
+Provide Projects
+Set Future Agenda
+Post Jobs
+Graduate Resources
+
+
+
+
+
+
+MenuExplore
+
+Chair’s Welcome
+History of the Department
+Department Vision
+Facts & Figures
+Faculty Profiles
+Seminar Series
+Books We Have Written
+Books We Read
+Blogs We Author
+Visiting the Department
+
+
+Graduate Degrees
+
+Ph.D. Informatics
+M.S. Informatics
+Ph.D. Software Engineering
+M.S. Software Engineering
+Master of Human-Computer Interaction & Design
+Master of Software Engineering
+Courses
+Policies
+Diversity Ambassador
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Undergraduate Degrees
+
+B.S. Informatics
+B.S. Business Information Management
+B.S. Game Design and Interactive Media
+B.S. Software Engineering
+B.S. Information & Computer Science
+Special Opportunities
+Minors
+Courses
+Policies
+Student Profiles
+Student Groups
+Upcoming Course Schedule
+
+
+Admissions
+
+Graduate Application Process
+Undergraduate Application Process
+Coming from Abroad
+Student Life
+Housing
+
+
+Research
+
+Labs & Centers
+Areas of Expertise
+Example Projects
+Ph.D. Research
+Past Dissertations
+Masters Research
+Undergraduate Research
+Gifts & Grants
+
+
+Impact
+
+Research that Matters
+Graduate Alumni Spotlights
+Undergraduate Alumni Spotlights
+Community Engagement
+Outreach
+
+
+Support
+
+Champion Research
+Support Students
+Become a Corporate Partner
+Provide Projects
+Post Jobs
+Share Your Talent
+Set Future Agenda
+
+
+ 
+
+
+
+
+
+
+
+← Additional Campus Supports  Program Requirements and Curriculum  	
+
+
+
+
+Program Requirements and Curriculum
+
+
+Program Specific Information
+ATTENTION: THIS IS NOT, NOR WAS IT EVER MEANT TO BE, THE DOCUMENT OF RECORD FOR ANY OF THE DEGREES. When in doubt, defer to the ICS student affairs office and graduate division.
+
+
+PhD Informatics
+General InformationComprehensive ExamAdvancementDissertation Topic ProposalDissertation Defense
+
+
+PhD SWE
+General InformationAdvancement Dissertation Topic ProposalDissertation Defense
+
+
+Masters Programs
+MS ICS Informatics 
+MS Software Engineering
+
+
+General Program Information
+This document is intended to serve as a central repository of information to assist Informatics graduate students in their progress through our programs. It is meant to complement, and be consistent with, the Manual of the Academic Senate, Irvine Division, the UCI General Catalogue, and the ICS graduate student policies. If you see any inconsistencies among these documents, please notify the ICS Student Affairs office with specific links and quotes to the inconsistent material.
+If you are looking for graduate student form it can likely be found on the ICS Graduate Student Forms.
+The specifics of our programs change over time. Each year, the details of all the programs are meant to be internally consistent. Students may elect to adhere to the rules that were in place on the year when they were admitted, or to the rules for any other year after they were admitted but before they leave the program. However, students may not “pick and choose” across the rules for different years. Please inform the ICS Student Affairs office if you intend to use a set of rules other than those that were in place when you started the program.
+INTRODUCTION
+The Department of Informatics offers MS and PhD programs in Informatics and Software Engineering. The ICS degree programs of the past are now retired but this site holds some archival information about these programs to help students still enrolled.
+In the normative case, MS students will complete the program by the end of the second year (six quarters), although in some cases it may be possible to complete the degree in fewer than six full quarters. If you go beyond two years, you will be considered beyond normative time and put on probation. This is generally not an acceptable case, and you will need to seek counsel quickly to be able to continue in the program. In the normative case, PhD students will advance to candidacy by the end of the third year, and will complete the program by the end of the sixth year, although some students may take longer or shorter periods of time. PhD students are not obligated to get an MS on their way to a PhD; however, many of the initial requirements of the PhD for SE are identical to those of the MS, so those students sometimes complete their MS along the way. The PhD in Informatics does NOT have a complementary MS degree at this time. So, those students cannot complete an MS degree along the way.
+More Information on General Requirements
+Satisfactory Academic Progress
+To maintain satisfactory academic progress, graduate students in the Informatics and Software Engineering PhD programs at UC Irvine shall
+a) affiliate with a primary research advisor by the end of the first year and remain affiliated with an advisor throughout their tenure as students (students cannot go without a primary advisor for more than one quarter and will automatically be placed on cautionary status and may also result in recommendation for dismissal from the program. It is the student’s responsibility to secure an advisor; not the university nor department.
+b) meet the requirements to qualify as a teaching assistant, including demonstrating English proficiency, by the beginning of the second year;
+c) retain a cumulative grade point average of 3.0 or higher;
+d) pass all required and elective courses with a grade of B or better;
+e) pass all oral exams in a timely manner;
+f) meet published timelines for completion of the degree;
+g) meet deadlines and requirements imposed on them as individual students;
+h)make adequate progress in research and/or creative work as determined by the department faculty; and
+i)not have two consecutive cautionary letters resulting from formal departmental reviews.
+Please review the campus policy on Unsatisfactory Progress, Academic Conditional Status, and Disqualification in Graduate Policies and Procedures Here.
+Student Review Process – PhD students only
+First Year Evaluation To continue in the program, PhD students must pass a formal evaluation at the end of the first year. The evaluation will be made by the department at the end of the first year on the basis of:The first-year course work; andSuccessfully finding and beginning to work with one or more faculty advisors.
+At this time, students will complete a form that includes, among other information, a plan for completing the remainder of their courses, developed in consultation with their advisor.  This plan will be reviewed by the Vice Chair for Graduate Affairs to ensure that the selected curriculum is consistent with the goals of the program. (Note: you should be sure to work with the ICS Student Affairs office to be sure you are meeting your particular degree requirements.)
+Continuing EvaluationIn the fall of every academic year after the first, the entire department will evaluate each student again.
+DocumentationAll evaluations will be summarized in a letter written by the Vice Chair for Graduate Affairs. The letter may contain suggestions to students regarding their progress and performance in the program. A copy of this evaluation will be given to the student, a copy to the student’s advisor, and a copy placed in the student’s file. Evaluations are based upon a broad range of criteria, including: development, GPA, class performance (with particular attention paid to required courses), TA evaluations, quality of written work, and relevant professional activities (if any) such as papers presented, grants, fellowships and awards received, or publications.
+OutcomesStudents who receive a “cautionary” review in the fall review will be re-reviewed in the Spring. Two cautionary reviews in a row will result in a negative review, which will result in the recommendation that the student leaves the program or switches to an MS program.
+Policy Regarding Announcement of MS Thesis defenses, Advancements to Candidacy, and Dissertation Defenses
+A notice of all public MS thesis defenses, Advancements to Candidacy, and Dissertation Defenses must be sent to student affairs at least 12 business days prior to the event itself.  To give the Student Affairs office time to process the paperwork, it is STRONGLY recommended that all students send their announcements (including the student’s name, the title of the thesis/advancement topic/dissertation, an abstract of the presentation, the names of the committee chair and other committee members) to Student Affairs (gcounsel@ics.uci.edu) at least three weeks in advance BUT ABSOLUTELY no later than 12 business days (that is, not counting weekends or holidays) prior to the event. Student Affairs has to check committee composition for compliance with university policies and do other work, so please give them enough lead time to do this. This announcement should be sent to, and approved in writing (email is fine) by, the committee chair prior to being sent to Student Affairs.
+If you don’t send the announcement to Student Affairs with enough lead time, you will not advance to candidacy or graduate at the time you planned on (i.e., the event may be postponed until an appropriate time window exists).  The Student Affairs office will send the announcement to allgrads@ics.uci.edu and informatics-faculty@ics.uci.edu.
+PhD Dissertation Topic Proposal
+After advancing to candidacy, the next stage is to have your topic proposal approved. This will normally happen after you have undertaken some significant research, although the precise timing of the exam varies from person to person, as appropriate for the research that is undertaken. Similarly, the format varies; sometimes the student makes a brief presentation, but typically most of the meeting is spent in a discussion of the details of the topic. Your advisor will instruct you in the approach that seems to best suit your particular work and timing.
+Your topic proposal is examined by your Doctoral Committee, which usually comprises three UC faculty, chaired by your advisor. A majority of the members of your Doctoral Committee should be faculty in Informatics, and your Doctoral Committee is usually a subset of your Advancement Committee.
+Your topic proposal document should lay out a research topic, a research plan, and an assessment of the contributions that you hope to make situated within the literature. Depending on the point at which this exam is conducted, this may be more a description of research to be conducted, or more a description of a dissertation to be written, but it should demonstrate your expertise in the chosen area, a coherent research focus, describe work done to date that will feed into the dissertation research, and how you plan to take the necessary steps to move from your current state to having a completed, defensible dissertation.
+The topic proposal examination is a closed meeting of the committee and the candidate. The committee must meet the standards of graduate division and be acceptable to the student’s advisor. Minimally, this means three faculty members, with more from Informatics than not. Faculty or researchers at industry labs with terminal degrees (typically a PhD) from outside UCI may be approved by graduate division, but this takes some time, so plan for it.
+The outcome of the topic proposal examination is either that the candidate is approved to move forward with the research or not (in which case re-examination will be needed in order to proceed).  Students may take the topic proposal exam no more than twice.
+The topic proposal exam does not need to be announced publicly. However, you need to fill out an internal form and submit it to student affairs. The form can be found here.
+PhD Dissertation Defense
+The last step of your Ph.D. process is the dissertation defense. The defense comprises a public presentation of your dissertation research, followed by questioning from your Doctoral Committee (the same committee who examined your topic proposal) and the audience. A dissertation defense may result in requests from the committee to revise the dissertation.
+A public notice of the dissertation defense must be sent out in accord with this policy.
+The dissertation defense takes approximately 2 hours, and consists of a 40-minute public presentation by the student about his/her dissertation research, followed by questions from the audience, including the student’s dissertation committee members.  When the chair of the committee determines it is appropriate, members of the public are asked to leave the room, and the committee members continue to ask questions and discuss the dissertation research.  The chair of the committee will then ask you to leave the room so that the committee may reach a decision.  You will then be invited back into the room to receive the committee’s decision.
+The committee must approve the thesis unanimously; if it does not, students have one additional opportunity to redefend, after appropriate changes have been made.
+
+
+
+
+
+
+
+
+
+People
+Contact
+Site Map
+News
+
+
+
+
+
+
+
+Feedback
+Privacy Policy
+					© 2022 UC Regents
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

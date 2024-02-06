@@ -1,0 +1,407 @@
+
+
+
+
+Seminar Series 2011-2012 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Department of Statistics - Donald Bren School of Information & Computer SciencesDepartment of Statistics - Donald Bren School of Information & Computer Sciences
+Explore
+
+Chair’s Welcome
+What is Statistics?
+Contact the Department
+Tutoring Resources
+
+
+Faculty
+
+Faculty Directory
+Job Opportunities
+
+
+Research
+Graduate Degrees
+
+M.S. & Ph.D. in Statistics
+Master of Data Science
+Current Course Listings
+Graduate Student Directory
+Internships & Employment Opportunities
+Employers of UCI Statistics Students
+
+
+Undergraduate Degrees
+
+B.S. in Data Science
+Minor in Statistics
+Current Course Listings
+
+
+News & Seminars
+
+News
+Seminars
+
+
+Center for Statistical Consulting
+Seminar Series 2011-2012
+Unless noted otherwise, all seminars take place in Donald Bren Hall sixth floor conference room (DBH 6011) from 4 to 5 p.m.
+For additional information, please contact Seminar Administrative Coordinator: Lisa Stieler at lstieler@uci.edu or (949) 824-3806.
+
+Past Statistics Seminar Series: 2014-15
+ • 2013-14 • 2012-13 • 2011-12 • 2010-11
+
+
+
+
+
+
+
+Date
+
+
+Speaker
+
+
+Title
+
+
+
+
+October 10, 2011
+ 
+
+
+Babak Shahbaba
+
+
+UC Irvine
+
+
+Nonparametric Relevance Determination:  Finding Genes that Matter
+
+Abstract
+
+
+
+
+October 24, 2011
+
+
+
+Dan Gillen
+
+UC Irvine
+
+
+
+Designing and Monitoring Clinical Trials with Survival Endpoints:  Statistical Issues, Proposals, and Opportunities
+Abstract
+
+
+
+
+November 7, 2011
+
+
+
+Vladimir Minin
+
+
+University of Washington
+ 
+
+
+
+Gaussian Process-Based Bayesian Nonparametric Inference of Population Trajectories from Gene Genealogies
+Abstract
+
+
+
+
+November 14, 2011
+
+
+
+Adam Roy
+
+ReVision Optics, Inc.
+
+
+
+
+Computational Statistics Within Orange County Biotech:  The Experiences of a UCI Statistics Alumni
+Abstract
+
+
+
+
+
+January 23, 2012
+
+
+
+
+Robert Rodriguez
+American Statistical Association
+
+
+Business
+Analytics and Big Data:  What Do
+Statisticians Need to Succeed?
+Abstract
+
+
+
+
+February 3, 2012
+
+
+
+
+Stephen Fienberg
+Carnegie Mellon University
+
+
+The Challenge of Privacy Protection for Statistical Network Data
+
+Abstract
+
+
+
+
+February 6, 2012
+
+
+Damla Senturk
+UCLA
+
+
+Effective Semiparametric Modeling for Ultra-Sparse, Unsynchronized and Imprecise Longitudinal Data
+Abstract
+
+
+
+
+February 13, 2012
+
+
+Scott Bartell
+UC Irvine
+
+
+The Use, Misuse, and Better Use of Exposure Biomarkers in Epidemiology
+Abstract
+
+
+
+
+February 27, 2012
+
+
+Zhaoxia Yu
+UC Irvine
+
+
+Family-Based Association Tests in the Presence of Informative Missingness
+Abstract
+
+
+
+
+March 5, 2012
+
+
+Ivan Jeliazkov
+UC Irvine
+
+
+
+Simulated Likelihood 
+Estimation by Markov Chain Monte Carlo
+Abstract
+
+
+
+
+March 9, 2012
+
+
+Giovanni Motta
+Maastricht University
+
+
+Fitting evolutionary factor modelsto multivariate EEG data
+Abstract
+
+
+
+
+March 12, 2012
+
+
+Donatello Telesca
+UCLA
+
+
+Modeling
+Criminal Careers as Departures from a Unimodal Population Age-Crime
+Curve: The Case of Marijuana Use
+Abstract
+
+
+
+
+April 16, 2012
+
+
+
+Josh Menke
+Blizzard Entertainment
+
+
+
+Matchingmaking and Ladder Design
+Abstract
+
+
+
+
+April 23, 2012
+
+
+Gareth James
+USC
+
+
+  Functional Additive Regression
+Abstract
+
+
+
+
+April 30, 2012
+
+
+Keh-Shin Lii
+UCR
+
+
+ Almost Periodic Time Series Analysis
+Abstract
+
+
+
+
+May 7, 2012
+
+
+Zhibiao Zhao
+Penn State
+
+
+Efficient Regressions via Optimally Combining Quantile Information
+Abstract
+
+
+
+
+May 17, 2012
+
+
+Lyle Gurrin
+University of Melbourne
+
+
+Estimation of Between- and Within-Pair Regression Effects in Logistic Regression with Shared Measurement Error 
+Abstract
+
+
+
+
+June 4, 2011
+
+
+Dimitrios Fouskakis
+National Technical University of Athens
+
+
+Power-Expected-Posterior Priors for Variable Selection in Gaussian Linear Models
+Abstract
+
+
+
+
+
+
+Latest News
+
+
+UCI’s Master of Data Science to Launch Part-Time Program in Fall 2023
+October 10, 2022
+
+
+New Faculty Spotlight: Statistics Professor Hengrui Cai Strives for Real-World Impact
+September 22, 2022
+
+
+SoCal Data Science Program Off to a Strong Start
+September 21, 2022
+
+
+Undergraduates Conduct Biostatistics Research at New Summer Institute at UCI
+September 13, 2022
+
+
+Professors Nan and Gillen Receive $1.8M Grant to Study Statistical Methods for Alzheimer’s Research
+August 29, 2022
+
+
+
+ News Archive
+
+
+ 
+
+
+
+
+
+© 2022 UC Regents
+Feedback
+Privacy Policy
+
+
+
+
+
+

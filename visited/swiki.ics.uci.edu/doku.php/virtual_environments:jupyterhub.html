@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en" id="document" dir="ltr">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place# book: http://ogp.me/ns/book#">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>
+    Jupyterhub @ ICS    [Support Wiki]
+  </title>
+
+  <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="noindex,nofollow"/>
+<meta name="keywords" content="virtual environments,jupyterhub"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="Support Wiki"/>
+<link rel="start" href="/"/>
+<link rel="contents" href="/doku.php/virtual_environments:jupyterhub?do=index" title="Sitemap"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="/feed.php?mode=list&amp;ns=virtual_environments"/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="/doku.php/virtual_environments:jupyterhub?do=export_xhtml"/>
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="/doku.php/virtual_environments:jupyterhub?do=export_raw"/>
+<link rel="canonical" href="http://swiki.ics.uci.edu/doku.php/virtual_environments:jupyterhub"/>
+<link rel="stylesheet" type="text/css" href="/lib/exe/css.php?t=arctic-swiki&amp;tseed=462b2dc7bf71dd8a62de0047a804e7e3"/>
+<!--[if gte IE 9]><!-->
+<script type="text/javascript">/*<![CDATA[*/var NS='virtual_environments';var JSINFO = {"id":"virtual_environments:jupyterhub","namespace":"virtual_environments","isadmin":0,"isauth":0,"move_renameokay":false,"plugin_slider":{"width":800}};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/jquery.php?tseed=23f888679b4f1dc26eef34902aca964f"></script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/js.php?t=arctic-swiki&amp;tseed=462b2dc7bf71dd8a62de0047a804e7e3"></script>
+<!--<![endif]-->
+
+  <link rel="shortcut icon" href="/lib/tpl/arctic-swiki/images/favicon.ico" />
+
+  
+</head>
+<body>
+
+<div id="skiplinks" class="skiplinks">
+  <a href="#dokuwiki__content" class="skiplink">skip to content</a>
+</div>
+
+<div id="wrapper" class='show'>
+  <div class="dokuwiki">
+
+    
+    <header class="stylehead">
+      <div class="header">
+        <div class="pagename">
+          [[<a href="/doku.php/virtual_environments:jupyterhub?do=backlink" >Jupyterhub @ ICS</a>]]
+        </div>
+        <div class="logo">
+          <a href="/doku.php/start"  id="dokuwiki__top" accesskey="h" title="[ALT+H]">Support Wiki</a>        </div>
+      </div>
+
+            <div class="breadcrumbs">
+        <span class="bchead">Trace:</span> <span class="bcsep">•</span> <span class="curid"><bdi><a href="/doku.php/virtual_environments:jupyterhub"  class="breadcrumbs" title="virtual_environments:jupyterhub">Jupyterhub @ ICS</a></bdi></span>      </div>
+      
+          </header>
+
+                  <div class="bar" id="bar__top">
+        <div class="bar-left">
+          <a href="/doku.php/virtual_environments:jupyterhub?do=edit"  class="action source" accesskey="v" rel="nofollow" title="Show pagesource [V]">Show pagesource</a>        </div>
+        <div class="bar-right">
+          <a href="/doku.php/virtual_environments:jupyterhub?do=recent"  class="action recent" accesskey="r" rel="nofollow" title="Recent Changes [R]">Recent Changes</a><a href="/doku.php/virtual_environments:jupyterhub?do=index"  class="action index" accesskey="x" rel="nofollow" title="Sitemap [X]">Sitemap</a><a href="/doku.php/virtual_environments:jupyterhub?do=login&amp;sectok="  class="action login" rel="nofollow" title="Log In">Log In</a>        </div>
+    </div>
+        
+    
+    
+    
+              <div class="left_sidebar">
+          <form action="/doku.php/start" accept-charset="utf-8" class="search" id="dw__search" method="get" role="search"><div class="no"><input type="hidden" name="do" value="search" /><input type="text" placeholder="Search" id="qsearch__in" accesskey="f" name="id" class="edit" title="[F]" /><button type="submit" title="Search">Search</button><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>                  </div>
+        <main class="right_page" id="dokuwiki__content" tabindex="-1">
+          <!-- TOC START -->
+<div id="dw__toc">
+<h3 class="toggle">Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><div class="li"><a href="#jupyterhub_ics">Jupyterhub @ ICS</a></div>
+<ul class="toc">
+<li class="level2"><div class="li"><a href="#quickstart">Quickstart</a></div></li>
+<li class="level2"><div class="li"><a href="#overview">Overview</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="#fall_quarter_improvements">Fall Quarter Improvements</a></div></li>
+<li class="level3"><div class="li"><a href="#key_features_and_benefits">Key features and benefits:</a></div></li>
+<li class="level3"><div class="li"><a href="#complete_specs">Complete Specs</a></div></li>
+</ul>
+</li>
+<li class="level2"><div class="li"><a href="#documentation">Documentation</a></div></li>
+<li class="level2"><div class="li"><a href="#ics_hub">ICS Hub</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="#getting_started">Getting Started</a></div></li>
+<li class="level3"><div class="li"><a href="#restarting_your_server">Restarting your Server</a></div></li>
+<li class="level3"><div class="li"><a href="#creating_multiple_servers">Creating multiple servers</a></div></li>
+<li class="level3"><div class="li"><a href="#instructional_ecosystem">Instructional Ecosystem</a></div></li>
+<li class="level3"><div class="li"><a href="#changelog">ChangeLog</a></div></li>
+<li class="level3"><div class="li"><a href="#installing_and_running_postgresql">Installing and Running PostgreSQL</a></div></li>
+<li class="level3"><div class="li"><a href="#copying_files">Copying Files</a></div></li>
+<li class="level3"><div class="li"><a href="#faq_and_troubleshooting">FAQ and Troubleshooting</a></div></li>
+</ul>
+</li>
+<li class="level2"><div class="li"><a href="#troubleshooting">Troubleshooting</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="#submitting_a_trouble_report">Submitting a Trouble Report</a></div></li>
+<li class="level3"><div class="li"><a href="#can_t_open_csv_file">Can&#039;t Open CSV File</a></div></li>
+<li class="level3"><div class="li"><a href="#x11_desktop_blank">X11 Desktop Blank</a></div></li>
+<li class="level3"><div class="li"><a href="#can_t_start_a_server">Can&#039;t Start a Server</a></div></li>
+<li class="level3"><div class="li"><a href="#can_t_delete_pod">Can&#039;t Delete Pod</a></div></li>
+</ul>
+</li>
+<li class="level2"><div class="li"><a href="#other_virtual_resources_ics">Other Virtual Resources @ ICS</a></div></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 class="sectionedit1" id="jupyterhub_ics">Jupyterhub @ ICS</h1>
+<div class="level1">
+
+<p>
+<a href="/doku.php/group:support:virtual_environments:jupyterlab" class="wikilink1" title="group:support:virtual_environments:jupyterlab">Management Information(sgroup only)</a>
+</p>
+
+</div>
+
+<h2 class="sectionedit2" id="quickstart">Quickstart</h2>
+<div class="level2">
+<ol>
+<li class="level1"><div class="li"> If you are off campus you will need to first connect to the <a href="/doku.php/network:campus:campusvpn" class="wikilink1" title="network:campus:campusvpn">Campus VPN</a></div>
+</li>
+<li class="level1 node"><div class="li"> Visit <a href="https://hub.ics.uci.edu" class="urlextern" title="https://hub.ics.uci.edu" rel="nofollow">https://hub.ics.uci.edu</a>. </div>
+<ol>
+<li class="level2"><div class="li">  Course specific sites are available, for a specific <abbr title="Uniform Resource Locator">URL</abbr> please talk to your instructor.</div>
+</li>
+</ol>
+</li>
+<li class="level1"><div class="li"> Log in with your ICS credentials.  </div>
+</li>
+</ol>
+
+</div>
+
+<h2 class="sectionedit3" id="overview">Overview</h2>
+<div class="level2">
+
+<p>
+ICS Instructors, researchers and students are invited to connect to Jupyterlab@ICS  <a href="https://hub.ics.uci.edu" class="urlextern" title="https://hub.ics.uci.edu" rel="nofollow">https://hub.ics.uci.edu</a>.  
+</p>
+
+<p>
+Jupyterlab@ICS turns any web browser into a personal Linux server offering a Linux terminal,  Jupyter Notebook, an X11 desktop and other web-based apps such as Rstudio, VSCode.  ICS home directories are mounted to provide persistent storage. 
+</p>
+
+</div>
+
+<h3 class="sectionedit4" id="fall_quarter_improvements">Fall Quarter Improvements</h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> A larger, faster flash storage backend.</div>
+</li>
+<li class="level1"><div class="li"> Self managed package installation (`sudo apt`)</div>
+</li>
+<li class="level1"><div class="li"> Longer run times (idle nodes are removed after 7 days)</div>
+</li>
+<li class="level1"><div class="li"> More hardware behind the cluster </div>
+</li>
+<li class="level1"><div class="li"> Specialized research group and course offerings.</div>
+</li>
+<li class="level1"><div class="li"> Larger pods with up to 8 cores and 16GB RAM.</div>
+</li>
+<li class="level1"><div class="li"> Latest version of <strong>VSCode</strong> and <strong>Rstudio</strong> web apps.</div>
+</li>
+<li class="level1"><div class="li"> Jupyterhub has been updated to 1.4.2 and kubernetes 1.19</div>
+</li>
+</ul>
+
+<p>
+Jupyterlab@ICS is built on donated equipment in the <a href="/doku.php/hardware:cluster:openlab" class="wikilink1" title="hardware:cluster:openlab">openlab cluster</a> for research and instructional computing.
+</p>
+
+<p>
+<a href="/lib/exe/detail.php/virtual_environments:jupyterhub:jupyter.jpg?id=virtual_environments%3Ajupyterhub" class="media" title="virtual_environments:jupyterhub:jupyter.jpg"><img src="/lib/exe/fetch.php/virtual_environments:jupyterhub:jupyter.jpg?w=300&amp;tok=679983" class="media" alt="" width="300" /></a>
+</p>
+
+</div>
+
+<h3 class="sectionedit5" id="key_features_and_benefits">Key features and benefits:</h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"> Nothing to configure, no VM to run, no modules to load.</div>
+</li>
+<li class="level1"><div class="li"> Prior sessions can be reopened from the <strong>Running Terminals and Kernels</strong> pane.</div>
+</li>
+<li class="level1"><div class="li"> Persistent storage in your ICS home directory.</div>
+</li>
+<li class="level1"><div class="li"> Students and instructors work in the same cloud IDE.</div>
+</li>
+<li class="level1"><div class="li"> Works for any <abbr title="Operating System">OS</abbr> and any browser.</div>
+</li>
+<li class="level1"><div class="li"> Customizable per course of per research group.</div>
+</li>
+<li class="level1"><div class="li"> Users are isolated from one another.</div>
+</li>
+<li class="level1"><div class="li"> Mid-quarter update.</div>
+</li>
+</ul>
+
+</div>
+
+<h3 class="sectionedit6" id="complete_specs">Complete Specs</h3>
+<div class="level3">
+
+<p>
+When you login to <a href="https://hub.ics.uci.edu" class="urlextern" title="https://hub.ics.uci.edu" rel="nofollow">ICS Jupyterhub</a> using any web browser, you get a personal docker container
+</p>
+<ul>
+<li class="level1"><div class="li"> Ubuntu 20.04</div>
+</li>
+<li class="level1"><div class="li"> 18 nodes</div>
+</li>
+<li class="level1"><div class="li"> 360 CPU Cores</div>
+</li>
+<li class="level1"><div class="li"> 1.33 TiB Memory Total</div>
+</li>
+<li class="level1"><div class="li"> Up to up to 8 vcpu cores and 16 <abbr title="Gigabyte">GB</abbr> RAM  <strong>More</strong></div>
+</li>
+<li class="level1"><div class="li"> Backed by super quick all flash storage  <strong>Faster</strong></div>
+</li>
+<li class="level1"><div class="li"> Your own ICS Account home directory  </div>
+</li>
+<li class="level1"><div class="li"> `sudo apt` allows self-service software installation.</div>
+</li>
+<li class="level1 node"><div class="li"> IDE&#039;s</div>
+<ul>
+<li class="level2"><div class="li"> VSCode</div>
+</li>
+<li class="level2"><div class="li"> Rstudio</div>
+</li>
+<li class="level2"><div class="li"> Octave</div>
+</li>
+</ul>
+</li>
+<li class="level1 node"><div class="li"> Servers</div>
+<ul>
+<li class="level2"><div class="li"> Shiny Server</div>
+</li>
+</ul>
+</li>
+<li class="level1 node"><div class="li"> Notebooks</div>
+<ul>
+<li class="level2"><div class="li"> Python</div>
+</li>
+<li class="level2"><div class="li"> JavaScript</div>
+</li>
+<li class="level2"><div class="li"> Julia </div>
+</li>
+<li class="level2"><div class="li"> R</div>
+</li>
+<li class="level2"><div class="li"> Octave</div>
+</li>
+</ul>
+</li>
+<li class="level1 node"><div class="li"> CLI Tools</div>
+<ul>
+<li class="level2"><div class="li"> gcc/g++ and debugger</div>
+</li>
+<li class="level2"><div class="li"> python3</div>
+</li>
+<li class="level2"><div class="li"> R</div>
+</li>
+<li class="level2"><div class="li"> Java</div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> GIT Integration tools</div>
+</li>
+<li class="level1"><div class="li"> X11 DEsktop</div>
+</li>
+</ul>
+
+</div>
+
+<h2 class="sectionedit7" id="documentation">Documentation</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> <a href="https://jupyter.org/hub" class="urlextern" title="https://jupyter.org/hub" rel="nofollow">Jupyterhub.org</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="https://z2jh.jupyter.org/" class="urlextern" title="https://z2jh.jupyter.org/" rel="nofollow">Zero2Jupyterhub</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s" class="urlextern" title="https://github.com/jupyterhub/zero-to-jupyterhub-k8s" rel="nofollow">Git Repo</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="https://z2jh.jupyter.org/en/latest/customizing/index.html" class="urlextern" title="https://z2jh.jupyter.org/en/latest/customizing/index.html" rel="nofollow">Customization Guide</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="https://github.com/jupyterlab/jupyterlab-git/blob/master/README.md" class="urlextern" title="https://github.com/jupyterlab/jupyterlab-git/blob/master/README.md" rel="nofollow">Jupyterhub Git Integration Guide</a> <strong>Good place for help</strong></div>
+</li>
+</ul>
+
+</div>
+
+<h2 class="sectionedit8" id="ics_hub">ICS Hub</h2>
+<div class="level2">
+
+<p>
+ICS is running a Jupyter lab.
+</p>
+
+</div>
+
+<h3 class="sectionedit9" id="getting_started">Getting Started</h3>
+<div class="level3">
+<ol>
+<li class="level1"><div class="li"> If you are off campus you will need to first connect to the <a href="/doku.php/network:campus:campusvpn" class="wikilink1" title="network:campus:campusvpn">Campus VPN</a></div>
+</li>
+<li class="level1 node"><div class="li"> Visit <a href="https://hub.ics.uci.edu" class="urlextern" title="https://hub.ics.uci.edu" rel="nofollow">https://hub.ics.uci.edu</a>. </div>
+<ol>
+<li class="level2"><div class="li">  Course specific sites are available, for a specific <abbr title="Uniform Resource Locator">URL</abbr> please talk to your instructor.</div>
+</li>
+</ol>
+</li>
+<li class="level1"><div class="li"> Login with your<a href="/doku.php/accounts:faqs" class="wikilink1" title="accounts:faqs"> ICS credentials</a>.  </div>
+</li>
+</ol>
+<div class="table sectionedit10"><table class="inline">
+	<tr class="row0">
+		<td class="col0"><a href="/lib/exe/detail.php/virtual_environments:jupyterhub:notebooks.jpg?id=virtual_environments%3Ajupyterhub" class="media" title="virtual_environments:jupyterhub:notebooks.jpg"><img src="/lib/exe/fetch.php/virtual_environments:jupyterhub:notebooks.jpg?w=300&amp;tok=d439ee" class="media" alt="" width="300" /></a></td><td class="col1">Notebooks: R,Python3, NodeJS, Julia</td>
+	</tr>
+	<tr class="row1">
+		<td class="col0"><a href="/lib/exe/detail.php/virtual_environments:jupyterhub:vscode.jpg?id=virtual_environments%3Ajupyterhub" class="media" title="virtual_environments:jupyterhub:vscode.jpg"><img src="/lib/exe/fetch.php/virtual_environments:jupyterhub:vscode.jpg?w=300&amp;tok=886292" class="media" alt="" width="300" /></a></td><td class="col1">VSCode</td>
+	</tr>
+	<tr class="row2">
+		<td class="col0"><a href="/lib/exe/detail.php/virtual_environments:jupyterhub:desktop.jpg?id=virtual_environments%3Ajupyterhub" class="media" title="virtual_environments:jupyterhub:desktop.jpg"><img src="/lib/exe/fetch.php/virtual_environments:jupyterhub:desktop.jpg?w=300&amp;tok=8d9e37" class="media" alt="" width="300" /></a></td><td class="col1">X11 Desktop</td>
+	</tr>
+</table></div>
+
+</div>
+
+<h3 class="sectionedit11" id="restarting_your_server">Restarting your Server</h3>
+<div class="level3">
+
+<p>
+In order to restart your Jupyterhub pod, navigate to the Hub Control Panel from the menu:  “File &gt; Hub Control Panel”
+</p>
+
+<p>
+<a href="/lib/exe/detail.php/virtual_environments:jupyterhub:hub_control_panel_menu.jpg?id=virtual_environments%3Ajupyterhub" class="media" title="virtual_environments:jupyterhub:hub_control_panel_menu.jpg"><img src="/lib/exe/fetch.php/virtual_environments:jupyterhub:hub_control_panel_menu.jpg?w=200&amp;tok=321b44" class="media" alt="" width="200" /></a>
+</p>
+
+<p>
+This will open a new tab similar to this:
+</p>
+
+<p>
+<a href="/lib/exe/detail.php/virtual_environments:jupyterhub:hub-control-panel.png?id=virtual_environments%3Ajupyterhub" class="media" title="virtual_environments:jupyterhub:hub-control-panel.png"><img src="/lib/exe/fetch.php/virtual_environments:jupyterhub:hub-control-panel.png?w=600&amp;tok=b87465" class="media" alt="" width="600" /></a>
+</p>
+
+<p>
+If a Jupyterhub pod is currently running, there will large red button that says “Stop My Server”.  Clicking on that button will stop the running Jupyterhub pod.
+</p>
+
+<p>
+After a moment, the “Stop My Server” and “My Server” buttons will be replaced by a “Launch Server” Button, click on it and follow on screen prompts.
+</p>
+
+<p>
+<a href="/lib/exe/detail.php/virtual_environments:hub-control-panel-start-server.jpg?id=virtual_environments%3Ajupyterhub" class="media" title="virtual_environments:hub-control-panel-start-server.jpg"><img src="/lib/exe/fetch.php/virtual_environments:hub-control-panel-start-server.jpg?w=600&amp;tok=3ee9f7" class="media" alt="" width="600" /></a>
+</p>
+
+</div>
+
+<h3 class="sectionedit12" id="creating_multiple_servers">Creating multiple servers</h3>
+<div class="level3">
+
+<p>
+Users can start multiple Jupyter servers on a single JupyterHub instance. 
+</p>
+
+<p>
+In order to start a second server, navigate to the Hub Control Panel in “File &gt; Hub Control Panel”
+</p>
+
+<p>
+<a href="/lib/exe/detail.php/virtual_environments:jupyterhub:hub_control_panel_menu.jpg?id=virtual_environments%3Ajupyterhub" class="media" title="virtual_environments:jupyterhub:hub_control_panel_menu.jpg"><img src="/lib/exe/fetch.php/virtual_environments:jupyterhub:hub_control_panel_menu.jpg?w=200&amp;tok=321b44" class="media" alt="" width="200" /></a>
+</p>
+
+<p>
+This will open a new tab.
+</p>
+
+<p>
+<a href="/lib/exe/detail.php/virtual_environments:jupyterhub:hub-control-panel.png?id=virtual_environments%3Ajupyterhub" class="media" title="virtual_environments:jupyterhub:hub-control-panel.png"><img src="/lib/exe/fetch.php/virtual_environments:jupyterhub:hub-control-panel.png?w=600&amp;tok=b87465" class="media" alt="" width="600" /></a>
+</p>
+
+<p>
+Enter a name for your new server, then click on the link to the right: “Add New Server”.
+</p>
+
+</div>
+
+<h3 class="sectionedit13" id="instructional_ecosystem">Instructional Ecosystem</h3>
+<div class="level3">
+
+</div>
+
+<h4 id="general_availability">General Availability</h4>
+<div class="level4">
+
+<p>
+The <a href="https://hub.ics.uci.edu" class="urlextern" title="https://hub.ics.uci.edu" rel="nofollow">https://hub.ics.uci.edu</a> site includes a wide number of extensions.   These extensions will come and go during the quarter based on availability, usefullness, load, and security.  Please send any requests for new extensions to helpdesk@ics.uci.edu.
+</p>
+
+</div>
+
+<h4 id="specific_course_hubs">Specific Course Hubs</h4>
+<div class="level4">
+
+<p>
+Instructors may request a course specific hub.  Available plugins will not change during the quarter except in response to extreme security  vulnerabilities.  Course hubs can be restricted to enrolled students and students on a list curated by the instructor.  Upon request, instructors may be given rights to view student projects. 
+</p>
+
+</div>
+
+<h3 class="sectionedit14" id="changelog">ChangeLog</h3>
+<div class="level3">
+
+</div>
+
+<h4 id="containersicsuciedu_jupyter_notebook2020093004">9/30/2020 containers.ics.uci.edu/jupyter/notebook:2020093004</h4>
+<div class="level4">
+<ul>
+<li class="level1"><div class="li"> Ubuntu 20.04</div>
+</li>
+<li class="level1"><div class="li"> Base notebook changed to <a href="https://hub.docker.com/r/jupyter/scipy-notebook" class="urlextern" title="https://hub.docker.com/r/jupyter/scipy-notebook" rel="nofollow">https://hub.docker.com/r/jupyter/scipy-notebook</a></div>
+</li>
+<li class="level1"><div class="li"> R version 4.0.2</div>
+</li>
+</ul>
+
+</div>
+
+<h3 class="sectionedit15" id="installing_and_running_postgresql">Installing and Running PostgreSQL</h3>
+<div class="level3">
+
+<p>
+Please send email to helpdesk@ics.uci.edu if you have any problems running the following commands.
+</p>
+
+<p>
+Start up a terminal from the launcher (you can start the launcher with ctrl + shift +l):
+</p>
+
+<p>
+<a href="/lib/exe/fetch.php/virtual_environments:terminal-icon.jpg" class="media" title="virtual_environments:terminal-icon.jpg"><img src="/lib/exe/fetch.php/virtual_environments:terminal-icon.jpg?w=200&amp;tok=3a07a0" class="medialeft" alt="" width="200" /></a>
+</p>
+
+</div>
+
+<h4 id="install">Install</h4>
+<div class="level4">
+
+<p>
+To install, run the following from the terminal command line.
+</p>
+<pre class="code">sudo apt update 
+sudo apt install -y postgresql</pre>
+
+</div>
+
+<h4 id="allowed_commands">Allowed Commands</h4>
+<div class="level4">
+
+<p>
+The following are commands you can run:
+</p>
+<pre class="code">apt remove
+apt install
+apt upgrade
+tcpdump
+netstat</pre>
+
+<p>
+If you need to use other commands, email helpdesk@ics.uci.edu for consideration with an explanation as to why you need the command.
+</p>
+
+</div>
+
+<h4 id="running_as_non-root">Running as non-root</h4>
+<div class="level4">
+
+<p>
+The following command create the database in your ICS home directory (which is persistent storage) and runs locally on the machine.
+</p>
+<pre class="code">export PATH=$PATH:/usr/lib/postgresql/12/bin/
+initdb -D ~/pgsql  -U your_user_name
+pg_ctl -D ~/pgsql -l logfile -o &quot;-k /tmp&quot; start</pre>
+
+<p>
+If you restart your hub, you will need to install and run pgsql again, but you will not need to re-initialize the database.
+</p>
+
+</div>
+
+<h3 class="sectionedit16" id="copying_files">Copying Files</h3>
+<div class="level3">
+
+</div>
+
+<h4 id="upload">Upload</h4>
+<div class="level4">
+
+<p>
+NOTE:  This works for small file sizes. Please use <a href="/doku.php/accounts:mapping_network_drive" class="wikilink1" title="accounts:mapping_network_drive">Samba to map your network drive</a> to copy large file.
+</p>
+<ol>
+<li class="level1 node"><div class="li"> Open the jhub filebrowser by clicking on the indicated file browser icon:</div>
+<ul>
+<li class="level2"><div class="li"> <a href="/lib/exe/detail.php/virtual_environments:jupyterhub:jhub-filebrowser.jpg.png?id=virtual_environments%3Ajupyterhub" class="media" title="virtual_environments:jupyterhub:jhub-filebrowser.jpg.png"><img src="/lib/exe/fetch.php/virtual_environments:jupyterhub:jhub-filebrowser.jpg.png?w=200&amp;tok=e3b3c5" class="media" alt="" width="200" /></a></div>
+</li>
+</ul>
+</li>
+<li class="level1 node"><div class="li"> Drag files from your local computer into the file tree on the left hand window pane in your browser.  This uploads the file into your <a href="/doku.php/accounts:faqs" class="wikilink1" title="accounts:faqs">ICS account</a>:</div>
+<ul>
+<li class="level2"><div class="li"> <a href="/lib/exe/detail.php/virtual_environments:jupyterhub:jhub-filecopy.png?id=virtual_environments%3Ajupyterhub" class="media" title="virtual_environments:jupyterhub:jhub-filecopy.png"><img src="/lib/exe/fetch.php/virtual_environments:jupyterhub:jhub-filecopy.png?w=200&amp;tok=be9a80" class="media" alt="" width="200" /></a></div>
+</li>
+</ul>
+</li>
+</ol>
+
+</div>
+
+<h4 id="download">Download</h4>
+<div class="level4">
+<ol>
+<li class="level1 node"><div class="li"> Simply right click on the file you would like to download and select “Download” from the popup menu:</div>
+<ul>
+<li class="level2"><div class="li"> <a href="/lib/exe/detail.php/virtual_environments:jupyterhub:jhub-download.png?id=virtual_environments%3Ajupyterhub" class="media" title="virtual_environments:jupyterhub:jhub-download.png"><img src="/lib/exe/fetch.php/virtual_environments:jupyterhub:jhub-download.png?w=200&amp;tok=ec1e9c" class="medialeft" alt="" width="200" /></a></div>
+</li>
+</ul>
+</li>
+</ol>
+
+</div>
+
+<h3 class="sectionedit17" id="faq_and_troubleshooting">FAQ and Troubleshooting</h3>
+<div class="level3">
+
+<p>
+<strong>How do I debug C++ code in VSCode</strong>
+</p>
+
+<p>
+<strong>A</strong>  Install the C/C++ IntelliSense extension for VSCode:
+</p>
+
+<p>
+<a href="https://github.com/Microsoft/vscode-cpptools" class="urlextern" title="https://github.com/Microsoft/vscode-cpptools" rel="nofollow">https://github.com/Microsoft/vscode-cpptools</a>
+</p>
+
+<p>
+<a href="/lib/exe/detail.php/virtual_environments:jupyterhub:c_extension.jpg?id=virtual_environments%3Ajupyterhub" class="media" title="virtual_environments:jupyterhub:c_extension.jpg"><img src="/lib/exe/fetch.php/virtual_environments:jupyterhub:c_extension.jpg?w=400&amp;tok=515836" class="media" alt="" width="400" /></a>
+</p>
+
+<p>
+Note that VSCode in hub is not true VSCode, and as such it won&#039;t have access to the same list of extensions.  The product used inside of hub is:
+</p>
+
+<p>
+<a href="https://github.com/cdr/code-server" class="urlextern" title="https://github.com/cdr/code-server" rel="nofollow">https://github.com/cdr/code-server</a>
+</p>
+
+<p>
+<strong>Q My pod is stopped after 1 hour of idleness (3600 seconds)
+
+</strong>A By defualt, jupyterhub culls idle pods after 3600 seconds.   That has been extended to 1 week on stage.     <a href="https://z2jh.jupyter.org/en/latest/customizing/user-management.html#culling-user-pods" class="urlextern" title="https://z2jh.jupyter.org/en/latest/customizing/user-management.html#culling-user-pods" rel="nofollow">Culling User Pods</a>
+</p>
+
+<p>
+<strong>Q I receive the error “Please use a different workspace.” </strong>
+</p>
+<pre class="code">Please use a different workspace.
+This workspace is already in use in another JupyterLab window. 
+Please enter another workspace name.</pre>
+
+<p>
+<strong>Q “503 : Service Unavailable Your server appears to be down. Try restarting it from the hub.” </strong>
+</p>
+<pre class="code">You ran out of space or have too many files on your home directory (H:).  Delete files as needed.</pre>
+
+<p>
+<strong>A You already have a Jupyterlab browser open.</strong>  Simply type in a name for the new desktop, anything you like, and click on “Switch Workspace”.
+</p>
+
+<p>
+<strong>Q Are we using our own docker hub</strong>
+</p>
+
+<p>
+<strong>A</strong>  We run <a href="https://goharbor.io/" class="urlextern" title="https://goharbor.io/" rel="nofollow">Harbor</a> locally.
+</p>
+
+<p>
+We were very happy with it until version 1.9 implemented an AD specific directory search.  We are currently running an ICS fork but, if the folks at 
+goharbor do not fix it, we will need to find another solution.
+</p>
+
+<p>
+<strong>Q RStudio does not have the same installed packages as R </strong>
+</p>
+
+<p>
+<strong>A</strong> Use the following command to add the local conda library to your RStudio session
+</p>
+<pre class="code">     .libPaths( c( &quot;/opt/conda/lib/R/library/&quot; , .libPaths() ) )
+     
+     </pre>
+
+<p>
+<strong>Q <em>Desktop</em> blank or only shows a black background.</strong>
+</p>
+
+<p>
+<strong>A</strong>  In the past this has happened when moving from an older version of the hub to a newer one.   See fi the following steps resolve the issue:
+</p>
+<ol>
+<li class="level1"><div class="li"> Click on the stop server button in <a href="https://hub.ics.uci.edu/hub/admin#/" class="urlextern" title="https://hub.ics.uci.edu/hub/admin#/" rel="nofollow">https://hub.ics.uci.edu/hub/admin#/</a></div>
+</li>
+<li class="level1"><div class="li"> ssh into openlab.ics.uci.edu and `rm -rf ~/.jupyterhub ~/.config/xfce4`</div>
+</li>
+<li class="level1"><div class="li"> Start a new server in <a href="https://hub.ics.uci.edu/hub/admin#/" class="urlextern" title="https://hub.ics.uci.edu/hub/admin#/" rel="nofollow">https://hub.ics.uci.edu/hub/admin#/</a> (or log out and back into <a href="https://hub.ics.uci.edu" class="urlextern" title="https://hub.ics.uci.edu" rel="nofollow">https://hub.ics.uci.edu</a></div>
+</li>
+</ol>
+
+</div>
+
+<h2 class="sectionedit18" id="troubleshooting">Troubleshooting</h2>
+<div class="level2">
+
+</div>
+
+<h3 class="sectionedit19" id="submitting_a_trouble_report">Submitting a Trouble Report</h3>
+<div class="level3">
+
+</div>
+
+<h4 id="places_to_get_help">Places to get help</h4>
+<div class="level4">
+
+<p>
+First and foremost, bring the problem to your instructor&#039;s or TA&#039;s attention.   Chances are you are not the only one experiencing this problem and they will be able to help or provide you with the next steps to resolving your problem.
+</p>
+
+<p>
+Your instructor may ask to you submit a trouble report to the <a href="https://swiki.ics.uci.edu/doku.php#contacting_ics_computing_support_helpdesk" class="urlextern" title="https://swiki.ics.uci.edu/doku.php#contacting_ics_computing_support_helpdesk" rel="nofollow">ICS Computing Support Helpdesk</a> if they don&#039;t have the solution or if you need more help than they can provide.
+</p>
+
+</div>
+
+<h4 id="how_to_submit">How to submit</h4>
+<div class="level4">
+
+<p>
+In order to submit a helpdesk, please include the following information in an email to helpdesk@ics.uci.edu:
+</p>
+<ul>
+<li class="level1"><div class="li"> ICS Account Name</div>
+</li>
+<li class="level1"><div class="li"> Hub Insance (e.g. ics51, ics53)</div>
+</li>
+<li class="level1"><div class="li"> Location(e.g. Home, Openlab, Middle Earth)</div>
+</li>
+<li class="level1"><div class="li"> Campus VPN</div>
+</li>
+<li class="level1"><div class="li"> Operating System</div>
+</li>
+<li class="level1"><div class="li"> Browser</div>
+</li>
+<li class="level1"><div class="li"> Hub Applications (e.g. desktop, termlina, R)</div>
+</li>
+<li class="level1"><div class="li"> Time and date that the problem occured</div>
+</li>
+<li class="level1"><div class="li"> Symptom/Issue.</div>
+</li>
+</ul>
+
+</div>
+
+<h3 class="sectionedit20" id="can_t_open_csv_file">Can&#039;t Open CSV File</h3>
+<div class="level3">
+
+</div>
+
+<h5 id="symptoms">Symptoms</h5>
+<div class="level5">
+
+<p>
+The hub container hangs when trying to open up a CSV file.
+</p>
+
+</div>
+
+<h5 id="solution">Solution</h5>
+<div class="level5">
+
+<p>
+Use the Firefox browser.  The CSV reader exhausts a memory limit that both Edge and Chrome have set.   
+</p>
+
+<p>
+Permament solution is pending.
+</p>
+
+</div>
+
+<h3 class="sectionedit21" id="x11_desktop_blank">X11 Desktop Blank</h3>
+<div class="level3">
+
+</div>
+
+<h5 id="symptoms1">Symptoms</h5>
+<div class="level5">
+
+<p>
+The X11 desktop is blank or black.  
+</p>
+
+</div>
+
+<h5 id="solution1">Solution</h5>
+<div class="level5">
+
+<p>
+You will need to restart the hub container using the directions above <span class="curid"><a href="/doku.php/virtual_environments:jupyterhub#restarting_your_server" class="wikilink1" title="virtual_environments:jupyterhub">above.</a></span>
+</p>
+
+<p>
+This happens when the “Send CtlAltDel” button is clicked in the upper right corner of the screen.  We are looking for a solution, but for the time being, do not click that button.
+</p>
+
+</div>
+
+<h3 class="sectionedit22" id="can_t_start_a_server">Can&#039;t Start a Server</h3>
+<div class="level3">
+
+</div>
+
+<h5 id="symptoms2">Symptoms</h5>
+<div class="level5">
+
+<p>
+See helpdesk ticket <a href="https://helpdesk.ics.uci.edu/Ticket/Display.html?id=73286" class="urlextern" title="https://helpdesk.ics.uci.edu/Ticket/Display.html?id=73286" rel="nofollow">73286</a>
+</p>
+
+<p>
+It appears as if the server failed to start:
+</p>
+
+<p>
+<a href="/lib/exe/detail.php/virtual_environments:jupyterhub:jupyter-troubleshooting-1.png?id=virtual_environments%3Ajupyterhub" class="media" title="virtual_environments:jupyterhub:jupyter-troubleshooting-1.png"><img src="/lib/exe/fetch.php/virtual_environments:jupyterhub:jupyter-troubleshooting-1.png?w=400&amp;tok=24ebe4" class="media" alt="" width="400" /></a>
+</p>
+
+<p>
+Running `kubectl -n jhub log jupyter-junjies1`, immediately after opening starting the jhub server, revealed log messages regarding permissions.
+</p>
+
+</div>
+
+<h5 id="solution2">Solution</h5>
+<div class="level5">
+
+<p>
+In this case, the user home directory was set to 0700.  Setting the user home directory to 0711 resolved the problem.
+</p>
+
+</div>
+
+<h3 class="sectionedit23" id="can_t_delete_pod">Can&#039;t Delete Pod</h3>
+<div class="level3">
+
+</div>
+
+<h5 id="symptoms3">Symptoms</h5>
+<div class="level5">
+
+<p>
+See <a href="https://helpdesk.ics.uci.edu/Ticket/Display.html?id=73077" class="urlextern" title="https://helpdesk.ics.uci.edu/Ticket/Display.html?id=73077" rel="nofollow">https://helpdesk.ics.uci.edu/Ticket/Display.html?id=73077</a>
+</p>
+<pre class="code">kubectl  -n jhub-ics53 delete pod jupyter-dingruiz
+...
+Events:
+  Type     Reason         Age                    From                  Message
+  ----     ------         ----                   ----                  -------
+  Warning  FailedKillPod  2m19s (x55 over 111m)  kubelet, centaurus-5  error killing pod: failed to &quot;KillContainer&quot; for &quot;notebook&quot; with KillContainerError: &quot;rpc error: code = Unknown desc = operation timeout: context deadline exceeded&quot;</pre>
+
+</div>
+
+<h5 id="fix">Fix</h5>
+<div class="level5">
+
+<p>
+Try this:
+</p>
+<pre class="code">kubectl  -n jhub-ics53 delete pod jupyter-dingruiz</pre>
+
+<p>
+If that doesn&#039;t work:
+</p>
+<pre class="code">kubectl  -n jhub-ics53 delete pod jupyter-dingruiz --now</pre>
+
+<p>
+When all else fails:
+</p>
+<pre class="code">kubectl  -n jhub-ics53 delete pod jupyter-dingruiz --grace-period=0 --force  </pre>
+
+</div>
+
+<h2 class="sectionedit24" id="other_virtual_resources_ics">Other Virtual Resources @ ICS</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> <a href="/doku.php/virtual_environments:kubernetes" class="wikilink1" title="virtual_environments:kubernetes">Kubernetes@ICS</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php/virtual_environments:docker" class="wikilink1" title="virtual_environments:docker">Docker@ICS</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php/virtual_environments:inst" class="wikilink1" title="virtual_environments:inst">Instructional Virtual Machines</a></div>
+</li>
+</ul>
+
+</div>
+
+        </main>
+      
+    
+      <footer class="stylefoot">
+        <div class="meta">
+          <div class="user">
+                    </div>
+          <div class="doc">
+          <bdi>virtual_environments/jupyterhub.txt</bdi> · Last modified: 2022/10/14 11:25 by <bdi>luciad</bdi>          </div>
+        </div>
+      </footer>
+
+    <div class="clearer"></div>
+
+    
+                <div class="bar" id="bar__bottom">
+      <div class="bar-left">
+        <a href="/doku.php/virtual_environments:jupyterhub?do=edit"  class="action source" accesskey="v" rel="nofollow" title="Show pagesource [V]">Show pagesource</a><a href="/doku.php/virtual_environments:jupyterhub?do=revisions"  class="action revs" accesskey="o" rel="nofollow" title="Old revisions [O]">Old revisions</a>      </div>
+      <div class="bar-right">
+        <a href="/doku.php/virtual_environments:jupyterhub?do=media&amp;ns=virtual_environments"  class="action media" rel="nofollow" title="Media Manager">Media Manager</a><a href="#dokuwiki__top"  class="action top" accesskey="t" rel="nofollow" title="Back to top [T]">Back to top</a>      </div>
+    </div>
+    <div class="clearer"></div>
+            
+    <div class="footerinc">
+  <div class="license"><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img src="/lib/images/license/button/cc-by-nc-sa.png" alt="CC Attribution-Noncommercial-Share Alike 4.0 International" /></a></div>
+  <a target="_blank" href="https://www.dokuwiki.org/dokuwiki" title="Driven by DokuWiki"><img src="/lib/tpl/arctic-swiki/images/button-dw.png" width="80" height="15" alt="Driven by DokuWiki" /></a>
+  
+  <a target="_blank" href="/feed.php" title="Recent changes RSS feed"><img src="/lib/tpl/arctic-swiki/images/button-rss.png" width="80" height="15" alt="Recent changes RSS feed" /></a>
+
+  <a target="_blank" href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS"><img src="/lib/tpl/arctic-swiki/images/button-css.png" width="80" height="15" alt="Valid CSS" /></a>
+
+  <a target="_blank" href="http://validator.w3.org/check/referer" title="Valid XHTML 1.0"><img src="/lib/tpl/arctic-swiki/images/button-xhtml.png" width="80" height="15" alt="Valid XHTML 1.0" /></a>
+</div>
+
+  </div>
+</div>
+
+<div class="no"><img src="/lib/exe/indexer.php?id=virtual_environments%3Ajupyterhub&amp;1666040996" width="2" height="1" alt="" /></div>
+</body>
+</html>

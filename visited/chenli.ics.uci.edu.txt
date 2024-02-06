@@ -1,0 +1,213 @@
+
+
+
+
+Chen Li – Homepage of Prof. Chen Li
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chen Li  
+
+
+
+
+
+
+
+   Home  
+                  Biography 
+ Research
+
+   Publications  
+   
+
+   Students  
+   
+
+
+   Teaching  
+   
+
+
+   News  
+   
+
+
+   Miscellaneous  
+                      
+
+
+
+
+ External Links
+
+
+DBLP
+Google Scholar
+LinkedIn
+Github
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chen Li
+2092 Donald Bren Hall
+University of California
+Irvine, CA 92697-3435 chenli AT ics DOT uci DOT edu
+
+
+
+
+
+
+
+
+
+
+ProfessorDepartment of Computer ScienceBren School of Information and Computer Sciences
+
+
+
+
+
+
+
+
+
+
+Chen Li is a professor in the Department of Computer Science at UC Irvine. He received his Ph.D. degree in Computer Science from Stanford University, and his M.S. and B.S. in Computer Science from Tsinghua University, China, respectively.  He was a recipient of an NSF CAREER award and several test-of-time publication awards, a part-time visiting research scientist at Google, PC co-chair of VLDB 2015, and an ACM distinguished member. Since January 2020, he’s the treasurer and a board member of the VLDB Endowment.  Since July 2020, he is the Faculty Director of the ICS Master of Computer Science Program. He was a co-founder and CTO of a startup to commercialize his research results.Curriculum Vitae
+
+
+
+
+Research 
+
+
+
+My research interests are in the field of data management, including data-intensive computing, databases, query processing and optimization, ML-based systems and data analytics, search, visualization. My current focus is building open source systems for big data management and analytics. My PhD thesis at Stanford was on data integration, with an emphasis on both theoretical and practical aspects. My recent research, especially after spending a few quarters at Google and a few years doing a startup as its founder and CTO, has a strong preference on engineering and open source system building.  I believe “Computer Science” is a “Science” to support great engineering, and we need to build systems to stay relevant in this fast-paced IT era. My recent research projects are closely related to social media data analytics due to its increasing importance in many disciplines. Learn More …
+
+
+
+
+News 
+
+
+
+(9/22) Paper titled “Fries: Fast and Consistent Runtime Reconfiguration in Dataflow Systems with Transactional Guarantees” by Zuozhi Wang, Shengquan Ni, Avinash Kumar, Chen Li accepted by VLDB 2023.(9/22) Our team showed a demo at the VLDB conference to illustrate how to support collaborative data analytics in Texera, including shared editing and shared execution.(9/22) Look forward to serving on the Startups Panel at VLDB 2022 in Sydney.(9/22) Check our first Texera blog on how to use the service to do debuggable web crawling.(8/22) Together with colleagues from UCI and UCLA, we received an NSF PIPP Phase I grant.(8/22) Paper titled “GSViz: Progressive Visualization of Geospatial Influences in Social Networks” with Sadeem, Qiushi Bai, and Shuang accepted by SIGSPATIAL 2022. (6/22) Thrilled to know our former student, Alex Behm, was the leading author and a main contributor of the Databricks Photon paper, which received the 2022 SIGMOD Best Industrial Paper Award! He was working on the Flamingo and AsterixDB projects at UCI. Great to see our students are making a big impact in the field of big data systems.(6/22) Paper titled “Maliva: Using Machine Learning to Rewrite Visualization Queries Under Time Constraints” accepted by EDBT 2023.(6/22) Two demo papers titled “Demonstration of Collaborative and Interactive Workflow-Based Data Analytics in Texera” and “Demonstration of Accelerating Machine Learning Inference Queries with Correlative Proxy Models” accepted by VLDB 2022.Past News
+
+
+
+
+
+
+ Latest News
+
+
+
+(7/19)
+Gave talks at TU Berlin (Germany), Alibaba (Seattle), and Fudan University (China).
+(7/19)
+Gave a tutorial on visualization of big spatial data at the VLDB Summer School, Beijing, China.
+(5/19)
+Glad to receive a UCI Chancellor’s Award for Excellence in Fostering Undergraduate Research.
+More …
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" id="document" dir="ltr">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place# book: http://ogp.me/ns/book#">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>
+    ICS Primary Data Center    [Support Wiki]
+  </title>
+
+  <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="index,follow"/>
+<meta name="keywords" content="services,datacenter,cs"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="Support Wiki"/>
+<link rel="start" href="/"/>
+<link rel="contents" href="/doku.php/services:datacenter:cs?do=index" title="Sitemap"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="/feed.php?mode=list&amp;ns=services:datacenter"/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="/doku.php/services:datacenter:cs?do=export_xhtml"/>
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="/doku.php/services:datacenter:cs?do=export_raw"/>
+<link rel="canonical" href="http://swiki.ics.uci.edu/doku.php/services:datacenter:cs"/>
+<link rel="stylesheet" type="text/css" href="/lib/exe/css.php?t=arctic-swiki&amp;tseed=462b2dc7bf71dd8a62de0047a804e7e3"/>
+<!--[if gte IE 9]><!-->
+<script type="text/javascript">/*<![CDATA[*/var NS='services:datacenter';var JSINFO = {"id":"services:datacenter:cs","namespace":"services:datacenter","isadmin":0,"isauth":0,"move_renameokay":false,"plugin_slider":{"width":800}};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/jquery.php?tseed=23f888679b4f1dc26eef34902aca964f"></script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/js.php?t=arctic-swiki&amp;tseed=462b2dc7bf71dd8a62de0047a804e7e3"></script>
+<!--<![endif]-->
+
+  <link rel="shortcut icon" href="/lib/tpl/arctic-swiki/images/favicon.ico" />
+
+  
+</head>
+<body>
+
+<div id="skiplinks" class="skiplinks">
+  <a href="#dokuwiki__content" class="skiplink">skip to content</a>
+</div>
+
+<div id="wrapper" class='show'>
+  <div class="dokuwiki">
+
+    
+    <header class="stylehead">
+      <div class="header">
+        <div class="pagename">
+          [[<a href="/doku.php/services:datacenter:cs?do=backlink" >ICS Primary Data Center</a>]]
+        </div>
+        <div class="logo">
+          <a href="/doku.php/start"  id="dokuwiki__top" accesskey="h" title="[ALT+H]">Support Wiki</a>        </div>
+      </div>
+
+            <div class="breadcrumbs">
+        <span class="bchead">Trace:</span> <span class="bcsep">•</span> <span class="curid"><bdi><a href="/doku.php/services:datacenter:cs"  class="breadcrumbs" title="services:datacenter:cs">ICS Primary Data Center</a></bdi></span>      </div>
+      
+          </header>
+
+                  <div class="bar" id="bar__top">
+        <div class="bar-left">
+          <a href="/doku.php/services:datacenter:cs?do=edit"  class="action source" accesskey="v" rel="nofollow" title="Show pagesource [V]">Show pagesource</a>        </div>
+        <div class="bar-right">
+          <a href="/doku.php/services:datacenter:cs?do=recent"  class="action recent" accesskey="r" rel="nofollow" title="Recent Changes [R]">Recent Changes</a><a href="/doku.php/services:datacenter:cs?do=index"  class="action index" accesskey="x" rel="nofollow" title="Sitemap [X]">Sitemap</a><a href="/doku.php/services:datacenter:cs?do=login&amp;sectok="  class="action login" rel="nofollow" title="Log In">Log In</a>        </div>
+    </div>
+        
+    
+    
+    
+              <div class="left_sidebar">
+          <form action="/doku.php/start" accept-charset="utf-8" class="search" id="dw__search" method="get" role="search"><div class="no"><input type="hidden" name="do" value="search" /><input type="text" placeholder="Search" id="qsearch__in" accesskey="f" name="id" class="edit" title="[F]" /><button type="submit" title="Search">Search</button><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>                  </div>
+        <main class="right_page" id="dokuwiki__content" tabindex="-1">
+          <!-- TOC START -->
+<div id="dw__toc">
+<h3 class="toggle">Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><div class="li"><a href="#ics_primary_data_center">ICS Primary Data Center</a></div>
+<ul class="toc">
+<li class="level2"><div class="li"><a href="#requirements_for_equipment_inside_data_center">Requirements for Equipment inside Data Center</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="#additional_requirements_for_managed_equipment">Additional Requirements for Managed Equipment</a></div></li>
+<li class="level3"><div class="li"><a href="#provided">Provided</a></div></li>
+<li class="level3"><div class="li"><a href="#recommended">Recommended</a></div></li>
+</ul>
+</li>
+<li class="level2"><div class="li"><a href="#required_for_ics_managed_systems">Required for ICS Managed Systems</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="#equipment_purchase_workflow">Equipment Purchase Workflow</a></div></li>
+<li class="level3"><div class="li"><a href="#installation_workflow">Installation Workflow</a></div></li>
+</ul>
+</li>
+<li class="level2"><div class="li"><a href="#property_tags">Property Tags</a></div></li>
+<li class="level2"><div class="li"><a href="#crah_units">CRAH Units</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="#crah_maintentance">CRAH Maintentance</a></div></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 class="sectionedit1" id="ics_primary_data_center">ICS Primary Data Center</h1>
+<div class="level1">
+
+<p>
+Vital Statistics:
+</p>
+<ul>
+<li class="level1"><div class="li"> Size:  1600 sqft</div>
+</li>
+<li class="level1"><div class="li"> HVAC:  3 Units</div>
+</li>
+<li class="level1"><div class="li"> Cabinets:</div>
+</li>
+<li class="level1"><div class="li"> Draw:</div>
+</li>
+</ul>
+
+</div>
+
+<h2 class="sectionedit2" id="requirements_for_equipment_inside_data_center">Requirements for Equipment inside Data Center</h2>
+<div class="level2">
+
+<p>
+Please use the following checklist to make sure equipment can be hosted in the ICS Data Center:
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="https://docs.google.com/spreadsheets/d/1M4vffsZ8vYTY-SZuX3e6sGIbhb1mg_2hvY2rR2_fkSg/edit?usp=sharing" class="urlextern" title="https://docs.google.com/spreadsheets/d/1M4vffsZ8vYTY-SZuX3e6sGIbhb1mg_2hvY2rR2_fkSg/edit?usp=sharing" rel="nofollow">ICS Hardware Checklist</a></div>
+</li>
+</ul>
+
+<p>
+All ICS faculty and researchers are welcome to place their equipment in the ICS data center so long as the equipment has the following attributes:
+</p>
+<ul>
+<li class="level1"><div class="li"> <strong>Rack mountable</strong>:  The equipment must rack neatly and securely into a standard 19“ cabinet.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Advanced Out of Band Management</strong>:  Often called BMC, iDRAC, IPMI, ILOM, or OOB, out of band management should provide complete remote administration with a full console..</div>
+</li>
+<li class="level1"><div class="li"> <strong>Airflow</strong>:  The ICS data center is split into hot and cold aisles.   Any equipment in the data center must take cold air in from the cold aisle and exhaust into a hot aisle. </div>
+</li>
+<li class="level1"><div class="li"> <strong>Proper Form Factor</strong>:  Equipment must actually fit in a standard rack or a specialty rack must be provided.  Typically, this means the equipment must have a depth of 33” or less.</div>
+</li>
+<li class="level1"><div class="li"> <strong>IPv4</strong>:  The equipment must be capable of using an IPv4 address.  At this time we do not offer IPv6 addresses.</div>
+</li>
+</ul>
+
+</div>
+
+<h3 class="sectionedit3" id="additional_requirements_for_managed_equipment">Additional Requirements for Managed Equipment</h3>
+<div class="level3">
+
+<p>
+ICS Computing support can manage equipment that comes complete with minimal warranty.   We cannot support self assembled or DIY builds.  ICS faculty are welcome to house these systems in the ICS data center, but they must be self managed.
+</p>
+
+</div>
+
+<h3 class="sectionedit4" id="provided">Provided</h3>
+<div class="level3">
+
+<p>
+The following resources are provided by ICS free of charge for all equipment in the ICS data center:
+</p>
+<ul>
+<li class="level1"><div class="li"> Up to 2 120V or 240V power connections per host.</div>
+</li>
+<li class="level1"><div class="li"> Up to 2 1Gb/s per node plus 1 OOB connections.</div>
+</li>
+<li class="level1"><div class="li"> Space in cabinet limited by availability and heat restrictions.</div>
+</li>
+</ul>
+
+</div>
+
+<h3 class="sectionedit5" id="recommended">Recommended</h3>
+<div class="level3">
+
+<p>
+The following lists out additional recommendations for servers in the ICS Datacenter:
+</p>
+<ul>
+<li class="level1"><div class="li"> RAID 10/5/6 support.</div>
+</li>
+<li class="level1"><div class="li"> Redundant PSU</div>
+</li>
+<li class="level1"><div class="li"> 10Gb/s Network</div>
+</li>
+<li class="level1"><div class="li"> 5 year NBD warranty</div>
+</li>
+</ul>
+
+</div>
+
+<h2 class="sectionedit6" id="required_for_ics_managed_systems">Required for ICS Managed Systems</h2>
+<div class="level2">
+
+<p>
+<a href="https://swiki.ics.uci.edu/doku.php/services:supported_os" class="urlextern" title="https://swiki.ics.uci.edu/doku.php/services:supported_os" rel="nofollow">ICS Operating System Support</a>
+</p>
+
+</div>
+
+<h3 class="sectionedit7" id="equipment_purchase_workflow">Equipment Purchase Workflow</h3>
+<div class="level3">
+<ol>
+<li class="level1 node"><div class="li"> ICS Support can help get server quotes after being provided system specifications.</div>
+<ul>
+<li class="level2"><div class="li"> If the client gets server quotes without ICS Support&#039;s assistance, there needs to be sufficient time given for review (minimum of 1 week).</div>
+</li>
+</ul>
+</li>
+<li class="level1 node"><div class="li"> Servers are reviewed for:</div>
+<ul>
+<li class="level2"><div class="li"> Chassis depth and height.  </div>
+</li>
+<li class="level2"><div class="li"> Maximum power usage (applies especially for GPU servers)</div>
+</li>
+<li class="level2 node"><div class="li"> Power input cord (C13 or C19).  We have been surprised with C19 which we have less outlets for.</div>
+<ul>
+<li class="level3"><div class="li"> <a href="/lib/exe/detail.php/services:power_cord.jpg?id=services%3Adatacenter%3Acs" class="media" title="services:power_cord.jpg"><img src="/lib/exe/fetch.php/services:power_cord.jpg?w=200&amp;tok=887d89" class="media" alt="" width="200" /></a></div>
+</li>
+</ul>
+</li>
+<li class="level2"><div class="li"> Network requirements (10GB, 1GB, fiber, etc)</div>
+</li>
+<li class="level2"><div class="li"> Minimum 3 years warranty, with 5 years preferred.</div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> A helpdesk ticket should be open with the quotes included for customer/ICS review and approval.</div>
+</li>
+</ol>
+
+</div>
+
+<h3 class="sectionedit8" id="installation_workflow">Installation Workflow</h3>
+<div class="level3">
+<ol>
+<li class="level1"><div class="li"> Create IP address with name chosen for the server</div>
+</li>
+<li class="level1"><div class="li"> Rack server and install.</div>
+</li>
+<li class="level1 node"><div class="li"> Test max power consumption of server.</div>
+<ul>
+<li class="level2"><div class="li"> Verify there is enough power capacity for the server</div>
+</li>
+<li class="level2"><div class="li"> Label power usage on the server and in DCIM</div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> Re-rack if necessary or add more power to rack if available.  </div>
+</li>
+</ol>
+
+</div>
+
+<h2 class="sectionedit9" id="property_tags">Property Tags</h2>
+<div class="level2">
+
+<p>
+We can look up purchase orders in KFS to determine what equipment a property tag is meant for:
+</p>
+<ol>
+<li class="level1"><div class="li"> Login to <a href="https://portal.uci.edu" class="urlextern" title="https://portal.uci.edu" rel="nofollow">https://portal.uci.edu</a></div>
+</li>
+<li class="level1 node"><div class="li"> Click on “Finances/KFS” menu link and then the KFS Homepage under the “Tools &amp; Support” section.</div>
+<ul>
+<li class="level2"><div class="li"> <a href="/lib/exe/detail.php/services:datacenter:proptag_1.jpg?id=services%3Adatacenter%3Acs" class="media" title="services:datacenter:proptag_1.jpg"><img src="/lib/exe/fetch.php/services:datacenter:proptag_1.jpg?w=200&amp;tok=467fb7" class="media" alt="" width="200" /></a></div>
+</li>
+</ul>
+</li>
+<li class="level1 node"><div class="li"> Click on “Custom Document Search” and click on “Search - Purchase Orders”.</div>
+<ul>
+<li class="level2"><div class="li"> <a href="/lib/exe/detail.php/services:datacenter:proptag_2.jpg?id=services%3Adatacenter%3Acs" class="media" title="services:datacenter:proptag_2.jpg"><img src="/lib/exe/fetch.php/services:datacenter:proptag_2.jpg?w=200&amp;tok=d14dc8" class="media" alt="" width="200" /></a></div>
+</li>
+</ul>
+</li>
+<li class="level1 node"><div class="li"> Click on the heart icon to make it a favorite so you can see the it from the Home link.</div>
+<ul>
+<li class="level2"><div class="li"> <a href="/lib/exe/detail.php/services:datacenter:proptag_3.jpg?id=services%3Adatacenter%3Acs" class="media" title="services:datacenter:proptag_3.jpg"><img src="/lib/exe/fetch.php/services:datacenter:proptag_3.jpg?w=200&amp;tok=a01de7" class="media" alt="" width="200" /></a></div>
+</li>
+</ul>
+</li>
+<li class="level1 node"><div class="li"> For the search, just enter the purchase order number in the “Purchase Order #” field.</div>
+<ul>
+<li class="level2"><div class="li"> <a href="/lib/exe/detail.php/services:datacenter:proptag_4.jpg?id=services%3Adatacenter%3Acs" class="media" title="services:datacenter:proptag_4.jpg"><img src="/lib/exe/fetch.php/services:datacenter:proptag_4.jpg?w=200&amp;tok=450c39" class="media" alt="" width="200" /></a> </div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> The search results will be at the bottom of the page.</div>
+</li>
+</ol>
+
+</div>
+
+<h2 class="sectionedit10" id="crah_units">CRAH Units</h2>
+<div class="level2">
+
+<p>
+The data center is cools vi thre <a href="https://heinz-mech.com/hvac/crac-units/crac-vs-crah/#:~:text=The%20difference%20between%20a%20CRAC,control%20valve%20to%20provide%20cooling." class="urlextern" title="https://heinz-mech.com/hvac/crac-units/crac-vs-crah/#:~:text=The%20difference%20between%20a%20CRAC,control%20valve%20to%20provide%20cooling." rel="nofollow">CRAH</a> units.   
+</p>
+
+<p>
+<a href="https://drive.google.com/file/d/1Oq89I2glylvGNppb0I6F6b5X9PucGmRR/view?usp=sharing" class="urlextern" title="https://drive.google.com/file/d/1Oq89I2glylvGNppb0I6F6b5X9PucGmRR/view?usp=sharing" rel="nofollow">Documentation</a>
+</p>
+
+</div>
+
+<h3 class="sectionedit11" id="crah_maintentance">CRAH Maintentance</h3>
+<div class="level3">
+
+</div>
+
+<h4 id="motor_replacement">Motor Replacement</h4>
+<div class="level4">
+
+<p>
+Motors on all three units were replaced by campus facilities in the first half of 20222.   Lifetime on the motors is projected to be 12 years.  We&#039;ll need to look at replacing them again in 2034. 
+</p>
+<ul>
+<li class="level1"><div class="li"> Job ID 371862 for Special HVAC Request in Information and Computer Science has been completed.</div>
+</li>
+<li class="level1"><div class="li"> Job ID 370331 for Hot/Cold Climate in Information and Computer Science has been completed.</div>
+</li>
+</ul>
+
+</div>
+
+        </main>
+      
+    
+      <footer class="stylefoot">
+        <div class="meta">
+          <div class="user">
+                    </div>
+          <div class="doc">
+          <bdi>services/datacenter/cs.txt</bdi> · Last modified: 2022/06/10 09:56 by <bdi>hans</bdi>          </div>
+        </div>
+      </footer>
+
+    <div class="clearer"></div>
+
+    
+                <div class="bar" id="bar__bottom">
+      <div class="bar-left">
+        <a href="/doku.php/services:datacenter:cs?do=edit"  class="action source" accesskey="v" rel="nofollow" title="Show pagesource [V]">Show pagesource</a><a href="/doku.php/services:datacenter:cs?do=revisions"  class="action revs" accesskey="o" rel="nofollow" title="Old revisions [O]">Old revisions</a>      </div>
+      <div class="bar-right">
+        <a href="/doku.php/services:datacenter:cs?do=media&amp;ns=services%3Adatacenter"  class="action media" rel="nofollow" title="Media Manager">Media Manager</a><a href="#dokuwiki__top"  class="action top" accesskey="t" rel="nofollow" title="Back to top [T]">Back to top</a>      </div>
+    </div>
+    <div class="clearer"></div>
+            
+    <div class="footerinc">
+  <div class="license"><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img src="/lib/images/license/button/cc-by-nc-sa.png" alt="CC Attribution-Noncommercial-Share Alike 4.0 International" /></a></div>
+  <a target="_blank" href="https://www.dokuwiki.org/dokuwiki" title="Driven by DokuWiki"><img src="/lib/tpl/arctic-swiki/images/button-dw.png" width="80" height="15" alt="Driven by DokuWiki" /></a>
+  
+  <a target="_blank" href="/feed.php" title="Recent changes RSS feed"><img src="/lib/tpl/arctic-swiki/images/button-rss.png" width="80" height="15" alt="Recent changes RSS feed" /></a>
+
+  <a target="_blank" href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS"><img src="/lib/tpl/arctic-swiki/images/button-css.png" width="80" height="15" alt="Valid CSS" /></a>
+
+  <a target="_blank" href="http://validator.w3.org/check/referer" title="Valid XHTML 1.0"><img src="/lib/tpl/arctic-swiki/images/button-xhtml.png" width="80" height="15" alt="Valid XHTML 1.0" /></a>
+</div>
+
+  </div>
+</div>
+
+<div class="no"><img src="/lib/exe/indexer.php?id=services%3Adatacenter%3Acs&amp;1665886497" width="2" height="1" alt="" /></div>
+</body>
+</html>

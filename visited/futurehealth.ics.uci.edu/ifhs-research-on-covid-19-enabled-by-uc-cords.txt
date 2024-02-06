@@ -1,0 +1,208 @@
+
+
+
+
+
+UCI Institute for Future Health | IFH’s Research on COVID-19 enabled by UC CORDS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+News
+
+IFH
+Healthcare
+
+
+Events
+Projects
+Members
+
+IFH Members
+
+
+Key Disciplines
+Collaborators
+Publications
+Resources
+Videos
+About Us
+Join Us
+Contact
+ 
+
+
+
+
+
+
+
+
+NEWS
+ 
+
+
+
+
+
+
+
+
+
+Home                    
+
+
+/IFH News/IFH’s Research on COVID-19... 
+
+
+
+
+
+
+
+
+IFH’s Research on COVID-19 enabled by UC CORDS
+October 8, 2022
+UC CORDS, the University of California COVID research data set, is one of the nation’s first COVID-19-focused sets of real-time data from patient encounters1. UC CORDS – HIPAA-compliant limited data set – includes anonymized data collected from patients’ electronic health records across the five main academic health centers that UC operates. The data set accelerates COVID-19 research, providing insights crucial to fighting COVID-19 and understanding the virus, its risk, and outcomes for diverse populations.
+IFH has had a significant contribution to COVID research using US CORDS. Our researchers studied the impact of COVID-19 on diverse populations resulting in multiple peer-reviewed publications. Using UC CORDS, Prof. Watanabe’s team has assessed the relationship between age and hospitalization among high-risk patients2. A group of IFH members, led by Prof. Rahmani, also pioneered investigating COVID-19 symptoms using individuals’ heart rate and blood pressure data3,4,5,6. The team continues working on new research topics: to, for example, assess gender differences in vaccination rates and their impacts.
+ 
+
+
+
+UC CORDS connects scientists with patient data for actionable insights into COVID-19 and more equitable care.
+Watanabe, J.H., Kwon, J. and Mehta, S.R., 2021. Association of Age and Hospitalization Amongst Those with Underlying High-risk Conditions at COVID-19 Diagnosis in a Large, State-wide Health System. Journal of general internal medicine, 36(9), pp.2906-2908.
+Mehrabadi, M.A., Aqajari, S.A.H., Azimi, I., Downs, C.A., Dutt, N. and Rahmani, A.M., 2021, November. Detection of covid-19 using heart rate and blood pressure: Lessons learned from patients with ards. In 2021 43rd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC) (pp. 2140-2143). IEEE.
+Pinto, M.D., Downs, C.A., Huang, Y., El-Azab, S.A., Ramrakhiani, N.S., Barisano, A., Yu, L., Taylor, K., Esperanca, A., Abrahim, H.L. and Hughes, T., 2022. A distinct symptom pattern emerges for COVID-19 long-haul: a nationwide study. Scientific Reports, 12(1), pp.1-11.
+Huang, Y., Pinto, M.D., Borelli, J.L., Mehrabadi, M.A., Abrihim, H., Dutt, N., Lambert, N., Nurmi, E.L., Chakraborty, R., Rahmani, A.M. and Downs, C.A., 2021. COVID symptoms, symptom clusters, and predictors for becoming a long-hauler: looking for clarity in the haze of the pandemic. SAGE Journal of Clinical Nursing Research, 2022.
+Lambert, N., Survivor Corps, El‐Azab, S.A., Ramrakhiani, N.S., Barisano, A., Yu, L., Taylor, K., Esperança, Á., Mendiola, C., Downs, C.A. and Abrahim, H.L., 2022. The other COVID‐19 survivors: Timing, duration, and health impact of post‐acute sequelae of SARS‐CoV‐2 infection. Journal of Clinical Nursing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+News
+Events
+Projects
+IFH Members
+ 
+
+About IFH
+Key disciplines
+Collaborators
+Work with us
+Contact us
+ 
+
+ 
+				info@futurehealth.uci.edu
+
+
+
+
+
+
+
+
+
+				© Copyright 2021 UCI Institute for Future Health - All Rights Reserved
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,279 @@
+
+
+
+
+
+
+events
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About Us
+
+Personnel
+Affiliations
+ICTS BERD Unit
+
+
+Consulting With Us
+
+Consulting Rates
+Publication and Authorship
+Standard Operating Procedures (SOP)
+Testimonials
+
+
+Resources
+
+Classes and Training
+Study Protocol (Data Format)
+Upcoming Events
+Workshop Materials
+
+
+Request a Consultation
+
+General Request
+UCI Department of Surgery
+Chapman University
+
+
+Community Partners
+
+Chapman University Researchers
+
+
+Contact Us
+
+Location
+Share Your Feeback
+
+
+Multivariate Regression in SPSS for Medical Research
+September 7, 2021 by Anthony Chau 
+Workshop Outline:
+
+Statistical methods: to explore the effects of patients’ demographic and clinical factors on health outcomes, participants will learn four multivariable regression models for four different types of outcomes:
+
+
+Linear regression for continuous outcomes such as biomarker levels
+Logistic regression for binary outcomes such as treatment success or failure
+Cox regression for time-to-event outcomes
+Generalized linear regression for longitudinal outcomes that are measured sequentially over time from the same patients.
+
+
+SPSS program: participants will have an opportunity to
+
+
+Perform statistical procedures using mouse clicks on the drop-down menu in SPSS
+Learn how to interpret SPSS outputs
+Learn how to edit and present SPSS outputs in manuscript
+
+How to access free version of SPSS
+Participants are welcome to use their own SPSS program (version v26 or v27). For those who do not have SPSS, please use the free program from UCI OIT Virtual Computer Lab. UCI OIT offers free access to SPSS when you log into the Virtual Computer Lab using your UCINetID:
+
+Open the following link: UCI Virtual Computing Lab to log into the virtual computer lab using your UCINETID
+Once you are in the virtual computer lab, click on the button ‘LAUNCH’. A new window will pop up, showing many applications including ‘IBM SPSS’.
+Double-click on ‘IBM SPSS’ icon to open the SPSS application
+
+Filed Under: events Spring 2021 Stata Workshop Series
+March 29, 2021 by Anthony Chau 
+Introduction to Bayesian Statistics in Stata
+April 12, 2021 | 11:30am-1 pm
+ 
+Bayesian Multilevel/Longitudinal Modeling
+May 10, 2021 | 11am-1pm
+ 
+Item Response Theory (IRT) and Bayesian IRT
+June 14, 2021 | 11am-1pm
+ 
+Register for Introduction to Bayesian Statistics in Stata below
+Register
+
+Filed Under: events Winter 2021 Stata Workshop Series
+December 16, 2020 by Anthony Chau 
+Structural Equation Modeling
+Jan 11, 2021 | 11am-1 pm
+ 
+Mediation Analysis
+Feb 8, 2021 | 11:30am-1pm
+ 
+Latent Class Analysis
+Mar 8, 2021 | 11:30am-1pm
+
+Register via Eventbrite for any of the three workshops below.
+Register
+
+Filed Under: events Introduction to Medical Data Analysis in SPSS
+December 8, 2020 by Anthony Chau 
+Workshop Outline:
+
+Basic formats of medical research protocols and manuscripts 
+
+Medical research protocols: goal, specific aims, hypotheses, study design, outcomes, statistical methods, sample size and power analysis.
+Manuscripts: scientific background, methods, results, and discussion.
+An example of a medical research study
+
+
+Statistical methods
+
+Univariate analysis using descriptive statistics such as percentage, mean, and SD
+Bivariate analysis using t test, chi-square test, Pearson’s correlation
+Multivariate analysis using linear and logistic regression models
+
+
+SPSS
+
+What is SPSS? Pros and cons of SPSS compared with other statistical programs
+How to obtain SPSS software
+Describe the interface of SPSS (Data view and Variable view)
+Explore the Menu: File, Edit, View, Data, Transform, Analyze, Graphs, Windows
+How to upload a dataset in Excel or text format into SPSS
+Mouse click versus syntax method
+How to clean, transform, and format data
+How to perform univariate analysis (percentage, mean, SD)
+How to perform bivariate analysis (t test, chi-square test, Pearson’s correlation)
+How to perform multivariate analyses (linear and logistic regression)
+How to interpret and present statistical results in tables and graphs
+
+
+
+How to access free version of SPSS
+Participants are welcome to use their own SPSS program (version v26 or v27). For those who do not have SPSS, please use the free program from UCI OIT Virtual Computer Lab. UCI OIT offers free access to SPSS when you log into the Virtual Computer Lab using your UCINetID:
+
+Open the following link: UCI Virtual Computing Lab to log into the virtual computer lab using your UCINETID
+Once you are in the virtual computer lab, click on the button ‘LAUNCH’. A new window will pop up, showing many applications including ‘IBM SPSS’.
+Double-click on ‘IBM SPSS’ icon to open the SPSS application
+
+Filed Under: events The Design and Monitoring of Group Sequential Clinical Trials
+December 3, 2020 by Anthony Chau 
+December 10, 2020 | 9am – 4pm
+Cost: $ 65
+ 
+ 
+Register via Eventbrite below.
+Register
+
+
+Filed Under: events Fall 2020 Stata Workshop Series
+September 30, 2020 by Anthony Chau 
+Panel Data and Mixed Effects Models: What’s the Difference
+Oct 12 | 12 – 1pm
+ 
+Multilevel/Longitudinal Modeling
+Nov 9 | 11:30 – 1pm
+ 
+Survival Analysis 1/2
+Dec 7 | 11 – 1pm
+ 
+Register via Eventbrite for any of the three workshops below.
+Register
+
+Filed Under: events Experimental Design – The Key to Reliable & Reproducible Research
+August 11, 2020 by Anthony Chau 
+August 28, 2020 | 10:00 AM to 5:00 PM | Hosted on Zoom
+The cost of the workshop is $15.
+Register
+
+
+Filed Under: events Psychometrics and Causal Inference in Stata
+May 1, 2020 by fontejon 
+May 29th, 2020 | 8:15 AM to 4:00 PM | Hosted on Zoom
+Free for registered participants to attend
+Register Today >
+
+
+
+Schedule:
+
+
+
+
+
+8:30 – 9:30am
+Basic Stata Commands
+
+
+9:30 – 10:30am
+Basic Stata Estimation Commands
+
+
+10:45 – 11:45am
+Intro to Psychometrics with Stata: Topics include reliability, Cohen’s kappa statistic, canonical correlation, Cronbach’s alpha, exploratory factor and confirmatory factor analysis, factor rotations, multivariate analysis of variance (MANOVA), contrasts and pairwise comparisons, structural equation modeling (SEM), item response theory (IRT), and latent class analysis (LCA).
+
+
+1 – 2:15pm
+Intro to Causal Inference and Treatment Effects Basic concepts of causal inference including counterfactuals and potential outcomes are introduced. Demonstration of Stata’s -teffects- suite of commands to fit causal models using propensity score matching, inverse-probability weighting, regression adjustment, “doubly-robust” estimators that use a combination of inverse-probability weighting with regression adjustment, and nearest-neighbor matching.
+
+
+2:30 – 4pm
+Causal Inference for Complex Observational Data Concepts in missing data such as missing at random (MAR), missing not at random (MNAR), and unobserved confounding are introduced. This talk will demonstrate how to use standard maximum likelihood estimation to fit extended regression models (ERMs) that deal with all of these common issues alone or simultaneously.
+
+
+
+Register Today >
+
+Filed Under: events Introduction to R the Tidy Way
+March 3, 2020 by fontejon 
+March 5th, 2020 | 8:30 AM to 4:00 PM
+Description:Tidyverse is a set of R packages that are known for their consistent grammar. This workshop will introduce packages in the Tidyverse collection and other packages that use tidy principles. It will cover summarizing data with descriptive statistics and visualizations, wrangling data, statistical modeling and writing reproducible reports with R Markdown. Prerequisite Knowledge: Some experience with working with data in R, Excel, SAS, SPSS, Python or any other tool.
+Instructor Bio:Mine Dogucu is Assistant Professor of Teaching in the Department of Statistics. Her work focuses on integrating data science and computing in the statistics curriculum, making Bayesian education accessible at the undergraduate level, and instructor training. She has been an R user for more than 10 years and has been using Tidyverse in the last 3 years.
+Location:University of California, IrvineSchool of Information & Computer ScienceDepartment of StatisticsSecond Floor, Room 2011
+Cost: $95.00Breakfast and lunch will be provided.Please bring a laptop to the workshop.
+Register Online: https://tinyurl.com/RTheTidyWay
+Register Today >
+
+Filed Under: events Intro to Clinical Trial Design
+October 8, 2019 by fontejon 
+October 24, 2019 from 9AM-5 PM
+presented by: Dan GillenProfessor and ChairUCI’s Department of Statistics
+This short course will cover the fundamentals of clinical trials design including both primary design issues as well as proper conduct and implementations. After this course researchers will be familiar with specific design issues including screening studies, planning statistical tasks and the essential elements of a clinical protocol. The important aspects of proper implementation including randomization, blinding, and surrogate endpoints will be discussed. The course will not require heavy statistical abilities but will instead focus on the essential elements of design to best ensure valid, generalizable, and reproducible trial results. This course is great if you are new to trial design or just want a refresher on the fundamentals.
+Location:UCI’s Donald Bren Hall – Conference Room 2011
+Cost: $45.00Course materials and lunch will be provided.
+Register Online: 
+Register Today >
+
+Filed Under: events 1
+2
+Next Page »
+
+© 2022 Center for Statistical Consulting - Dept. Of Statistics - University of California Irvine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

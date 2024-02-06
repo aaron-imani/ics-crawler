@@ -1,0 +1,327 @@
+
+
+
+
+
+
+    Openlab reinstalled with Ubuntu 22.04 (08/01/2022)    [Support Wiki]
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skip to content
+
+
+
+
+
+
+          [[Openlab reinstalled with Ubuntu 22.04 (08/01/2022)]]
+        
+
+Support Wiki 
+
+
+Trace: • Openlab reinstalled with Ubuntu 22.04 (08/01/2022) 
+
+
+
+Show pagesource 
+
+Recent ChangesSitemapLog In 
+
+
+Search 
+
+
+
+Table of Contents
+
+
+Openlab reinstalled with Ubuntu 22.04 (08/01/2022)
+Gitlab 15 (06/24/2022)
+OpenJDK 17 available (02/02/2022)
+Adobe License Changes (01/07/2022)
+Miscellaneous Announcments (01/07/2022)
+ICS Metrics and Monitoring (01/07/2022)
+Jupyterlab @ ICS  and Jupyter Notebooks for Instruction (01/05/2022)
+Managing Your ICS Passwords
+ICS Storage Service Upgrade (01/05/2022)
+Planned Changes to the UCI Google Workspace Service (1/25/2022)
+
+
+
+
+Openlab reinstalled with Ubuntu 22.04 (08/01/2022)
+
+
+Beginning in August of 2022 we will begin redeploying the Instructional Openlab with Ubuntu 22.04 LTS (Jammy Jellyfish).
+
+
+Older operating systems will continue to be available via the vagrant virtual environment.
+
+
+Instructors may connect to a test cluster by connecting to openlab22.ics.uci.edu using ssh.  Let us know what software is missing and what additional software you would like to see available.
+
+
+Additional information regarding these changes will be posted here:
+
+
+Openlab
+
+
+Feel free to send questions and comments to helpdesk@ics.uci.edu.
+
+
+Gitlab 15 (06/24/2022)
+
+
+The ICS gitlab setup has been upgraded to GitLab 15. Many improvements have been added along with removal of deprecated features. Fore more information, please visit GitLab 15.0 Released.
+
+
+OpenJDK 17 available (02/02/2022)
+
+
+OpenJDK 17.0.2 is now available on openlab.
+
+
+Please visit the Modules swiki page for more information on how to use this software.
+
+
+Adobe License Changes (01/07/2022)
+
+
+Adobe licenses for software like Adobe Acrobat expired. To activate or renew your Adobe license, follow the steps outlined by OIT:
+
+
+ go to https://oit.uci.edu/adobe 
+
+ click on Get Adobe Acrobat
+
+ follow the instructions to “purchase” Acrobat
+
+
+
+If your license expired, you do not need to download and reinstall Acrobat. After the purchase process is complete, you will need to sign in to the software using your UCINetID@uci.edu email address and UCINetID password along with Duo. For step-by-step directions, please refer to: https://swiki.ics.uci.edu/doku.php/software:adobe_acrobat (ICS sign-in required).
+
+
+Miscellaneous Announcments (01/07/2022)
+
+
+ICS Metrics and Monitoring (01/07/2022)
+
+
+ICS Computing Support runs metrics, monitoring and alerting for much of ICS managed computing in the ICS data center.   Researchers should feel free to reach out to helpdesk@ics.uci.edu to add self supported equipment to the systems that are measured and monitored. 
+
+
+Kubernetes @ ICS
+
+
+ICS Computing Support runs several Kubernetes clusters based on RKE product.   We currently run several services: 
+ JupyterHub@ICS, Password Reset, ICS Speedtest, PHPMYAdmin, PasteBin and a GoHarbor Container Reposittory.    
+
+
+Feel free to reach out to heldpesk@ics.uci.edu if you have suggestion for other microservices, have a microservice you want to run, or have questions about running a Kubernetes cluster.
+
+
+GCP/AWS Project Management
+
+
+Computing support can step into an active or passive role in managing GCP or AWS assets.  Any services provided in the ICS data center can likewise be provided in the cloud.
+
+
+Big Highlights:
+
+
+ Your cloud instances can have a .ics.uci.edu hostname
+
+ VPN encrypted link from your AWS/GCP project into the ICS data center.
+
+
+
+Other highlights:
+
+
+ Consulting and Billing Setup
+
+ Provisioning (also automated provisioning via Terraform)
+
+ Data Center Integration (Storage, compute, authentication, etc)
+
+ DNS (use ics.uci.edu in GCP or AWS)
+
+ Secure connection between campus and cloud.
+
+ Configuration Management
+
+ Single sign on authentication
+
+ Integration with campus storage.
+
+
+
+Jupyterlab @ ICS  and Jupyter Notebooks for Instruction (01/05/2022)
+
+
+Jupyterhub is once again available for students and researchers during Winter quarter.  Users logging into one of the Jupyterhub URL's will receive a personal docker container running Ubuntu.
+
+
+ https://hub.ics.uci.edu:  General purpose hub intended for Winter quarter instruction(Linux shell, VSCode IDE, X11 Desktop)
+
+ https://rstudio-hub.ics.uci.edu:  Specialized hub for running recent versions of Rstudio (currently 2021.09.0). 
+
+
+
+Highlights:
+
+
+ Jupyterhub uses ICS home directory so data is persistent, available on any ICS host, and backed up daily.
+
+ Multiple server instances may be started.  
+
+ The `sudo apt install` command is available to install additional packages. 
+
+ Hub's will run indefinitelywhen logged into at least once per week.
+
+
+
+Follow the project here
+
+
+Managing Your ICS Passwords
+
+
+The following in an excerpt from the full document at ICS Password Overview
+
+
+Change or Reset your ICS Password
+
+
+You may reset your ICS password at ICS Password Toolbox if you:
+
+
+ Know your current password, or
+
+ Have set and can answer your security question, or
+
+ Have access to your alternate email address, which will be used to send a password reset message to
+
+
+
+Please contact Helpdesk via email (helpdesk@ics.uci.edu) if you need assistance with this process.  Attach any relevant screenshots should you be encountering any error messages.
+
+
+Change or Reset your ICS Google Workspace Password
+
+
+ Use  this tool to change your ICS Google Workspace password after logging in
+
+ Use  this link to recover a forgotten ICS Google Workspace password
+
+
+
+ICS Storage Service Upgrade (01/05/2022)
+
+
+A couple of notes about the ICS Home Directory.
+
+
+ The school provides an ICS Home Directory. for every member of the ICS community.
+
+ That ICS home directory is available to any computer connected to the Campus Network(even via VPN).
+
+ The ICS home directory is, typically, automatically available on any ICS managed Windows and Linux system.
+
+ Backed up twice daily
+
+
+
+Beginning Fall 2021, all home directories are being stored on a new Purestorage Flashblade named tardigrade.ics.uci.edu, occasionally abbreviated as tg.ics.uci.edu.
+
+
+Tardigrade Highlights:
+
+
+ Backed by all flash storage so home directory access is fast 
+
+ Redundant 40Gb/s uplink to the ICS Data Center Backbone
+
+ Inline compression (data reduction factor of ~1.6)
+
+ 28 days of self service snapshots + long term disaster recovery backups
+
+
+
+Visit ICS Home Directory for more information.
+
+
+Planned Changes to the UCI Google Workspace Service (1/25/2022)
+
+
+OIT has sent out email announcing the following planned changes to thee UCI Google Workspace Service on Tuesday, January 25, 2022.   
+
+
+These changes will not effect the ICS run and ICS branded ICS Google Workspace Service.  ICS Computing Support will review and determine if mirroring these changes would benefit the ICS community and if they are feasible in our environment.   ICS community members are encouraged send mail to helpdesk@ics.uci.edu if mirroing these changes will be impactful, constructively or negatively, to ICS business or research.
+
+
+ Require UCI Single Sign-On to access all UCI Google services like Gmail and Google Drive. If you are already enrolled in Duo, Duo MFA will also be required. 
+
+ Disable the ‘less secure apps’ (LSA) feature which allows third-party mail clients like Apple Mail and Microsoft Outlook to connect to Gmail using a legacy authentication method (see below) 
+
+ Disable the POP mail protocol 
+
+
+
+Prvevious Announcements
+
+
+ 2021 Announcements
+
+
+
+
+
+
+
+
+
+announce/announce-2022.txt · Last modified: 2022/06/23 10:31 by vipada 
+
+
+
+
+
+Show pagesourceOld revisions 
+
+Media ManagerBack to top 
+
+
+
+
+
+
+
+
+
+
+
+
+

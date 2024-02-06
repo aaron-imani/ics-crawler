@@ -48,13 +48,12 @@ def extract_next_links(url, resp):
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
     global last_vistied #DIYA CHECK 
     unq_links = set()
-    flag=False
+    large_file=False
     
     content_size = len(resp.raw_response.content)
     if content_size > MAX_FILE_SIZE_BYTES:
         print(f"File size exceeds the maximum threshold for {url}! **Setting Flag to True** ")
-        flag=True
-        return []
+        large_file=True
 
     # Checking dead URL
     if resp.status != 200:
@@ -85,7 +84,7 @@ def extract_next_links(url, resp):
         
         text_content_ratio = len(text_content) / max(len(total_content), 1)
         text_content_threshold = 0.25
-        if ( text_content_ratio < text_content_threshold or len(text_content) < MIN_TEXT_CONTENT_LENGTH ) and flag==True:
+        if ( text_content_ratio < text_content_threshold or len(text_content) < MIN_TEXT_CONTENT_LENGTH ) and large_file==True:
             print(f"Low textual content for {url} and File exceeds maximum threshold. Skipping extraction.")
             should_store = False
         

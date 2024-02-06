@@ -1,0 +1,57 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~fowlkes/publications2.html
+==============================
+Number of Tokens: 363
+Number of Characters: 256
+Number of Paragraphs: 1
+Information Ratio: 1.3061
+File Size: 4046
+
+
+
+
+    charless c. fowlkes - uc irvine - computer vision 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+charless c. fowlkes
+professor
+computer science
+uc irvine
+
+fowlkes@ics.uci
+4076 dbh
+949.824.6945
+
+uci : cs : vision group
+
+
+
+home
+publications
+presentations
+software
+cv
+
+
+
+
+
+
+2
+
+
+
+

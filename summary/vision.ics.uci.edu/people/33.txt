@@ -1,0 +1,63 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/vision.ics.uci.edu/people/33.html
+==============================
+Number of Tokens: 156
+Number of Characters: 487
+Number of Paragraphs: 0
+Information Ratio: 1.1735
+File Size: 2556
+
+
+
+
+
+Computational Vision | ICS | UC Irvine
+
+
+
+
+
+Computational Vision at UC Irvine  
+
+
+
+home
+projects
+people
+publications
+datasets
+events
+courses
+contact
+links
+
+
+
+
+
+
+Yihang BoVisiting PhD Student
+Associated Project(s): Grouping and Mid-level Vision, People and Activities
+
+
+
+Publications
+
+
+
+Shape-based Pedestrian ParsingYihang Bo, Charless FowlkesCVPR, 2011.[pdf]
+
+
+
+
+
+
+Computational Vision |
+      School of Information and Computer Sciences |
+      UC Irvine
+
+© 2007-2017 UC Irvine
+
+
+
+
+

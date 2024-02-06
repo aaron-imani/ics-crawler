@@ -1,0 +1,216 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/futurehealth.ics.uci.edu/mental-health-navigator.html
+==============================
+Number of Tokens: 1578
+Number of Characters: 2347
+Number of Paragraphs: 7
+Information Ratio: 1.1171
+File Size: 37168
+
+
+
+
+
+
+UCI Institute for Future Health | MENTAL HEALTH NAVIGATOR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+News
+
+IFH
+Healthcare
+
+
+Events
+Projects
+Members
+
+IFH Members
+
+
+Key Disciplines
+Collaborators
+Publications
+Resources
+Videos
+About Us
+Join Us
+Contact
+ 
+
+
+
+
+
+
+
+
+PROJECTS
+ 
+
+
+
+
+
+
+
+
+
+Home                    
+
+
+/Projects/MENTAL HEALTH NAVIGATOR 
+
+
+
+
+
+
+
+
+
+MENTAL HEALTH NAVIGATOR
+Traditionally, the regime of mental healthcare has followed an episodic psychotherapy model wherein patients seek care from a provider through a prescribed treatment plan developed over multiple provider visits. Recent advances in wearable and mobile technology have generated increased interest in digital mental healthcare that enables individuals to address episodic mental health symptoms. In the Mental Health Navigator project we are seeking to develop a comprehensive platform to measure, estimate, guide the individual’s mental health state within context of a therapist-in-the-loop, cybernetic goal-based system.
+
+Articles:
+Amir M. Rahmani, Jocelyn Lai, Salar Jafarlou, Asal Yunusova, Alex. P. Rivera, Sina Labbaf, Sirui Hu, Arman Anzanpour, Nikil Dutt, Ramesh Jain, Jessica L. Borelli, “Personal Mental Health Navigator: Harnessing the Power of Data, Personal Models, and Health Cybernetics to Promote Psychological Well-being”, arXiv, 2020
+Jocelyn Lai, Amir Rahmani, Asal Yunusova, Alex Rivera, Sina Labbaf, Sirui Hu, Nikil Dutt, Ramesh Jain, Jessica Borelli, “Using Multi-modal Assessments to Capture Personalized Contexts of College Student Well-being in 2020: A Case Study”, JMIR Formative Research, 2021
+Asal Yunusova, Jocelyn Lai, Alexander P. Rivera, Sirui Hu, Sina Labbaf, Amir M. Rahmani, Nikil D. Dutt, Ramesh C. Jain, & Jessica L. Borelli, “Assessing Mental Health in Emerging Adulthood through a Mental Health Navigator: A Study Protocol”, JMIR Journal of Research Protocols, 2021
+
+
+
+
+Project information
+
+Category: Health State Estimation, Lifestyle Recommendation, and Personal Health Models
+Contact Person: Amir M. Rahmani
+Funding: NSF SCC UNITE project
+
+
+
+
+ 
+
+
+
+
+
+
+
+News
+Events
+Projects
+IFH Members
+ 
+
+About IFH
+Key disciplines
+Collaborators
+Work with us
+Contact us
+ 
+
+ 
+				info@futurehealth.uci.edu
+
+
+
+
+
+
+
+
+
+				© Copyright 2021 UCI Institute for Future Health - All Rights Reserved
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

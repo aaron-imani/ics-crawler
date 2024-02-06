@@ -1,0 +1,222 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/futurehealth.ics.uci.edu/hca-healthcare-a-hospital-system-based-in-nashville-recently-announced-a-data-sharing-deal-with-google.html
+==============================
+Number of Tokens: 2157
+Number of Characters: 5821
+Number of Paragraphs: 19
+Information Ratio: 1.0456
+File Size: 42280
+
+
+
+
+
+
+UCI Institute for Future Health | HCA Healthcare, a hospital system based in Nashville, recently announced a data-sharing deal with Google
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+News
+
+IFH
+Healthcare
+
+
+Events
+Projects
+Members
+
+IFH Members
+
+
+Key Disciplines
+Collaborators
+Publications
+Resources
+Videos
+About Us
+Join Us
+Contact
+ 
+
+
+
+ 
+
+
+
+HEALTHCARE NEWS
+ 
+
+
+
+
+
+
+
+
+
+Home                    
+
+
+/Healthcare News/HCA Healthcare, a hospital... 
+
+
+
+
+
+
+
+
+HCA Healthcare, a hospital system based in Nashville, recently announced a data-sharing deal with Google
+July 16, 2021
+Medical data sharing should be welcomed as long as privacy is protected | Opinion
+Health care systems and providers must do all they can to properly inform patients of the benefits and risks of enrolling in data sharing.
+
+HCA Healthcare, a hospital system based in Nashville, recently announced a data-sharing deal with Google. The deal could provide groundbreaking advancements in how we share health data and diagnose patients. But, as with all technology, patients need to be careful to balance better treatment with protecting their own privacy.
+According to the agreement, HCA will share “anonymized records stripped of personally identifying information” with the Google Cloud. From there, HCA will “use Google’s AI technology to develop algorithms that could advise doctors on the best treatment options for patients.” That includes sharing 32 million annual patient records.
+The potential benefits for improved health care are certainly great. For starters, it could mean quicker and fewer doctor visits. For patients who see several different doctors regularly, it means not having to repeat your medical history at every visit. Instead, each doctor could access a patient’s most recent medical information all in one place.
+Some wearable technology can even facilitate in collecting and sharing health-related data, including blood pressure and other vital signs. These metrics can be shared with doctors in real time, cutting down the need for in-person appointments or quickly alerting health providers to an issue. They can also provide diagnoses electronically through machine learning.
+Advanced data sharing can also streamline the consumer experience when it comes to navigating health insurance. The Centers for Medicare and Medicaid have been working on an initiative called eMedicare that aims to simplify Medicare access. The initiative includes a “Care Compare” tool, which consolidates existing tools to help individuals find care facilities. The final product will incorporate easy data sharing so that Medicare users can access their records easily, regardless of what tool they’re using.
+ 
+However, there are risks
+But data sharing is not without risks. Consider the details of Project Nightingale, a data collecting project under Google’s partnership with health care company Ascension. The company worked with Google to “collect personal health-related information of millions of Americans across 21 states.”
+Hear more Tennessee voices:Get the weekly opinion newsletter for insightful and thought-provoking columns.
+A whistleblower on the project claimed patients were not made aware of the transfer of data and were not given the option to opt into the program. Reporting showed that doctors were also not aware that their patients’ most intimate data was being shared — including hospitalization records, health histories and patients’ names and birthdays. The project’s goal of “improving outcomes, reducing costs, and saving lives” is certainly a noble one, but patients and their doctors deserve to be kept in the loop.
+Google has taken plenty of heat for its practices over the years. In 2018, it was reported that Google did not disclose “a flaw that exposed hundreds of thousands of birth dates, contact information and other personal data of subscribers.” The company was also under federal probe “examining whether Google’s existing trove of data amassed from its flagship search engine, home speakers, free email service and numerous other arms give the company an unfair advantage over competitors.”
+Still, technology has improved many aspects of our lives, especially when it comes to life-saving medical advancements. Sharing digital health records can improve both efficiency and outcomes for patients who are not burdened with a stack of paperwork every time they walk into a clinic.
+At the same time, patients must be aware of the privacy risks that can accompany digital records. Health care systems and providers must do all they can to properly inform patients of the benefits and risks of enrolling in data sharing. A study from the Journal of the American Medical Informatics Association recommended that providers inform patients of all areas in which the data may be used, including research, diagnostic assistance and product development.
+The study also found that a best practice is for each health care system to develop a data sharing review committee that regularly inspects data sharing practices to ensure all regulations are followed and to address any potential flaws in the system.
+As long as patients are informed of the risks and choose to opt into the program, digital record sharing is a medical advancement that should be welcomed.
+Jan Dubauskas is a health care expert, enthusiastic insurance pro, attorney and mom serving as vice president of healthinsurance.com. 
+https://www.tennessean.com/story/opinion/2021/07/13/medical-data-sharing-should-welcomed-long-privacy-protected/7955197002/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+News
+Events
+Projects
+IFH Members
+ 
+
+About IFH
+Key disciplines
+Collaborators
+Work with us
+Contact us
+ 
+
+ 
+				info@futurehealth.uci.edu
+
+
+
+
+
+
+
+
+
+				© Copyright 2021 UCI Institute for Future Health - All Rights Reserved
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

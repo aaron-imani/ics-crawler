@@ -1,0 +1,80 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/mdogucu.ics.uci.edu/workshops.html
+==============================
+Number of Tokens: 734
+Number of Characters: 2279
+Number of Paragraphs: 1
+Information Ratio: 1.0904
+File Size: 8965
+
+
+
+
+
+
+
+Dr. Mine Dogucu
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+Mine Dogucu
+ Home 
+ Teaching 
+ Publications 
+ Talks 
+ Workshops 
+ CV 
+
+
+   
+   
+   
+   
+   
+
+
+
+
+  
+
+
+ Below is a list of workshops and trainings that I have taught. 
+
+
+
+ Ricci, F.Z., Medina, C. M. & Dogucu, M. gradetools: An R package to Assist with Providing Grades and Personalized Feedback. Online Workshop. May 2022.    
+			 
+ Dogucu, M. Teaching an Introductory Data Science course with tidyverse workshop. Workshop given at Cypress College. December 2021.   
+			  
+ Dogucu, M., Johnson, A. and Ott, M. Teaching Bayesian Statistics at the Undergraduate Level. Workshop given at US Conference on Teaching Statistics (USCOTS). May 2021.  
+ Dogucu, M. Sen de Yaz Yaz Yaz R Markdown ile her istediğini [Introduction to R Markdown]. Workshop given for R Ladies Ankara, Eskişehir, and İstanbul. June, 2020.   
+			    
+ Dogucu, M.Introduction to ggplot as an entry way to R for beginners.  Workshop given at Teaching Tomorrow’s Scientists: An ASCB Virtual Meeting. May, 2020.    
+  Dogucu M., Introduction to R the Tidy Way. UC Irvine Center for Statisticial Consulting. Irvine, CA. March, 2020.    
+  Dogucu M., Data Visualization with ggplot2. R-Ladies Sarasota. Sarasota, FL. March, 2018.    
+  Dogucu M., Introduction to R. R-Ladies Sarasota. Sarasota, FL. March, 2018.    
+ Dogucu M., Fair and Efficient Grading. Training taught at Teaching Orientation for Graduate Teaching Assistants at the Ohio State University.
+        Training Developed by University Center for Advancement of Teaching. Columbus, OH. August, 2015 & August, 2016. 
+ Dogucu, M. & Uanhoro, J. R u Ready? Making the Switch to R. Methods Festival. The Ohio State University. Columbus, OH. July, 2017. 
+ Dogucu, M. Introduction to R. Research Methodology Center. The Ohio State University. Columbus, OH. November, 2015. February, 2016. October, 2016. February, 2017. March, 2017. 
+ Dogucu, M. Introduction to SAS. Crane Center for Early Childhood Research and Policy. The Ohio State University. Columbus, OH. February, 2015. 
+ Aslan, U. & Dogucu, M. Computer Science for High School (CS4HS) @ Bogazici: Workshop on Scratch taught to preservice STEM teachers.  Bogazici University, Istanbul, Turkey. May, 2012 & May, 2013. 
+
+© 2022 Mine Dogucu. All Rights Reserved. 
+
+
+
+
+
+
+

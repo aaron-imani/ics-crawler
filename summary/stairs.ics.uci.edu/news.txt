@@ -1,0 +1,111 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/stairs.ics.uci.edu/news.html
+==============================
+Number of Tokens: 361
+Number of Characters: 919
+Number of Paragraphs: 10
+Information Ratio: 1.1516
+File Size: 4805
+
+
+
+
+
+
+News
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ People
+
+
+ Papers
+
+
+ News
+
+
+
+
+
+
+News
+
+
+
+
+December 20, 2020: Congratulations to Andrew’s first ICSE paper got accepted in ICSE 2021!
+
+
+December 20, 2020: One of Iftekhar’s papers
+    got accepted at ICSE 2021!
+
+
+May 20, 2020: One of Iftekhar’s papers got accepted at FSE 2020!
+
+
+March 10, 2020: One of Iftekhar’s papers got accepted at ASE 2020!
+
+
+February 3, 2020: Two of Iftekhar’s papers got accepted at EASE 2020!
+
+
+December 8, 2019: Two of Iftekhar’s papers got accepted! - ‘Planning for Untangling: Predicting the Difficulty of Merge Conflicts’ at ICSE 2020 - ‘Accessibility Issues in Android Apps: State of Affairs, Sentiments, and Ways Forward’ at ICSE 2020
+
+
+December 1, 2019: One of Iftekhar’s papers got accepted at TOSEM 2020!
+
+
+September 23, 2019: STAIRS Lab is established!
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+University of California, Irvine STAIRS Lab, 2021
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,330 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~dsm/members.html
+==============================
+Number of Tokens: 1349
+Number of Characters: 7140
+Number of Paragraphs: 7
+Information Ratio: 1.1435
+File Size: 21226
+
+
+
+
+
+
+
+DSM @ UC Irvine -- Members
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Group
+
+
+
+
+
+
+
+
+
+
+Example
+
+
+Current Members
+
+
+ 
+Nalini Venkatasubramanian 
+              Professor, Information and Computer Science
+               Reasearch areas:
+             concurrent/distributed systems, reflective and adaptive middleware, Internet-of-things, cyberphysical systems, smart resilient communities, middleware for pervasive and mobile computing environments, multimedia systems and applications. 
+             
+          
+          
+
+
+
+ 
+Kyungbaek Kim
+              Faculty Visitor
+               Reasearch areas: distributed networks and systems. 
+              
+
+
+
+
+ 
+Cheng-Hsin Hsu
+              Faculty Visitor
+             Reasearch areas:
+              multimedia networking, mobile computing, broadcast/wireless networks, Internet-of-Things (IoT), networked games, cloud/fog computing, and computer networks.
+
+
+
+
+
+ 
+Hang Nguyen
+              Ph.D. Student
+            Reasearch areas: middleware, distributed system, IoT, computer network
+database, data mining, algorithm design.
+
+
+
+ 
+Guoxi Wang
+              Ph.D. Student
+            Reasearch areas: software-defined networking (SDN) and network security.
+            
+
+
+
+ 
+Fangqi Liu 
+              Ph.D. Student
+              Reasearch areas: data collection and exchange in Internet of Things (IoT), mobile wireless network, drones. 
+            
+
+
+
+ 
+Tung-Chun Chang 
+              Ph.D. Student
+              Reasearch areas: Internet of Things, wireless networking, and social networks. 
+            
+
+
+
+ 
+Andrew Chio 
+              Ph.D. Student
+              Reasearch areas: Internet of Things, Middleware, Machine Learning, Optimization, Distributed Systems. 
+            
+
+
+
+ 
+Modeste Mefenya Kenne 
+              Ph.D. Student
+              Reasearch areas: Networked Systems, Internet of Things, Smart Resilient Communities, Cyber-physical Systems.  
+            
+
+
+
+ 
+Mowhebat Bazargani 
+              Ph.D. Student
+              Reasearch areas: simulations, data generation, inverse problems using Internet of Things. 
+            
+
+
+
+ 
+Elahe Khatibi 
+              Ph.D. Student
+              Reasearch areas: simulations, data generation, inverse problems using Internet of Things. 
+            
+
+
+
+ 
+Rahul Bhope
+              Ph.D. Student
+              Reasearch areas: Machine Learning, Internet of Things(IoT) and Performance Evaluation. 
+            
+
+
+
+
+
+
+Ranga Raj (Ph.D. Student)
+Andrew Yang (B.S. Student)
+
+
+Alumni
+Ph.D. Students
+
+
+
+
+ 
+Praveen Venkateswaran (Ph.D. 2021, Research Staff Member, IBM Research), Thesis: Leveraging Community Structure and Behavior for Smart Infrastructure.
+
+
+
+
+Nailah Saleh, Alhassoun (Ph.D. 2021, Associate professor in KSU), Thesis: Context-aware energy optimization for perpetual IoT-based safe communities.
+
+
+
+
+ 
+Qing Han (Ph.D. 2019, Research Engineer, Facebook), Thesis: Enabling Resilience in Cyber-Physical-Human Water Infrastructures.
+
+
+
+
+
+
+
+ 
+Qiuxi Zhu (Ph.D. 2019,Research Scientist, VMWare), Thesis: Exploiting Mobile Plus In-Situ Deployments in Community IoT Systems.
+
+
+
+
+
+
+ 
+Kyle Benson (Ph.D. 2018, Research Scientist, RTI Inc), Thesis: Resilient Communications Middleware for IoT Data Exchange.
+
+
+
+Zhijing Qin (Ph.D. 2015, Senior Software Engineer, Pinterest Inc.), Thesis: MINA: A Multinetwork INformation Architecture in Cyber Physical Systems/Internet of Things Environments.
+
+Ye Zhao (Ph.D. 2014, Staff Member, Google Inc.), Thesis: Middleware Approaches to Societal Scale Information Sharing
+.
+Reza Rahimi (Ph.D. 2014, Research Staff Member, Samsung Research Labs), Thesis: Qos-aware middleware for optimal service allocation in mobile cloud computing.
+Do Minh Ngoc (Ph.D. 2014, Senior Staff Member, Arista Networks Inc.), Thesis: Content Delivery using Hybrid Infrastructure and Ad Hoc Networks.
+Leila Jalali (Ph.D. 2012, Engineering Manager, Google Inc.), Thesis: Middleware solutions for integrated simulation environments.
+Jehan Wickramasuriya (Ph.D. Principal Research Engineer, Motorola Research Labs).
+Bo Xing (Ph.D. 2009, Ericsson Research), Thesis: A middleware approach to information dissemination in heterogeneous wireless networks.
+Daniel Massaguer (Ph.D. 2009, Postdoctoral Researcher, UCI), Thesis: A semantic approach for building sentient spaces.
+Vidhya Balasubramanian (Ph.D. 2009, Assistant Professor, Amrita University, India), Thesis: Supporting scalable activity modeling in simulators.
+Hojjat Jafarpour (Ph.D. 2009, NEC Lab), Customized information dissemination in distributed publish/subscribe systems.
+
+Yun Huang (Ph.D. 2008, CMU), Thesis: MAPGrid : context aware grid middleware for mobile applications.
+Minyoung Kim (Ph.D. 2008, Research Sceintist, SRI International), Thesis: XTune : a formal methodology for cross-layer tuning of mobile real-time embedded systems.
+Kyoungwoo Lee (Ph.D. 2008, Professor, Yonsei University, Korea), Thesis: Cooperative cross-layer protection for resource constrained mobile multimedia systems. 
+Mayur Deshpande (Ph.D. 2007, Google Inc.), Thesis: Peer-to-peer flash dissemination.
+Qi Han (Ph.D. 2006, Associate Professor, Colorado School of Mines), Thesis: Quality-aware context information collection.
+Sebastian Gutierrez-Nolasco (Ph.D. 2007, NASA Ames Research Center), Thesis: A semantic-driven communication framework for safe adaptability.
+Shivajit Mohapatra (Ph.D. 2006, Motorola Research Labs), Thesis: DYNAMO : Power aware middleware for distributed mobile computing.
+
+
+Postdoctoral Researchers
+
+
+
+
+
+ 
+Georgios Bouloukakis
+              (Postdoctoral Researcher, 2020) 
+
+
+
+
+
+
+ 
+Yusuf Sarwar (Postdoctoral Researcher, 2019)
+
+
+
+Kyungbaek Kim (Postdoctoral Researcher 2012, Assistant Professor, Chonnam National University, Korea)
+
+
+M.S. and B.S. Students
+
+Prateek Swamy (M.S. Student)Yoon Kyung Shon (M.S. Student)Han Gia Pham (B.S. Student)Taylor Arin Caulfield (B.S. Student)Phu Huu Nguyen (M.S. 2015)
+Xiujuan Yi (M.S. 2012)
+Jonathan Cristoforetti (M.S. 2007, Google Inc.)
+Jinsu Wang (M.S. 2007, Ernst Young Inc.)
+Humeyra Altintas (M.S. 2006)
+Bhaskar Chatterjee (M.S. 2006)
+Zhenghua Fu (M.S. 2006, Pelco Lab)
+Suraj Nagasrinivasa (M.S. 2005)
+Xiaoping Wei (M.S. 2005, CNET Networks)
+Henry Yan (M.S. 2005)
+Xing Zheng (M.S. 2005, Samsung)
+Mark Panahi (M.S. 2004) 
+
+
+Collaborators and Visitors
+
+Cheng-Hsin Hsu (Professor, National Tsing Hua University)Kyungbaek Kim (Associate Professor, Chonnam National University)
+Roman Vitenberg (Professor, University of Oslo)
+Aiman Erbad (Assistant Professor, Qatar University)
+Yong-Jin Lee, (Professor,  Korea National University of Education)
+Alfredo Weitzenfeld (Professor, Instituto Tecnológico Autónomo de México)
+Dan Hoffman (Chief Innovation Officer, Montgomery County, MD)Yi-Ying Huang (Visiting Graduate Student from National Tsing Hua University)Meng-Wei Lee (Visiting Graduate Student from National Tsing Hua University)Shu-Ting Wang (Visiting Graduate Student from National Tsing Hua University)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Distributed Systems Middleware Group - School of Information and
+    Computer Sciences - University
+    of California, Irvine
+    Bren Hall, Irvine, CA 92697, USA
+
+
+
+
+
+
+
+
+
+
+
+

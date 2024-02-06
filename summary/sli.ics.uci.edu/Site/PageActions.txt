@@ -1,0 +1,70 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/sli.ics.uci.edu/Site/PageActions.html
+==============================
+Number of Tokens: 374
+Number of Characters: 275
+Number of Paragraphs: 0
+Information Ratio: 1.3033
+File Size: 4857
+
+
+
+
+SLI | Site / PageActions 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Site /
+PageActions
+
+
+login
+
+
+
+
+
+
+ Last modified October 03, 2010, at 10:40 AM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+

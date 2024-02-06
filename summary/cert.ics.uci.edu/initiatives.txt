@@ -1,0 +1,80 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/cert.ics.uci.edu/initiatives.html
+==============================
+Number of Tokens: 301
+Number of Characters: 817
+Number of Paragraphs: 3
+Information Ratio: 1.1026
+File Size: 3818
+
+
+
+
+
+CERT - Center for Emergency Response Technologies
+
+
+
+
+
+
+
+
+
+
+
+Home
+About Us
+Research
+Partnerships
+Seminar Series
+
+
+
+
+
+
+
+
+Motivation
+People
+Directions
+Advisory Board
+Initiatives
+
+
+
+
+
+
+
+Responsphere
+Situational Awareness for Fire Fighters
+ITR Rescue Project
+Reserach Publications
+
+
+
+
+
+
+
+
+
+
+
+
+Initiatives
+Public safety, public safety technologies, and research within public safety are a continually growing domain.  CERT will serve as a vehicle to pursue funding within public safety from agencies such as NSF (e.g., an ERC), DARPA, and others.
+
+We are working in the following research areas: situational awareness, acoustic location sensing, robust networking, human bio-sensing, incident visualization, and disaster/disaster response simulation. 
+
+
+
+
+
+This page was last updated on: 
+    April 14, 2010 8:24 AM
+
+
+
+

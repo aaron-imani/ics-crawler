@@ -1,0 +1,102 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/www.ics.uci.edu/~dsm/index.html
+==============================
+Number of Tokens: 286
+Number of Characters: 681
+Number of Paragraphs: 6
+Information Ratio: 1.1681
+File Size: 3823
+
+
+
+
+
+
+
+DSM @ UC Irvine -- Members
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Distributed Systems Middleware (DSM) Group, under Professor Nalini Venkatasubramanian of the Department of Information & Computer Science at the University of California Irvine, is involved in various areas of research within the realm of distributed systems. 
+
+Adaptive and Reflective Middleware
+Middleware Support for Mobile Services
+Quality aware Data Management
+Distributed Multimedia and Applications
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Distributed Systems Middleware Group - School of Information and
+    Computer Sciences - University
+    of California, Irvine
+    Bren Hall, Irvine, CA 92697, USA
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/sli.ics.uci.edu/Classes-CS18-Notes/RecentChanges.html
+==============================
+Number of Tokens: 386
+Number of Characters: 364
+Number of Paragraphs: 0
+Information Ratio: 1.2297
+File Size: 5047
+
+
+
+
+SLI | Classes-CS18-Notes / RecentChanges 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Classes-CS18-Notes /
+RecentChanges
+
+
+Matlab-Classes  . . . January 05, 2015, at 12:05 PM by ihler: 
+
+
+
+
+
+
+ Last modified January 05, 2015, at 12:05 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/sli.ics.uci.edu/Category/PmWikiDeveloper.html
+==============================
+Number of Tokens: 413
+Number of Characters: 409
+Number of Paragraphs: 1
+Information Ratio: 1.2585
+File Size: 5838
+
+
+
+
+SLI | Category / PmWikiDeveloper 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+(?)
+
+
+
+
+
+Classes
+Group
+Research
+Publications
+Code
+
+
+
+
+
+
+login
+
+
+
+
+Category /
+PmWikiDeveloper
+
+
+
+
+PmWiki /
+ BasicVariables
+ DesignNotes
+ EditVariables
+ Functions
+ LinkVariables
+ PageFileFormat
+ PageVariables
+ Variables
+
+
+
+
+
+
+
+ Last modified October 11, 2022, at 01:51 PM
+
+Bren School of Information and Computer Science
+University of California, Irvine
+
+
+
+
+
+

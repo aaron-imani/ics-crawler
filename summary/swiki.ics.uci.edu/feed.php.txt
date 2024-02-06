@@ -1,0 +1,76 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/swiki.ics.uci.edu/feed.php.html
+==============================
+Number of Tokens: 219
+Number of Characters: 1557
+Number of Paragraphs: 0
+Information Ratio: 1.0606
+File Size: 3646
+
+
+
+
+
+
+Support Wiki
+
+http://swiki.ics.uci.edu/
+        
+2022-10-16T01:13:41-07:00
+
+
+
+
+
+
+
+
+
+Support Wiki
+http://swiki.ics.uci.edu/
+        http://swiki.ics.uci.edu/lib/tpl/arctic-swiki/images/favicon.ico
+
+text/html
+2022-10-14T11:25:19-07:00
+luciad
+Jupyterhub @ ICS - [Installing and Running PostgreSQL] 
+http://swiki.ics.uci.edu/doku.php/virtual_environments:jupyterhub?rev=1665771919&do=diff
+        Jupyterhub @ ICS
+
+Management Information(sgroup only)
+
+Quickstart
+
+	*  If you are off campus you will need to first connect to the Campus VPN
+	*  Visit https://hub.ics.uci.edu. 
+		*   Course specific sites are available, for a specific URL please talk to your instructor.
+
+	*  Log in with your ICS credentials.  
+
+Overview
+
+
+text/html
+2022-10-12T09:58:54-07:00
+hans
+Sudoers - [firewalls] 
+http://swiki.ics.uci.edu/doku.php/policies:sudoers?rev=1665593934&do=diff
+        Sudoers
+
+This page has been created to share ICS sudoers policy and provide sudo alternatives.  If you don't find the answer you are looking for here, or if you find an incorrect or incomplete ansiwer, send mail to helpdesk@ics.uci.edu
+
+Sudo Alternatives
+
+
+text/html
+2022-10-12T08:47:12-07:00
+vipada
+Bren School Computing Support - [All Deliveries] 
+http://swiki.ics.uci.edu/doku.php/start?rev=1665589632&do=diff
+        Bren School Computing Support
+
+ICS Wiki Pages
+
+Welcome to the Information and Computer Sciences Support Wiki pages!  Access to most of the information in these ICS Wiki pages are restricted to ICS affiliates. Please make sure to login using an ICS username/password
+
+
+

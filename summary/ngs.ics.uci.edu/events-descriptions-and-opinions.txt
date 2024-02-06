@@ -1,0 +1,176 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/ngs.ics.uci.edu/events-descriptions-and-opinions.html
+==============================
+Number of Tokens: 1290
+Number of Characters: 2802
+Number of Paragraphs: 8
+Information Ratio: 1.1340
+File Size: 27304
+
+
+
+
+
+
+
+
+Events: Descriptions and Opinions – Ramesh Jain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Search
+
+
+
+
+
+
+									Ramesh Jain								
+
+Entrepreneur, Researcher, and Teacher
+
+
+
+
+About Ramesh
+
+News
+Events
+
+
+Blogs
+Research
+
+Books
+Patents
+Presentations
+Projects
+Research Papers
+
+Computer Vision
+Experiential Computing
+Multimedia Information Management
+
+
+
+
+Teaching
+
+Current Courses
+Past Courses
+
+
+Entrepreneurship
+
+Current Companies
+Past Companies
+
+
+Partners
+
+Current Students
+Past Students
+Collaborators
+
+
+Professional/Social
+
+Services
+Recognitions
+Interviews
+
+
+Personal
+
+Affiliations
+Education
+Favorite Books
+Favorite Quotes
+
+
+Navigation
+
+
+
+
+
+ 
+
+
+
+    				Events: Descriptions and Opinions    			
+
+
+In dealing with events where humans are involved in providing data, one must distinguish between descriptions and opinions. Descriptions are supposed to be unbiased, factual and report facts about the event. Being incomplete is acceptable for a description, but being biased is not. A picture, video and an (unbiased) news report are examples of this. On the other hand, a News paper editorial, micro-blog post with a userâ€™s perspective, rants, and raves are the opinions about the event. While both are important, the opinions are meant to be subjective while descriptions are meant to be objective.   News media is suppose to be objective, but it rarely is.  In fact, when humans are involved in providing descriptions of an event or an object, it is usually very difficult to be objective.  By definition a human observer is going to â€˜colorâ€™ his observations using his experiences.
+If the current trend continues, events (and even objects) may have clear (more) objective descriptions and subjective part could be distanced from the objective.  This will happen because more and more sensors will be observing events and reporting those observations using the sensory data that could in turn be used as objective description.  If such a data is available from multiple media (different types of sensors) then the descriptions start becoming more objective.  With increasing number of sensors being placed everywhere and with people carrying their mobile phones equipped with multiple sensors, this is becoming rapidly a common form of capturing and reporting objective information about an event.
+
+
+
+By Ramesh |
+    				January 2, 2010 |
+    				             		Technical Thoughts |
+             	 
+    				             		No Comments |
+             	 		          				
+    			
+
+
+← Goggles to Cyberspace
+Need: Consolidation of experiences and making them actionable →
+
+
+
+Leave a ReplyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2022 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+Back to Top 
+
+
+
+

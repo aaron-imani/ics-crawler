@@ -1,0 +1,116 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/mdogucu.ics.uci.edu/talks.html
+==============================
+Number of Tokens: 1629
+Number of Characters: 6874
+Number of Paragraphs: 1
+Information Ratio: 1.0551
+File Size: 17733
+
+
+
+
+
+
+
+Dr. Mine Dogucu
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+Mine Dogucu
+ Home 
+ Teaching 
+ Publications 
+ Talks 
+ Workshops 
+ CV 
+
+
+   
+   
+   
+   
+   
+
+
+
+
+  
+
+
+ Below is a list of talks (solo or panel) that I have given at various events. 
+
+
+
+ Dogucu, M. Teaching Bayesian modeling with Bayes Rules!. Invited talk at International Society for Bayesian Analysis World Meeting, July 2022, Montreal, Canada 
+			
+ Dogucu, M. Teaching Accessibly and Teaching Accessibility. Keynote talk at useR! Conference, June 2022 
+			  
+ Seo, J. Dogucu, M. Teaching Visual Accessibility in the Introductory Data Science Classes: Why, What, When, and How. Refereed talk at Symposium on Data Science & Statistics, June 2022 
+			  
+ Dogucu, M. A First Bayesian Course: Why, What, and How. Invited talk at Royal Statical Society Teaching Statistics SIG event at TALMO: The past, present and future of statistics teaching, May 2022 
+			  
+ Dogucu, M. R (ile) Öğretme: Örnekler ve Kaynaklar [Teaching (with) R: Examples and Resources]. Invited talk as part of R education panel, Why R Turkey Conference, April 2022 
+			 
+ Dogucu, M. Studying Data Science in College. STEM panel talk given at Northwood High School, Irvine, CA April 2022. 
+			
+ Dogucu, M. Teaching Bayesian Modeling at the Undergraduate Level . Invited talk given at Department of Statistics, University of California Berkeley, January 2022. 
+			
+ Dogucu, M. First Steps of a Data Science Career. Invited talk given at Center for Computational and Applied Mathematics, California State University Fullerton, October 2021. 
+			
+ Dogucu, M. Teaching and Learning Bayesian Statistics with {bayesrules}. Invited talk given at Southern California R Users Group and R Ladies Irvine meetup, Online, October 2021. 
+			 
+ Dogucu, M. & Shahbaba B. Data Science in Health Sciences for High School Students. Talk given at Joint Statistical Meetings, Online, August 2021. 
+			  
+ Dogucu, M., Johnson, A. and Ott, M. Teaching and Learning Bayesian Statistics with {bayesrules}. Talk given at useR! conference, Online, July 2021. 
+			  
+ Hu, M. & Dogucu, M. Examples from Two Undergraduate Bayesian Courses: Tools, Resources, and Suggestions for Teaching. Refereed talk given at Symposium on Data Science and Statistics (SDSS), Online, June 2021.  
+ Dogucu, M. Bayesian Statistics for Undergraduate Learners. Invited seminar talk given at University of California Riverside, Department of Statistics, Online, April 2021.   
+ Dogucu, M. & Kim, A.  Data ingestation, data collection, and data analysis: key components in the statistics and data science analysis cycle.
+        Webinar for Journal of Statistics and Data Science Education. Online, March, 2021.  
+ Nolan, D. et. al. (including Dogucu, M.) Data Science Education at the Undergraduate Level at University of California.
+        Panel presentation at California Alliance for Data Science Education. Online, Feb, 2021. 
+ Dogucu, M., Grolemund, G., Nugent, R., St. Clair, K. Teaching Focused Careers in Colleges, Universities, and Industry .
+        Invited Panel at Joint Statistical Meetings. Online, August 2020. 
+ Dogucu, M. AI Assisted Fair and Efficient Grading in the Statistics and Data Science Classrooms. Talk given at Electronic Conference on Teaching Statistics. Online. May 2020.   
+			 
+ Kocak, M. et. al (including Dogucu, M.) Kadın Yazılımcılar
+        Toplanıyor: Yazılıma Adım Atmak (Women Developers Gathering: Beginning Software Development)  Panel organized by (Kadın Yazılım Tasarım) Women Development Design live on YouTube. April 2020. 
+ Dogucu, M.  Five Art Pieces that Every R User Should Know  Invited lightning talk given at rstudio::conf, R Ladies BoF. San Francisco. January 2020. 
+ Dogucu, M.  Web Scraping in the Statistics Curricula: Challenges and Opportunities.  Invited talk given at Duke University, Department of Statistical Sciences. Durham, NC. November 2018.  
+ Dogucu, M. & Çetinkaya-Rundel, M.  Teaching Web Scraping: Integrating Data Science into Statistics. Talk given at Electronic Conference on Teaching Statistics. Online. May 2018.   
+			 
+ Dogucu, M. & Ha, S. Handling Missing Data in R. Invited talk given at St. Thomas University. Miami Gardens, FL. March, 2018. 
+ Dogucu, M. & Ha, S. Handling Missing Data in R. Talk given at R Ladies Miami. Miami, FL. March, 2018.  
+ Dogucu, M. & Ha, S. Handling Missing Data in R. Talk given at R Ladies New York City. New York, NY. March, 2018. 
+ D’Agostino McGowan, L., Dogucu, M. & Neal, J. Who is Killing California State Bills on Human Trafficking: A Preliminary Analysis. Hackathon presentation at Women in Statistics and Data Science Conference. San Diego, CA. October, 2017. 
+ Benn, K.T. E., Dogucu, M. & Garcia M. M. Is There Room for Intersectional Feminism in Statistics and Data Science? Panel at Women in Statistics and Data Science Conference. San Diego, CA. October, 2017.  
+ Bryan, J., Cetinkaya-Rundel, M., D’Agostino McGowan, L., de Quieroz, G., Dogucu, M., Scranton, K. & Thompson, K. R-Ladies panel: Improving Gender Diversity in a Male-Dominated Community. Panel at Women in Statistics and Data Science Conference. San Diego, CA. October, 2017. 
+ Dogucu, M. When Missing Data Are Not a Nightmare: Planned Missing Designs. Invited talk given at Denison University. Granville, OH. December, 2016. 
+ Dogucu, M. When Missing Data Are Not a Nightmare: Planned Missing Designs. Invited talk given at New College of Florida. Sarasota, FL. December, 2016. 
+ Spear, C.F., Dogucu, M., Piasta, S.B. Reading Instruction for Children with and without Disabilities Across ECE and ECSE Settings. Poster presented at the Schoenbaum Family Center Symposium on Children. Columbus, OH. October, 2016. 
+ Dogucu, M., Jiang, H. & Soto-Ramirez, P.  Confirmatory Factor Analysis with Planned Missing Data: A Monte Carlo Simulation Study. Paper presented at Modern Modeling Methods Conference. Storrs, CT. May, 2016. 
+ Dogucu, M. Introduction to Multilevel Modeling. Invited lecture given at Denison University. Granville, OH. April, 2016. 
+ Perez A. & Dogucu, M. Using NAEP Data on Functions to Examine First-Generation College-Bound Mathematics Course Taking. Paper presented at the annual meeting of the American Educational Research Association. Washington, DC. April, 2016. 
+ Jiang, H., Mauck, S., Dogucu, M., & O’Connell, A.  Dealing with Missing Data in Multilevel Contexts: A Simulation Study. Poster presented at the annual meeting of the American Educational Research Association. Chicago, IL. April, 2015. 
+ Farley, K.S., Piasta, S.B., O’Connell, A., & Dogucu, M. Small Group Literacy Instruction in Early Childhood Classrooms. Poster presented at the Society for the Scientific Study of Reading Annual Conference. Santa Fe, NM. July, 2014. 
+ Dogucu, M. Introduction to Factor Analysis . Invited lecture given at Bahcesehir University. Istanbul, Turkey. May 2014. 
+
+© 2022 Mine Dogucu. All Rights Reserved. 
+
+
+
+
+
+
+

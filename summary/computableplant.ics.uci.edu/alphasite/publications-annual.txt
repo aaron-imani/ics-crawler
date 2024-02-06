@@ -1,0 +1,81 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/computableplant.ics.uci.edu/alphasite/publications-annual.html
+==============================
+Number of Tokens: 391
+Number of Characters: 756
+Number of Paragraphs: 0
+Information Ratio: 1.2455
+File Size: 5206
+
+
+
+
+
+The Computable Plant
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Computable Plant
+
+
+
+Home
+Publications
+People
+Outreach
+Software
+Gallery
+Links
+Tutorials
+Sponsors
+
+
+
+
+Papers
+Posters
+Presentations
+Annual Reports
+
+
+
+
+
+Annual Report, 2004 (pdf)
+
+Annual Report, 2005 (pdf)
+
+Annual Report, 2006 (pdf)
+
+Annual Report, 2007 (pdf)
+
+Annual Report, 2008 (pdf)
+
+
+                    
+                    Confocal laser scanning microscope setup dedicated to plant developmental imaging in the Meyerowitz
+                    laboratory at Caltech, immediately after installation (photo taken 4/26/04). This is a centerpiece and a
+                    major investment of the FIBR Computable Plant project and is now producing useful imagery.
+                    
+                
+
+
+
+
+
+
+
+

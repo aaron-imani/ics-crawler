@@ -1,0 +1,106 @@
+File: /Users/abhinandganesh/Desktop/ics-crawler/visited/mdogucu.ics.uci.edu/publications.html
+==============================
+Number of Tokens: 1016
+Number of Characters: 4235
+Number of Paragraphs: 3
+Information Ratio: 1.0537
+File Size: 11896
+
+
+
+
+
+
+
+Dr. Mine Dogucu
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+Mine Dogucu
+ Home 
+ Teaching 
+ Publications 
+ Talks 
+ Workshops 
+ CV 
+
+
+   
+   
+   
+   
+   
+
+
+
+
+  
+
+
+
+*indicates a co-author who was an undergraduate student mentored by Dogucu at the preparation stage of the publication.
+**indicates a co-author who was a graduate student mentored by Dogucu at the preparation stage of the publication. 
+
+Peer Reviewed
+
+Dogucu, M.  & Hu, J. (In Press) The Current State of Undergraduate Bayesian Education and Recommendations for the Future.The American Statistician.
+Rosenberg, J., Kubsch, M, Wegenmakers, E.J. & Dogucu, M. (In Press) Making Sense of Uncertainty in the Science Classroom: A Bayesian Approach. Science & Education.
+		
+ Çetinkaya-Rundel, M., Dogucu, M. & Rummerfield, W.**  (2022) The 5Ws and 1H of Final Projects in the Introductory Data Science Classroom. Statistics Education Research Journal, 21(2), 4-4.  
+Shindler, M., Pinpin N., Markovic M., Reiber F., Kim, J.H., Nunez Carlos, G.P.*, Dogucu, M., Hong, M., Luu, M., Anderson, B., Cote, A., Ferland M., Jain P., LaBonte, T., Mathur, L., Moreno R. & Sakuma, R. (2022) Student Misconceptions of Dymanic Programming: A Replication Study.  Computer Science Education, 32(3), 288-312. 
+Hu, J. & Dogucu, M.  (2022)  Content and Computing Outline of Two Undergraduate Bayesian Courses: Tools, Examples, and Recommendations. Stat. 11(1) 
+Rummerfield, W.**, Ricci, F. Z.** & Dogucu, M. (2021) Training Graduate Students to Teach Statistics and Data Science from a Distance. In R. Helenius (Ed) Proceedings of the International Association for Statistical Education Satellite Conference. Online. 
+Dogucu, M. & Çetinkaya-Rundel, M. (2021) Web Scraping in the Statistics and Data Science Curriculum:
+        Challenges and Opportunities. Journal of Statistics Education. 29(sup1), S112 - S122.
+		 
+ Piasta, S.B., Sawyer, B., Justice, L.M., O’Connell, A.A., Jiang, H., Dogucu, M., & Khan, K. (2020). Effects of Read It Again! in Early Childhood Special Education Classrooms. Journal of Early Intervention, 42(3), 224-243. 
+ Farley, K.S., Piasta, S. B., Dogucu, M. & O’Connell, A. (2017) Assessing and Predicting Small-Group Literacy Instruction in Early Childhood Classrooms. Early Education and Development, 28(4), 488-505. 
+
+
+Book
+
+Johnson, A. A., Otts, M. & Dogucu, M. (2022), Bayes Rules! An Introduction to Applied Bayesian Modeling.  CRC Press. 1st edition.
+
+
+Software
+
+Ricci, F.Z.**, Medina, C.** & Dogucu, M. R package gradetools: Tools to Assist with Providing Grades and Personalized Feedback to Students. GitHub, March 2022. 
+Dogucu, M., Johnson, A.A. & Otts, M. & , R package bayesrules: Datasets and Supplemental Functions from Bayes Rules! Book. CRAN, June 2021. 
+
+
+Other Publications
+
+Dogucu, M. (2021) Contributing to Open Education:
+				  Why, How, and What I am Doing. AMS Notices, 68(3), 367-369 
+Dogucu, M. (2020) Teaching Careers (for Statisticians): What You Should Know. Amstat News (521), 32-34. 
+Dogucu, M. (July 2020 - present) Data Pedagogy blog. 
+ Haylock D. & Cockburn A. (2014). Ölçmeyi Anlama [Understanding Measurement] (M. Dogucu Trans.). In Küçük Çocuklar İçin Matematiği Anlama [Understanding Mathematics for Young Children]. Ankara, Turkey: Nobel. 
+
+
+Under Preparation
+
+Dogucu, M.  & Cetinkaya, M. Tools and Recommendations for Reproducible Teaching. Manuscript accepted.
+Dogucu, M.  & Johnson A. Supporting Bayesian Modeling with Visualizations. Refereed paper presented at the 11th International Conference on Teaching Statistics. To appear in proceedings.
+Bellini Saibene, Y., Dogucu, M., Palopoli, N., Campitelli, E.,  Acion, L. Corrales, P., & Loto, P.A.MetaDocencia: Enseñando a Enseñar Estadística y Ciencia de Datos Online [MetaDocencia: Teaching How to Teach Statistics and Data Science Online]. Paper presented at the 11th International Conference on Teaching Statistics. To appear in proceedings.
+Dogucu, M.  Johnson, A.A. & Ott, M. Framework for Accessible and Inclusive Teaching Materials for Statistics and Data Science Courses. Manuscript under review.
+Seo, J. & Dogucu, M.  Teaching Visual Accessibility in Introductory Data Science Classes with Multi-Modal Data Representations Manuscript under review.
+
+© 2022 Mine Dogucu. All Rights Reserved.	
+
+
+
+
+
+
+

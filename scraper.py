@@ -13,11 +13,10 @@ MIN_TOKEN_COUNT = config_parser.getint('SCRAPER', 'MIN_TOKEN_COUNT', fallback=10
 MIN_TEXT_CONTENT_LENGTH = config_parser.getint('SCRAPER', 'MIN_TEXT_CONTENT_LENGTH', fallback=1000)
 MAX_DEPTH = config_parser.getint('SCRAPER', 'MAX_DEPTH', fallback=10)
 MAX_FILE_SIZE_BYTES = 36220  # DESCRIBE IN THE README HOW WE GOT THIS DIYA
-last_vistied = {}
 
 def scraper(url, resp):
-    links = extract_next_links(url, resp)
-    return [link for link in links if is_valid(link)]
+    links, message = extract_next_links(url, resp)
+    return [link for link in links if is_valid(link)], message
 
 def _store_webpage(url, content):
     splitted = url.split("://")[1].split("/")
@@ -46,18 +45,18 @@ def extract_next_links(url, resp):
     #         resp.raw_response.url: the url, again
     #         resp.raw_response.content: the content of the page!
     # Return a list with the hyperlinks (as strings) scrapped from resp.raw_response.content
-    global last_vistied #DIYA CHECK 
+    message = ''
     unq_links = set()
     large_file=False
     
     content_size = len(resp.raw_response.content)
     if content_size > MAX_FILE_SIZE_BYTES:
-        print(f"File size exceeds the maximum threshold for {url}! **Setting Flag to True** ")
+        message = f"File size exceeds the maximum threshold for {url}! Setting Flag to True"
         large_file=True
 
     # Checking dead URL
     if resp.status != 200:
-        print(f"Failed to fetch {url}. Status code: {resp.status}")
+        message = f"Failed to fetch {url}. Status code: {resp.status}"
         return []
     try:
         tree = html.fromstring(resp.raw_response.content)
@@ -79,7 +78,7 @@ def extract_next_links(url, resp):
 
         # Checking whitescapes
         if not text_content or not total_content:
-            print(f"Empty content for {url}. Skipping extraction.")
+            message = f"Empty content for {url}. Skipping extraction."
             should_store = False
         
         text_content_ratio = len(text_content) / max(len(total_content), 1)
@@ -87,19 +86,19 @@ def extract_next_links(url, resp):
         low_textual_content = text_content_ratio < text_content_threshold or len(text_content) < MIN_TEXT_CONTENT_LENGTH
         
         if low_textual_content and large_file==True:
-            print(f"Low textual content for {url} and File exceeds maximum threshold. Skipping extraction.")
+            message = f"Low textual content for {url} and File exceeds maximum threshold. Skipping extraction."
             should_store = False
         elif low_textual_content:
-            print(f"Low textual content for {url}. Skipping extraction.")
+            message = f"Low textual content for {url}. Skipping extraction."
             should_store = False
         
         if should_store:
             _store_webpage(url, total_content)
         
     except Exception as e:
-        print(f"Could not extract links from {url}: {e}")
+        message = f"Could not extract links from {url}: {e}"
     
-    return list(unq_links)
+    return list(unq_links), message
 
     
 

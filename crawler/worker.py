@@ -59,7 +59,8 @@ class Worker(Thread):
             self.save['seen_hashes'].add(content_hash)
             self.save.sync()
 
-            scraped_urls = scraper.scraper(tbd_url, resp)
+            scraped_urls, message = scraper.scraper(tbd_url, resp)
+            self.logger.info(message)
             for scraped_url in scraped_urls:
                 self.frontier.add_url(scraped_url)
                 

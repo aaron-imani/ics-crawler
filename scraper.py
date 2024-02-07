@@ -57,7 +57,7 @@ def extract_next_links(url, resp):
     # Checking dead URL
     if resp.status != 200:
         message = f"Failed to fetch {url}. Status code: {resp.status}"
-        return []
+        return [], message
     try:
         tree = html.fromstring(resp.raw_response.content)
         # Extracting link

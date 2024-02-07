@@ -56,7 +56,6 @@ class Report(object):
         
         word_frequencies = computeWordFrequencies(all_tokens)
         top_50_words = print_sorted(word_frequencies, 50)
-        os.makedirs("report", exist_ok=True)
         with open("report/top_50_words.txt", "w") as f:
             f.write(top_50_words)
         
@@ -115,10 +114,12 @@ class Report(object):
             self.logger.info("No data retrieved from save file. Unable to generate report.")
             return
 
+
         # How many unique pages did you find?
         unique_urls = self.get_unique_urls_count()
         self.logger.info(f"Unique urls found: {unique_urls}")
 
+        os.makedirs("report", exist_ok=True)
         # the list of subdomains found in the ics.uci.edu domain ordered alphabetically  
         self.get_ics_subdomains()
 

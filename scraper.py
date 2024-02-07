@@ -130,6 +130,8 @@ def is_valid(url):
             depth = len(list(filter(None, path_segments)))
             # handling the depth and repetition of the path
             return not re.match(r'(.*?/).*?\1.*?\1', parsed.path) and depth <= MAX_DEPTH
+        
+        return False
 
     except TypeError:
         print("TypeError for ", parsed)

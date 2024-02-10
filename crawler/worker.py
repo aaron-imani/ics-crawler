@@ -1,13 +1,9 @@
-from threading import Thread
-
+from threading import Thread, RLock
 from inspect import getsource
 from utils.download import download
 from utils import get_logger
 import scraper
-from urllib.parse import urlparse
 from utils import get_contenthash
-from time import sleep
-import time
 import shelve
 
 class Worker(Thread):
@@ -22,6 +18,7 @@ class Worker(Thread):
         assert {getsource(scraper).find(req) for req in {"from requests import", "import requests"}} == {-1}, "Do not use requests in scraper.py"
         assert {getsource(scraper).find(req) for req in {"from urllib.request import", "import urllib.request"}} == {-1}, "Do not use urllib.request in scraper.py"
         super().__init__(daemon=True)
+        self.lock = RLock()
     
     def _load_save_file(self):
         ''' This function can be overridden for alternate saving techniques. '''
@@ -34,9 +31,6 @@ class Worker(Thread):
             if not tbd_url:
                 self.logger.info("Frontier is empty. Stopping Crawler.")
                 break
-            
-            # Extract domain from the URL
-            domain = urlparse(tbd_url).netloc
             
             
             resp = download(tbd_url, self.config, self.logger)
@@ -51,13 +45,15 @@ class Worker(Thread):
                 continue
 
             content_hash = get_contenthash(resp.raw_response.content)
-            if content_hash in self.save['seen_hashes']:
-                self.logger.info(f"Content of {tbd_url} is already seen.")
-                self.frontier.mark_url_complete(tbd_url)
-                continue
+            
+            with self.lock:
+                if content_hash in self.save['seen_hashes']:
+                    self.logger.info(f"Content of {tbd_url} is already seen.")
+                    self.frontier.mark_url_complete(tbd_url)
+                    continue
 
-            self.save['seen_hashes'].add(content_hash)
-            self.save.sync()
+                self.save['seen_hashes'].add(content_hash)
+                self.save.sync()
 
             scraped_urls, message = scraper.scraper(tbd_url, resp)
             self.logger.info(message)
@@ -65,4 +61,3 @@ class Worker(Thread):
                 self.frontier.add_url(scraped_url)
                 
             self.frontier.mark_url_complete(tbd_url)
-            time.sleep(self.config.time_delay)

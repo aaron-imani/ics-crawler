@@ -1,14 +1,12 @@
-import os
 import shelve
 
-from threading import Thread, RLock
-from queue import Queue, Empty
-from configparser import ConfigParser
+from threading import RLock
 
 from utils import get_logger, get_urlhash, normalize
-from utils.tokenization import tokenize
 from utils.storage_check import does_shelve_exist, remove_shelve
 from scraper import is_valid
+import time
+from urllib.parse import urlparse
 
 class Frontier(object):
     def __init__(self, config, restart):
@@ -38,6 +36,9 @@ class Frontier(object):
                 for url in self.config.seed_urls:
                     self.add_url(url)
 
+        self.lock = RLock()
+        self.last_download_time = {}
+
     def _parse_save_file(self):
         ''' This function can be overridden for alternate saving techniques. '''
         total_count = len(self.save)
@@ -49,70 +50,41 @@ class Frontier(object):
         self.logger.info(
             f"Found {tbd_count} urls to be downloaded from {total_count} "
             f"total urls discovered.")
-        
-
-    def _simhash(self, text):
-        features = {}
-        for word in tokenize(text):
-            features[word] = features.get(word, 0) + 1
-        b = self.config.fingerprint_size  
-        hash_values = {word: hash(word) % b for word in features}
-        vector = [0] * b
-        for word, weight in features.items():
-            hash_value = hash_values[word]
-            for i in range(b):
-                if (hash_value >> i) & 1:
-                    vector[i] += weight
-                else:
-                    vector[i] -= weight
-        fingerprint = 0
-        for i in range(b):
-            if vector[i] > 0:
-                fingerprint |= (1 << i)
-        return fingerprint
+    
 
     def get_tbd_url(self):
-        try:
-            tbd_url = self.to_be_downloaded.pop()
-            # for existing_url, (_, _, existing_fingerprint) in self.save.items():
-            #     similarity = self._calculate_similarity(existing_fingerprint, self.save[tbd_url][2])
-            #     if similarity > self.similar_pages_threshold:
-            #         self.logger.info(f"Avoiding {tbd_url} as it is similar to {existing_url}")
-            #         return self.get_tbd_url() 
-            return tbd_url
-        except IndexError:
-            return None
+        with self.lock:
+            try:
+                tbd_url = self.to_be_downloaded.pop()
+                domain = urlparse(tbd_url).netloc
+                if domain in self.last_download_time:
+                    time_since_last_download = time.time() - self.last_download_time[domain]
+                    if time_since_last_download < self.config.time_delay:
+                        # Not enough time has passed since the last download from this domain.
+                        # Put the URL back and try another one.
+                        self.to_be_downloaded.append(tbd_url)
+                        return self.get_tbd_url()
+                return tbd_url
+            except IndexError:
+                return None
 
 
     def add_url(self, url):
         url = normalize(url)
         urlhash = get_urlhash(url)
-        # fingerprint = self._simhash(text)
 
-        # for existing_url, (_, _, existing_fingerprint) in self.save.items():
-        #     similarity = self._calculate_similarity(existing_fingerprint, fingerprint)
-        #     if similarity > self.similar_pages_threshold:
-        #         self.logger.info(f"Avoiding {url} as it is similar to {existing_url}")
-        #         return
-
-        if urlhash not in self.save:
-            self.save[urlhash] = (url, False)
-            self.save.sync()
-            self.to_be_downloaded.append(url)
-
-
-    def _calculate_similarity(self, fingerprint1, fingerprint2):
-        hamming_distance = bin(fingerprint1 ^ fingerprint2).count('1')
-        similarity = 1 - (hamming_distance / self.config.fingerprint_size)  
-        return similarity
+        with self.lock:
+            if urlhash not in self.save:
+                self.save[urlhash] = (url, False)
+                self.save.sync()
+                self.to_be_downloaded.append(url)
 
     
     def mark_url_complete(self, url):
         urlhash = get_urlhash(url)
-        if urlhash not in self.save:
-            # This should not happen.
-            self.logger.error(
-                f"Completed url {url}, but have not seen it before.")
-
-        self.save[urlhash] = (url, True)
-        self.save.sync()
+        with self.lock:
+            if urlhash not in self.save:
+                self.logger.error(f"Completed url {url}, but have not seen it before.")
+            self.save[urlhash] = (url, True)
+            self.save.sync()
+            self.last_download_time[urlparse(url).netloc] = time.time()

@@ -13,6 +13,8 @@ class Frontier(object):
         self.logger = get_logger("FRONTIER")
         self.config = config
         self.to_be_downloaded = list()
+        self.lock = RLock()
+        self.last_download_time = {}
 
         if not does_shelve_exist(self.config.save_file) and not restart:
             # Save file does not exist, but request to load save.
@@ -36,8 +38,6 @@ class Frontier(object):
                 for url in self.config.seed_urls:
                     self.add_url(url)
 
-        self.lock = RLock()
-        self.last_download_time = {}
 
     def _parse_save_file(self):
         ''' This function can be overridden for alternate saving techniques. '''

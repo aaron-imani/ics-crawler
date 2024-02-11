@@ -61,9 +61,9 @@ class Frontier(object):
                     time_since_last_download = time.time() - self.last_download_time[domain]
                     if time_since_last_download < self.config.time_delay:
                         # Not enough time has passed since the last download from this domain.
-                        # Put the URL back and try another one.
-                        self.to_be_downloaded.append(tbd_url)
-                        return self.get_tbd_url()
+                        # wait for the remaining time before returning the url.
+                        time.sleep(self.config.time_delay - time_since_last_download)
+                        return tbd_url
                 return tbd_url
             except IndexError:
                 return None

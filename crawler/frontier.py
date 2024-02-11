@@ -63,7 +63,8 @@ class Frontier(object):
                         # Not enough time has passed since the last download from this domain.
                         # wait for the remaining time before returning the url.
                         time.sleep(self.config.time_delay - time_since_last_download)
-                        return tbd_url
+        
+                self.last_download_time[domain] = time.time()
                 return tbd_url
             except IndexError:
                 return None
@@ -87,4 +88,3 @@ class Frontier(object):
                 self.logger.error(f"Completed url {url}, but have not seen it before.")
             self.save[urlhash] = (url, True)
             self.save.sync()
-            self.last_download_time[urlparse(url).netloc] = time.time()

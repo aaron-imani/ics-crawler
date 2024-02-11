@@ -11,14 +11,16 @@ class Worker(Thread):
         self.logger = get_logger(f"Worker-{worker_id}", "Worker")
         self.config = config
         self.frontier = frontier
-        self.save = shelve.open(self.config.seen_hashes)
+        self.lock = RLock()
+        with self.lock:
+            self.save = shelve.open(self.config.seen_hashes)
+        
         self._load_save_file()
 
         # basic check for requests in scraper
         assert {getsource(scraper).find(req) for req in {"from requests import", "import requests"}} == {-1}, "Do not use requests in scraper.py"
         assert {getsource(scraper).find(req) for req in {"from urllib.request import", "import urllib.request"}} == {-1}, "Do not use urllib.request in scraper.py"
         super().__init__(daemon=True)
-        self.lock = RLock()
     
     def _load_save_file(self):
         ''' This function can be overridden for alternate saving techniques. '''

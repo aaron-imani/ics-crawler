@@ -105,7 +105,7 @@ class Report(object):
 
         # sort subdomains by key
         with open("report/subdomains.txt", "w") as f:
-            for k, v in sorted(subdomains.items(), key=lambda item: item[0].split('//')[1]):
+            for k, v in sorted(subdomains.items(), key=lambda item: item[0].split('//')[1].lower()):
                 f.write(f"{k}, {v}\n")
         self.logger.info(f"Found {len(subdomains)} subdomains under ics. Subdomains written to report/subdomains.txt")
 

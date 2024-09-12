@@ -1,9 +1,13 @@
 from utils import get_logger
 from crawler.frontier import Frontier
 from crawler.worker import Worker
+from utils.storage_check import remove_shelve
 
 class Crawler(object):
     def __init__(self, config, restart, frontier_factory=Frontier, worker_factory=Worker):
+        if restart:
+            remove_shelve(config.seen_hashes)
+        
         self.config = config
         self.logger = get_logger("CRAWLER")
         self.frontier = frontier_factory(config, restart)

@@ -97,7 +97,7 @@ class Report(object):
             parsed_url = urlparse(url)
             match = re.match(ics_patttern, parsed_url.netloc)
             if match and completed:
-                subdomain = parsed_url.scheme + "://" + match.group(1) + '.ics.uci.edu'
+                subdomain = parsed_url.scheme + "://" + match.group(1).strip() + '.ics.uci.edu'
                 if subdomain not in subdomains:
                     subdomains[subdomain] = 1
                 else:
@@ -105,7 +105,7 @@ class Report(object):
 
         # sort subdomains by key
         with open("report/subdomains.txt", "w") as f:
-            for k, v in sorted(subdomains.items(), key=lambda item: item[0]):
+            for k, v in sorted(subdomains.items(), key=lambda item: item[0].split('//')[1].lower()):
                 f.write(f"{k}, {v}\n")
         self.logger.info(f"Found {len(subdomains)} subdomains under ics. Subdomains written to report/subdomains.txt")
 
